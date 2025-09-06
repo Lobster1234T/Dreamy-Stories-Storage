@@ -1,0 +1,46 @@
+{
+    "stories": [
+        {
+            "name": "Test Story 1",
+            "type": "story",
+            "description": "Test Description",
+            "audioPath": "stories/story_1.mp3",
+            "imagePath": "images/image_1.jpg",
+            "duration": 219
+        },
+        {
+            "name": "Test Story 2",
+            "type": "story",
+            "description": "Test Description",
+            "audioPath": "stories/story_2.mp3",
+            "imagePath": "images/image_2.jpg",
+            "duration": 243
+        },
+        {
+            "name": "Large story",
+            "type": "story",
+            "description": "Test Description",
+            "audioPath": "stories/story_3.mp3",
+            "imagePath": "images/image_2.jpg",
+            "duration": 7200
+        }
+    ],
+    "lullabies": [
+        {
+            "name": "Test Lullaby 1",
+            "type": "lullaby",
+            "description": "Test Description",
+            "audioPath": "lullabies/lullaby_1.mp3",
+            "imagePath": "images/image_3.jpg",
+            "duration": 242
+        },
+        {
+            "name": "Test Lullaby 2",
+            "type": "lullaby",
+            "description": "Test Description",
+            "audioPath": "lullabies/lullaby_2.mp3",
+            "imagePath": "images/image_4.jpg",
+            "duration": 186
+        }
+    ]
+}
