@@ -1,46 +1,428 @@
 {
-    "stories": [
-        {
-            "name": "Test Story 1",
-            "type": "story",
-            "description": "Test Description",
-            "audioPath": "stories/ru/story_1.mp3",
-            "imagePath": "images/image_1.jpg",
-            "duration": 219
-        },
-        {
-            "name": "Test Story 2",
-            "type": "story",
-            "description": "Test Description",
-            "audioPath": "stories/ru/story_2.mp3",
-            "imagePath": "images/image_2.jpg",
-            "duration": 243
-        },
-        {
-            "name": "Large story",
-            "type": "story",
-            "description": "Test Description",
-            "audioPath": "stories/ru/story_3.mp3",
-            "imagePath": "images/image_2.jpg",
-            "duration": 7200
-        }
-    ],
-    "lullabies": [
-        {
-            "name": "Test Lullaby 1",
-            "type": "lullaby",
-            "description": "Test Description",
-            "audioPath": "lullabies/ru/lullaby_1.mp3",
-            "imagePath": "images/image_3.jpg",
-            "duration": 242
-        },
-        {
-            "name": "Test Lullaby 2",
-            "type": "lullaby",
-            "description": "Test Description",
-            "audioPath": "lullabies/ru/lullaby_2.mp3",
-            "imagePath": "images/image_4.jpg",
-            "duration": 186
-        }
-    ]
+  "stories": [
+    {
+      "name": "Story 1",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/1.mp3",
+      "imagePath": "images/image_1.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 2",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/2.mp3",
+      "imagePath": "images/image_2.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 3",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/3.mp3",
+      "imagePath": "images/image_3.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 4",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/4.mp3",
+      "imagePath": "images/image_4.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 5",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/5.mp3",
+      "imagePath": "images/image_5.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 6",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/6.mp3",
+      "imagePath": "images/image_6.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 7",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/7.mp3",
+      "imagePath": "images/image_7.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 8",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/8.mp3",
+      "imagePath": "images/image_8.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 9",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/9.mp3",
+      "imagePath": "images/image_9.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 10",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/10.mp3",
+      "imagePath": "images/image_10.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 11",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/11.mp3",
+      "imagePath": "images/image_11.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 12",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/12.mp3",
+      "imagePath": "images/image_12.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 13",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/13.mp3",
+      "imagePath": "images/image_13.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 14",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/14.mp3",
+      "imagePath": "images/image_14.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 15",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/15.mp3",
+      "imagePath": "images/image_15.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 16",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/16.mp3",
+      "imagePath": "images/image_16.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 17",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/17.mp3",
+      "imagePath": "images/image_17.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 18",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/18.mp3",
+      "imagePath": "images/image_18.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 19",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/19.mp3",
+      "imagePath": "images/image_19.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 20",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/20.mp3",
+      "imagePath": "images/image_20.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 21",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/21.mp3",
+      "imagePath": "images/image_21.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 22",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/22.mp3",
+      "imagePath": "images/image_22.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 23",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/23.mp3",
+      "imagePath": "images/image_23.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 24",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/24.mp3",
+      "imagePath": "images/image_24.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 25",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/25.mp3",
+      "imagePath": "images/image_25.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 26",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/26.mp3",
+      "imagePath": "images/image_26.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 27",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/27.mp3",
+      "imagePath": "images/image_27.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 28",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/28.mp3",
+      "imagePath": "images/image_28.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 29",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/29.mp3",
+      "imagePath": "images/image_29.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 30",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/30.mp3",
+      "imagePath": "images/image_30.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 31",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/31.mp3",
+      "imagePath": "images/image_31.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 32",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/32.mp3",
+      "imagePath": "images/image_32.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 33",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/33.mp3",
+      "imagePath": "images/image_33.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 34",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/34.mp3",
+      "imagePath": "images/image_34.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 35",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/35.mp3",
+      "imagePath": "images/image_35.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 36",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/36.mp3",
+      "imagePath": "images/image_36.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 37",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/37.mp3",
+      "imagePath": "images/image_37.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 38",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/38.mp3",
+      "imagePath": "images/image_38.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 39",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/39.mp3",
+      "imagePath": "images/image_39.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 40",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/40.mp3",
+      "imagePath": "images/image_40.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 41",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/41.mp3",
+      "imagePath": "images/image_41.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 42",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/42.mp3",
+      "imagePath": "images/image_42.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 43",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/43.mp3",
+      "imagePath": "images/image_43.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 44",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/44.mp3",
+      "imagePath": "images/image_44.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 45",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/45.mp3",
+      "imagePath": "images/image_45.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 46",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/46.mp3",
+      "imagePath": "images/image_46.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 47",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/47.mp3",
+      "imagePath": "images/image_47.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 48",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/48.mp3",
+      "imagePath": "images/image_48.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 49",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/49.mp3",
+      "imagePath": "images/image_49.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 50",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/50.mp3",
+      "imagePath": "images/image_50.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 51",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/51.mp3",
+      "imagePath": "images/image_51.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 52",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/52.mp3",
+      "imagePath": "images/image_52.jpg",
+      "duration": 0
+    },
+    {
+      "name": "Story 53",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/ru/53.mp3",
+      "imagePath": "images/image_53.jpg",
+      "duration": 0
+    }
+  ]
 }
