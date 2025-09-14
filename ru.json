@@ -5,7 +5,7 @@
             "type": "story",
             "description": "Test Description",
             "audioPath": "stories/ru/story_1.mp3",
-            "imagePath": "images/ru/image_1.jpg",
+            "imagePath": "images/image_1.jpg",
             "duration": 219
         },
         {
@@ -13,7 +13,7 @@
             "type": "story",
             "description": "Test Description",
             "audioPath": "stories/ru/story_2.mp3",
-            "imagePath": "images/ru/image_2.jpg",
+            "imagePath": "images/image_2.jpg",
             "duration": 243
         },
         {
@@ -21,7 +21,7 @@
             "type": "story",
             "description": "Test Description",
             "audioPath": "stories/ru/story_3.mp3",
-            "imagePath": "images/ru/image_2.jpg",
+            "imagePath": "images/image_2.jpg",
             "duration": 7200
         }
     ],
@@ -31,7 +31,7 @@
             "type": "lullaby",
             "description": "Test Description",
             "audioPath": "lullabies/ru/lullaby_1.mp3",
-            "imagePath": "images/ru/image_3.jpg",
+            "imagePath": "images/image_3.jpg",
             "duration": 242
         },
         {
@@ -39,7 +39,7 @@
             "type": "lullaby",
             "description": "Test Description",
             "audioPath": "lullabies/ru/lullaby_2.mp3",
-            "imagePath": "images/ru/image_4.jpg",
+            "imagePath": "images/image_4.jpg",
             "duration": 186
         }
     ]
