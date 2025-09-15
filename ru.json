@@ -415,14 +415,6 @@
       "audioPath": "stories/ru/52.mp3",
       "imagePath": "images/image_52.jpg",
       "duration": 0
-    },
-    {
-      "name": "Story 53",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "stories/ru/53.mp3",
-      "imagePath": "images/image_53.jpg",
-      "duration": 0
     }
   ]
 }
