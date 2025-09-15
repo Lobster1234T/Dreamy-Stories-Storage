@@ -1,7 +1,7 @@
 {
   "stories": [
     {
-      "name": "Story 1",
+      "name": "1. История Рампунцель",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/1.mp3",
@@ -9,7 +9,7 @@
       "duration": 0
     },
     {
-      "name": "Story 2",
+      "name": "2.Алиса в стране чудес",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/2.mp3",
@@ -17,7 +17,7 @@
       "duration": 0
     },
     {
-      "name": "Story 3",
+      "name": "3. Пиноккио",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/3.mp3",
@@ -25,7 +25,7 @@
       "duration": 0
     },
     {
-      "name": "Story 4",
+      "name": "4. Три поросенка",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/4.mp3",
