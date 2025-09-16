@@ -1,46 +1,420 @@
 {
-    "stories": [
-        {
-            "name": "Test Story 1",
-            "type": "story",
-            "description": "Test Description",
-            "audioPath": "stories/ru/story_1.mp3",
-            "imagePath": "images/ru/image_1.jpg",
-            "duration": 219
-        },
-        {
-            "name": "Test Story 2",
-            "type": "story",
-            "description": "Test Description",
-            "audioPath": "stories/ru/story_2.mp3",
-            "imagePath": "images/ru/image_2.jpg",
-            "duration": 243
-        },
-        {
-            "name": "Large story",
-            "type": "story",
-            "description": "Test Description",
-            "audioPath": "stories/ru/story_3.mp3",
-            "imagePath": "images/ru/image_2.jpg",
-            "duration": 7200
-        }
-    ],
-    "lullabies": [
-        {
-            "name": "Test Lullaby 1",
-            "type": "lullaby",
-            "description": "Test Description",
-            "audioPath": "lullabies/ru/lullaby_1.mp3",
-            "imagePath": "images/ru/image_3.jpg",
-            "duration": 242
-        },
-        {
-            "name": "Test Lullaby 2",
-            "type": "lullaby",
-            "description": "Test Description",
-            "audioPath": "lullabies/ru/lullaby_2.mp3",
-            "imagePath": "images/ru/image_4.jpg",
-            "duration": 186
-        }
-    ]
+  "stories": [
+    {
+      "name": "1. Rapunzel",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/1.mp3",
+      "imagePath": "images/image_1.jpg",
+      "duration": 0
+    },
+    {
+      "name": "2. Alicia en el país de las maravillas",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/2.mp3",
+      "imagePath": "images/image_2.jpg",
+      "duration": 0
+    },
+    {
+      "name": "3. La princesa y el guisante",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/3.mp3",
+      "imagePath": "images/image_3.jpg",
+      "duration": 0
+    },
+    {
+      "name": "4. Pinocho",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/4.mp3",
+      "imagePath": "images/image_4.jpg",
+      "duration": 0
+    },
+    {
+      "name": "5. El hombre de jengibre",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/5.mp3",
+      "imagePath": "images/image_5.jpg",
+      "duration": 0
+    },
+    {
+      "name": "6. El mago de Oz",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/6.mp3",
+      "imagePath": "images/image_6.jpg",
+      "duration": 0
+    },
+    {
+      "name": "7. El lobo malvado y tres conejos",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/7.mp3",
+      "imagePath": "images/image_7.jpg",
+      "duration": 0
+    },
+    {
+      "name": "8. La olla mágica",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/8.mp3",
+      "imagePath": "images/image_8.jpg",
+      "duration": 0
+    },
+    {
+      "name": "9. El lobo y los siete cabritos",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/9.mp3",
+      "imagePath": "images/image_9.jpg",
+      "duration": 0
+    },
+    {
+      "name": "10. El gato salvaje y la princesa ratón",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/10.mp3",
+      "imagePath": "images/image_10.jpg",
+      "duration": 0
+    },
+    {
+      "name": "11. La bella y la bestia",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/11.mp3",
+      "imagePath": "images/image_11.jpg",
+      "duration": 0
+    },
+    {
+      "name": "12. El león, el ratón y el oso dormilón",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/12.mp3",
+      "imagePath": "images/image_12.jpg",
+      "duration": 0
+    },
+    {
+      "name": "13. Aladino y la lámpara maravillosa",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/13.mp3",
+      "imagePath": "images/image_13.jpg",
+      "duration": 0
+    },
+    {
+      "name": "14. La sirenita y la puerta misteriosa",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/14.mp3",
+      "imagePath": "images/image_14.jpg",
+      "duration": 0
+    },
+    {
+      "name": "15. La reina de las nieves y la estrella brillante",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/15.mp3",
+      "imagePath": "images/image_15.jpg",
+      "duration": 0
+    },
+    {
+      "name": "16. La pastora de ocas",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/16.mp3",
+      "imagePath": "images/image_16.jpg",
+      "duration": 0
+    },
+    {
+      "name": "17. La sorpresa de mamá",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/17.mp3",
+      "imagePath": "images/image_17.jpg",
+      "duration": 0
+    },
+    {
+      "name": "18. Gachas dulces",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/18.mp3",
+      "imagePath": "images/image_18.jpg",
+      "duration": 0
+    },
+    {
+      "name": "19. La princesa de la tierra",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/19.mp3",
+      "imagePath": "images/image_19.jpg",
+      "duration": 0
+    },
+    {
+      "name": "20. La hiena astuta",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/20.mp3",
+      "imagePath": "images/image_20.jpg",
+      "duration": 0
+    },
+    {
+      "name": "21. La reina de las nieves y el príncipe valiente",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/21.mp3",
+      "imagePath": "images/image_21.jpg",
+      "duration": 0
+    },
+    {
+      "name": "22. La caja mágica",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/22.mp3",
+      "imagePath": "images/image_22.jpg",
+      "duration": 0
+    },
+    {
+      "name": "23. Los zapatos rojos y el patito",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/23.mp3",
+      "imagePath": "images/image_23.jpg",
+      "duration": 0
+    },
+    {
+      "name": "24. El guerrero invencible",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/24.mp3",
+      "imagePath": "images/image_24.jpg",
+      "duration": 0
+    },
+    {
+      "name": "25. El carnaval del bosque",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/25.mp3",
+      "imagePath": "images/image_25.jpg",
+      "duration": 0
+    },
+    {
+      "name": "26. Koko y el lenguaje del bosque",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/26.mp3",
+      "imagePath": "images/image_26.jpg",
+      "duration": 0
+    },
+    {
+      "name": "27. La ratoncita princesa",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/27.mp3",
+      "imagePath": "images/image_27.jpg",
+      "duration": 0
+    },
+    {
+      "name": "28. Las tres princesas bailarinas",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/28.mp3",
+      "imagePath": "images/image_28.jpg",
+      "duration": 0
+    },
+    {
+      "name": "29. La bella durmiente",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/29.mp3",
+      "imagePath": "images/image_29.jpg",
+      "duration": 0
+    },
+    {
+      "name": "30. El pescador y su esposa",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/30.mp3",
+      "imagePath": "images/image_30.jpg",
+      "duration": 0
+    },
+    {
+      "name": "31. El hombre de jengibre y el árbol de Navidad",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/31.mp3",
+      "imagePath": "images/image_31.jpg",
+      "duration": 0
+    },
+    {
+      "name": "32. Mangina y Larina",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/32.mp3",
+      "imagePath": "images/image_32.jpg",
+      "duration": 0
+    },
+    {
+      "name": "33. La bella y la bestia con magia",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/33.mp3",
+      "imagePath": "images/image_33.jpg",
+      "duration": 0
+    },
+    {
+      "name": "34. Dulce o truco",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/34.mp3",
+      "imagePath": "images/image_34.jpg",
+      "duration": 0
+    },
+    {
+      "name": "35. Ricitos de oro y el libro misterioso",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/35.mp3",
+      "imagePath": "images/image_35.jpg",
+      "duration": 0
+    },
+    {
+      "name": "36. Pinocho busca a su padre",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/36.mp3",
+      "imagePath": "images/image_36.jpg",
+      "duration": 0
+    },
+    {
+      "name": "37. La fábrica de regalos de Navidad",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/37.mp3",
+      "imagePath": "images/image_37.jpg",
+      "duration": 0
+    },
+    {
+      "name": "38. La copa de la jungla",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/38.mp3",
+      "imagePath": "images/image_38.jpg",
+      "duration": 0
+    },
+    {
+      "name": "39. El panda y el hombre de hielo",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/39.mp3",
+      "imagePath": "images/image_39.jpg",
+      "duration": 0
+    },
+    {
+      "name": "40. El valiente caballero María",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/40.mp3",
+      "imagePath": "images/image_40.jpg",
+      "duration": 0
+    },
+    {
+      "name": "41. El dragón perdido",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/41.mp3",
+      "imagePath": "images/image_41.jpg",
+      "duration": 0
+    },
+    {
+      "name": "42. Los zapatos rojos",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/42.mp3",
+      "imagePath": "images/image_42.jpg",
+      "duration": 0
+    },
+    {
+      "name": "43. La historia de la niña perezosa",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/43.mp3",
+      "imagePath": "images/image_43.jpg",
+      "duration": 0
+    },
+    {
+      "name": "44. Un ojo, dos ojos y tres ojos",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/44.mp3",
+      "imagePath": "images/image_44.jpg",
+      "duration": 0
+    },
+    {
+      "name": "45. Cenicienta y la princesa del yoga",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/45.mp3",
+      "imagePath": "images/image_45.jpg",
+      "duration": 0
+    },
+    {
+      "name": "46. El león y el ratón",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/46.mp3",
+      "imagePath": "images/image_46.jpg",
+      "duration": 0
+    },
+    {
+      "name": "47. La princesa Rosa y el pájaro dorado",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/47.mp3",
+      "imagePath": "images/image_47.jpg",
+      "duration": 0
+    },
+    {
+      "name": "48. Hansel y Gretel",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/48.mp3",
+      "imagePath": "images/image_48.jpg",
+      "duration": 0
+    },
+    {
+      "name": "49. El zapatero y los duendes",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/49.mp3",
+      "imagePath": "images/image_49.jpg",
+      "duration": 0
+    },
+    {
+      "name": "50. Alí Babá y los cuarenta ladrones",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/50.mp3",
+      "imagePath": "images/image_50.jpg",
+      "duration": 0
+    },
+    {
+      "name": "51. El libro de la selva",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/51.mp3",
+      "imagePath": "images/image_51.jpg",
+      "duration": 0
+    },
+    {
+      "name": "52. La rana sedienta Tiddalik",
+      "type": "story",
+      "description": "Test Description",
+      "audioPath": "stories/es/52.mp3",
+      "imagePath": "images/image_52.jpg",
+      "duration": 0
+    }
+  ]
 }
