@@ -1,7 +1,7 @@
 {
   "stories": [
     {
-      "name": "1. История Рампунцель",
+      "name": "1. Рапунцель",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/1.mp3",
@@ -9,7 +9,7 @@
       "duration": 0
     },
     {
-      "name": "2.Алиса в стране чудес",
+      "name": "2. Алиса в стране чудес",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/2.mp3",
@@ -17,7 +17,7 @@
       "duration": 0
     },
     {
-      "name": "3. Пиноккио",
+      "name": "3. Принцесса на горошине",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/3.mp3",
@@ -25,7 +25,7 @@
       "duration": 0
     },
     {
-      "name": "4. Три поросенка",
+      "name": "4. Пиноккио",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/4.mp3",
@@ -33,7 +33,7 @@
       "duration": 0
     },
     {
-      "name": "Story 5",
+      "name": "5. Пряничный человечек",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/5.mp3",
@@ -41,7 +41,7 @@
       "duration": 0
     },
     {
-      "name": "Story 6",
+      "name": "6. Волшебник страны Оз",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/6.mp3",
@@ -49,7 +49,7 @@
       "duration": 0
     },
     {
-      "name": "Story 7",
+      "name": "7. Злой волк и три кролика",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/7.mp3",
@@ -57,7 +57,7 @@
       "duration": 0
     },
     {
-      "name": "Story 8",
+      "name": "8. Волшебный горшок",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/8.mp3",
@@ -65,7 +65,7 @@
       "duration": 0
     },
     {
-      "name": "Story 9",
+      "name": "9. Волк и семеро козлят",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/9.mp3",
@@ -73,7 +73,7 @@
       "duration": 0
     },
     {
-      "name": "Story 10",
+      "name": "10. Дикий кот и мышиная принцесса",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/10.mp3",
@@ -81,7 +81,7 @@
       "duration": 0
     },
     {
-      "name": "Story 11",
+      "name": "11. Красавица и чудовище",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/11.mp3",
@@ -89,7 +89,7 @@
       "duration": 0
     },
     {
-      "name": "Story 12",
+      "name": "12. Лев, мышка и сонный медведь",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/12.mp3",
@@ -97,7 +97,7 @@
       "duration": 0
     },
     {
-      "name": "Story 13",
+      "name": "13. Аладдин и волшебная лампа",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/13.mp3",
@@ -105,7 +105,7 @@
       "duration": 0
     },
     {
-      "name": "Story 14",
+      "name": "14. Русалочка и таинственные врата",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/14.mp3",
@@ -113,7 +113,7 @@
       "duration": 0
     },
     {
-      "name": "Story 15",
+      "name": "15. Снежная королева и сияющая звезда",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/15.mp3",
@@ -121,7 +121,7 @@
       "duration": 0
     },
     {
-      "name": "Story 16",
+      "name": "16. Девочка-гусыня",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/16.mp3",
@@ -129,7 +129,7 @@
       "duration": 0
     },
     {
-      "name": "Story 17",
+      "name": "17. Мамино удивление",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/17.mp3",
@@ -137,7 +137,7 @@
       "duration": 0
     },
     {
-      "name": "Story 18",
+      "name": "18. Сладкая овсянка",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/18.mp3",
@@ -145,7 +145,7 @@
       "duration": 0
     },
     {
-      "name": "Story 19",
+      "name": "19. Принцесса о земле",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/19.mp3",
@@ -153,7 +153,7 @@
       "duration": 0
     },
     {
-      "name": "Story 20",
+      "name": "20. Хитрая гиена",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/20.mp3",
@@ -161,7 +161,7 @@
       "duration": 0
     },
     {
-      "name": "Story 21",
+      "name": "21. Снежная королева и храбрый принц",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/21.mp3",
@@ -169,7 +169,7 @@
       "duration": 0
     },
     {
-      "name": "Story 22",
+      "name": "22. Волшебная шкатулка",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/22.mp3",
@@ -177,7 +177,7 @@
       "duration": 0
     },
     {
-      "name": "Story 23",
+      "name": "23. Красные башмачки и уточка",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/23.mp3",
@@ -185,7 +185,7 @@
       "duration": 0
     },
     {
-      "name": "Story 24",
+      "name": "24. Непобедимый воин",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/24.mp3",
@@ -193,7 +193,7 @@
       "duration": 0
     },
     {
-      "name": "Story 25",
+      "name": "25. Лесной карнавал",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/25.mp3",
@@ -201,7 +201,7 @@
       "duration": 0
     },
     {
-      "name": "Story 26",
+      "name": "26. Коко и язык леса",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/26.mp3",
@@ -209,7 +209,7 @@
       "duration": 0
     },
     {
-      "name": "Story 27",
+      "name": "27. Мышка-принцесса",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/27.mp3",
@@ -217,7 +217,7 @@
       "duration": 0
     },
     {
-      "name": "Story 28",
+      "name": "28. Танцующие принцессы",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/28.mp3",
@@ -225,7 +225,7 @@
       "duration": 0
     },
     {
-      "name": "Story 29",
+      "name": "29. Спящая красавица",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/29.mp3",
@@ -233,7 +233,7 @@
       "duration": 0
     },
     {
-      "name": "Story 30",
+      "name": "30. Рыбак и его жена",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/30.mp3",
@@ -241,7 +241,7 @@
       "duration": 0
     },
     {
-      "name": "Story 31",
+      "name": "31. Пряничный человечек и ёлка",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/31.mp3",
@@ -249,7 +249,7 @@
       "duration": 0
     },
     {
-      "name": "Story 32",
+      "name": "32. Мангина и Ларина",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/32.mp3",
@@ -257,7 +257,7 @@
       "duration": 0
     },
     {
-      "name": "Story 33",
+      "name": "33. Красавица и чудовище с волшебством",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/33.mp3",
@@ -265,7 +265,7 @@
       "duration": 0
     },
     {
-      "name": "Story 34",
+      "name": "34. Сладость или гадость",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/34.mp3",
@@ -273,7 +273,7 @@
       "duration": 0
     },
     {
-      "name": "Story 35",
+      "name": "35. Златовласка и таинственная книга",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/35.mp3",
@@ -281,7 +281,7 @@
       "duration": 0
     },
     {
-      "name": "Story 36",
+      "name": "36. Пиноккио ищет отца",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/36.mp3",
@@ -289,7 +289,7 @@
       "duration": 0
     },
     {
-      "name": "Story 37",
+      "name": "37. Фабрика рождественских подарков",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/37.mp3",
@@ -297,7 +297,7 @@
       "duration": 0
     },
     {
-      "name": "Story 38",
+      "name": "38. Кубок джунглей",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/38.mp3",
@@ -305,7 +305,7 @@
       "duration": 0
     },
     {
-      "name": "Story 39",
+      "name": "39. Панда и ледяной человек",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/39.mp3",
@@ -313,7 +313,7 @@
       "duration": 0
     },
     {
-      "name": "Story 40",
+      "name": "40. Смелый рыцарь Мария",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/40.mp3",
@@ -321,7 +321,7 @@
       "duration": 0
     },
     {
-      "name": "Story 41",
+      "name": "41. Потерянный дракон",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/41.mp3",
@@ -329,7 +329,7 @@
       "duration": 0
     },
     {
-      "name": "Story 42",
+      "name": "42. Красные туфельки",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/42.mp3",
@@ -337,7 +337,7 @@
       "duration": 0
     },
     {
-      "name": "Story 43",
+      "name": "43. История ленивой девочки",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/43.mp3",
@@ -345,7 +345,7 @@
       "duration": 0
     },
     {
-      "name": "Story 44",
+      "name": "44. Один глаз, два глаза и три глаза",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/44.mp3",
@@ -353,7 +353,7 @@
       "duration": 0
     },
     {
-      "name": "Story 45",
+      "name": "45. Золушка и принцесса йога",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/45.mp3",
@@ -361,7 +361,7 @@
       "duration": 0
     },
     {
-      "name": "Story 46",
+      "name": "46. Лев и мышонок",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/46.mp3",
@@ -369,7 +369,7 @@
       "duration": 0
     },
     {
-      "name": "Story 47",
+      "name": "47. Принцесса Роза и золотая птица",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/47.mp3",
@@ -377,7 +377,7 @@
       "duration": 0
     },
     {
-      "name": "Story 48",
+      "name": "48. Гензель и Гретель",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/48.mp3",
@@ -385,7 +385,7 @@
       "duration": 0
     },
     {
-      "name": "Story 49",
+      "name": "49. Сапожник и эльфы",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/49.mp3",
@@ -393,7 +393,7 @@
       "duration": 0
     },
     {
-      "name": "Story 50",
+      "name": "50. Али-Баба и сорок разбойников",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/50.mp3",
@@ -401,7 +401,7 @@
       "duration": 0
     },
     {
-      "name": "Story 51",
+      "name": "51. Книга джунглей",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/51.mp3",
@@ -409,7 +409,7 @@
       "duration": 0
     },
     {
-      "name": "Story 52",
+      "name": "52. Жаждущий лягушонок Тиддалик",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/52.mp3",
