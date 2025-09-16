@@ -17,7 +17,7 @@
       "duration": 0
     },
     {
-      "name": "3. Принцесса на горошине",
+      "name": "3. Пиноккио",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/3.mp3",
@@ -25,7 +25,7 @@
       "duration": 0
     },
     {
-      "name": "4. Пиноккио",
+      "name": "4. Принцесса на горошине",
       "type": "story",
       "description": "Test Description",
       "audioPath": "stories/ru/4.mp3",
