@@ -4,7 +4,7 @@
       "name": "1. Rapunzel",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/1.mp3",
+      "audioPath": "stories/en/1.Rapunzel.mp3",
       "imagePath": "images/image_1.jpg",
       "duration": 0
     },
@@ -12,7 +12,7 @@
       "name": "2. Alice in Wonderland",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/2.mp3",
+      "audioPath": "stories/en/2.Alice in Wonderland.mp3",
       "imagePath": "images/image_2.jpg",
       "duration": 0
     },
@@ -20,7 +20,7 @@
       "name": "3. The Princess and the Pea",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/3.mp3",
+      "audioPath": "stories/en/3.The Princess and the Pea.mp3",
       "imagePath": "images/image_3.jpg",
       "duration": 0
     },
@@ -28,7 +28,7 @@
       "name": "4. Pinocchio",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/4.mp3",
+      "audioPath": "stories/en/4.Pinocchio.mp3",
       "imagePath": "images/image_4.jpg",
       "duration": 0
     },
@@ -36,7 +36,7 @@
       "name": "5. The Gingerbread Man",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/5.mp3",
+      "audioPath": "stories/en/5.The Gingerbread Man.mp3",
       "imagePath": "images/image_5.jpg",
       "duration": 0
     },
@@ -44,7 +44,7 @@
       "name": "6. The Wizard of Oz",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/6.mp3",
+      "audioPath": "stories/en/6.The Wonderful Wizard of Oz.mp3",
       "imagePath": "images/image_6.jpg",
       "duration": 0
     },
@@ -52,7 +52,7 @@
       "name": "7. The Evil Wolf and Three Rabbits",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/7.mp3",
+      "audioPath": "stories/en/7.Big Bad Wolf and Three Rabbits.mp3",
       "imagePath": "images/image_7.jpg",
       "duration": 0
     },
@@ -60,7 +60,7 @@
       "name": "8. The Magic Pot",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/8.mp3",
+      "audioPath": "stories/en/8.Magic Pot.mp3",
       "imagePath": "images/image_8.jpg",
       "duration": 0
     },
@@ -68,7 +68,7 @@
       "name": "9. The Wolf and the Seven Kids",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/9.mp3",
+      "audioPath": "stories/en/9.Wolf and the seven goats.mp3",
       "imagePath": "images/image_9.jpg",
       "duration": 0
     },
@@ -76,7 +76,7 @@
       "name": "10. The Wild Cat and the Mouse Princess",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/10.mp3",
+      "audioPath": "stories/en/10.Wild Cat and The Princess Mouse.mp3",
       "imagePath": "images/image_10.jpg",
       "duration": 0
     },
@@ -84,7 +84,7 @@
       "name": "11. Beauty and the Beast",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/11.mp3",
+      "audioPath": "stories/en/11.Beauty and the Beast Belle.mp3",
       "imagePath": "images/image_11.jpg",
       "duration": 0
     },
@@ -92,7 +92,7 @@
       "name": "12. The Lion, the Mouse and the Sleepy Bear",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/12.mp3",
+      "audioPath": "stories/en/12.The Lion, The Mouse and The Sleepy Bear.mp3",
       "imagePath": "images/image_12.jpg",
       "duration": 0
     },
@@ -100,7 +100,7 @@
       "name": "13. Aladdin and the Magic Lamp",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/13.mp3",
+      "audioPath": "stories/en/13.aladdin and the magic lamp.mp3",
       "imagePath": "images/image_13.jpg",
       "duration": 0
     },
@@ -108,7 +108,7 @@
       "name": "14. The Little Mermaid and the Mysterious Gate",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/14.mp3",
+      "audioPath": "stories/en/14.Little Mermaid Aria and The Mysterious Gate.mp3",
       "imagePath": "images/image_14.jpg",
       "duration": 0
     },
@@ -116,7 +116,7 @@
       "name": "15. The Snow Queen and the Shining Star",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/15.mp3",
+      "audioPath": "stories/en/15.Snow Queen and The Shining Star.mp3",
       "imagePath": "images/image_15.jpg",
       "duration": 0
     },
@@ -124,7 +124,7 @@
       "name": "16. The Goose Girl",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/16.mp3",
+      "audioPath": "stories/en/16.The Goose Girl.mp3",
       "imagePath": "images/image_16.jpg",
       "duration": 0
     },
@@ -132,7 +132,7 @@
       "name": "17. Mother's Surprise",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/17.mp3",
+      "audioPath": "stories/en/17.Mother Holle's Surprise.mp3",
       "imagePath": "images/image_17.jpg",
       "duration": 0
     },
@@ -140,7 +140,7 @@
       "name": "18. Sweet Porridge",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/18.mp3",
+      "audioPath": "stories/en/18.sweet porridge.mp3",
       "imagePath": "images/image_18.jpg",
       "duration": 0
     },
@@ -148,7 +148,7 @@
       "name": "19. The Earth Princess",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/19.mp3",
+      "audioPath": "stories/en/19.princess of earth.mp3",
       "imagePath": "images/image_19.jpg",
       "duration": 0
     },
@@ -156,7 +156,7 @@
       "name": "20. The Sneaky Hyena",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/20.mp3",
+      "audioPath": "stories/en/20.Sneaky Hyena and the Teachers' Day Camp.mp3",
       "imagePath": "images/image_20.jpg",
       "duration": 0
     },
@@ -164,7 +164,7 @@
       "name": "21. The Snow Queen and the Brave Prince",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/21.mp3",
+      "audioPath": "stories/en/21.snow queen and the brave prince.mp3",
       "imagePath": "images/image_21.jpg",
       "duration": 0
     },
@@ -172,7 +172,7 @@
       "name": "22. The Magic Box",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/22.mp3",
+      "audioPath": "stories/en/22.The magic box!.mp3",
       "imagePath": "images/image_22.jpg",
       "duration": 0
     },
@@ -180,7 +180,7 @@
       "name": "23. Red Shoes and the Duckling",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/23.mp3",
+      "audioPath": "stories/en/23.red shoes and duck.mp3",
       "imagePath": "images/image_23.jpg",
       "duration": 0
     },
@@ -188,7 +188,7 @@
       "name": "24. The Invincible Warrior",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/24.mp3",
+      "audioPath": "stories/en/24.invincible warrior!.mp3",
       "imagePath": "images/image_24.jpg",
       "duration": 0
     },
@@ -196,7 +196,7 @@
       "name": "25. The Forest Carnival",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/25.mp3",
+      "audioPath": "stories/en/25. Forest Carnival.mp3",
       "imagePath": "images/image_25.jpg",
       "duration": 0
     },
@@ -204,7 +204,7 @@
       "name": "26. Koko and the Language of the Forest",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/26.mp3",
+      "audioPath": "stories/en/26.koko and the forest language.mp3",
       "imagePath": "images/image_26.jpg",
       "duration": 0
     },
@@ -212,7 +212,7 @@
       "name": "27. The Little Mouse Princess",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/27.mp3",
+      "audioPath": "stories/en/27.Little Mouse That Was A Princess.mp3",
       "imagePath": "images/image_27.jpg",
       "duration": 0
     },
@@ -220,7 +220,7 @@
       "name": "28. The Three Dancing Princesses",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/28.mp3",
+      "audioPath": "stories/en/28.3 dancing princesses.mp3",
       "imagePath": "images/image_28.jpg",
       "duration": 0
     },
@@ -228,7 +228,7 @@
       "name": "29. Sleeping Beauty",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/29.mp3",
+      "audioPath": "stories/en/29.Sleeping Beauty.mp3",
       "imagePath": "images/image_29.jpg",
       "duration": 0
     },
@@ -236,7 +236,7 @@
       "name": "30. The Fisherman and His Wife",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/30.mp3",
+      "audioPath": "stories/en/30.The Fisherman and His Wife.mp3",
       "imagePath": "images/image_30.jpg",
       "duration": 0
     },
@@ -244,7 +244,7 @@
       "name": "31. The Gingerbread Man and the Christmas Tree",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/31.mp3",
+      "audioPath": "stories/en/31.The Gingerbread Man And The Christmas Tree.mp3",
       "imagePath": "images/image_31.jpg",
       "duration": 0
     },
@@ -252,7 +252,7 @@
       "name": "32. Mangina and Larina",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/32.mp3",
+      "audioPath": "stories/en/32.mangina and larina.mp3",
       "imagePath": "images/image_32.jpg",
       "duration": 0
     },
@@ -260,7 +260,7 @@
       "name": "33. Beauty and the Beast with Magic",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/33.mp3",
+      "audioPath": "stories/en/33. Beauty and the beast with's magic.mp3",
       "imagePath": "images/image_33.jpg",
       "duration": 0
     },
@@ -268,7 +268,7 @@
       "name": "34. Trick or Treat",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/34.mp3",
+      "audioPath": "stories/en/34.trick or treat.mp3",
       "imagePath": "images/image_34.jpg",
       "duration": 0
     },
@@ -276,7 +276,7 @@
       "name": "35. Goldilocks and the Mysterious Book",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/35.mp3",
+      "audioPath": "stories/en/35.Goldilocks and the Mystery Book.mp3",
       "imagePath": "images/image_35.jpg",
       "duration": 0
     },
@@ -284,7 +284,7 @@
       "name": "36. Pinocchio Finds His Father",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/36.mp3",
+      "audioPath": "stories/en/36.Pinocchio is Looking For His Father.mp3",
       "imagePath": "images/image_36.jpg",
       "duration": 0
     },
@@ -292,7 +292,7 @@
       "name": "37. The Christmas Gift Factory",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/37.mp3",
+      "audioPath": "stories/en/37.The Christmas Gift Factory.mp3",
       "imagePath": "images/image_37.jpg",
       "duration": 0
     },
@@ -300,7 +300,7 @@
       "name": "38. The Jungle Cup",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/38.mp3",
+      "audioPath": "stories/en/38.Jungle Cup.mp3",
       "imagePath": "images/image_38.jpg",
       "duration": 0
     },
@@ -308,7 +308,7 @@
       "name": "39. The Panda and the Iceman",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/39.mp3",
+      "audioPath": "stories/en/39.The Panda and The Iceman.mp3",
       "imagePath": "images/image_39.jpg",
       "duration": 0
     },
@@ -316,7 +316,7 @@
       "name": "40. Brave Knight Maria",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/40.mp3",
+      "audioPath": "stories/en/40.Brave Knight Maria.mp3",
       "imagePath": "images/image_40.jpg",
       "duration": 0
     },
@@ -324,7 +324,7 @@
       "name": "41. The Lost Dragon",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/41.mp3",
+      "audioPath": "stories/en/41.The Lost Dragon.mp3",
       "imagePath": "images/image_41.jpg",
       "duration": 0
     },
@@ -332,7 +332,7 @@
       "name": "42. The Red Shoes",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/42.mp3",
+      "audioPath": "stories/en/42.Red Shoes.mp3",
       "imagePath": "images/image_42.jpg",
       "duration": 0
     },
@@ -340,7 +340,7 @@
       "name": "43. The Lazy Girl's Story",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/43.mp3",
+      "audioPath": "stories/en/43.The Lazy Girl Story.mp3",
       "imagePath": "images/image_43.jpg",
       "duration": 0
     },
@@ -348,7 +348,7 @@
       "name": "44. One Eye, Two Eyes, Three Eyes",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/44.mp3",
+      "audioPath": "stories/en/44.One Eye, Two Eyes And Three Eyes.mp3",
       "imagePath": "images/image_44.jpg",
       "duration": 0
     },
@@ -356,7 +356,7 @@
       "name": "45. Cinderella and the Yoga Princess",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/45.mp3",
+      "audioPath": "stories/en/45.Cinderella and The Princess Yoga (2).mp3",
       "imagePath": "images/image_45.jpg",
       "duration": 0
     },
@@ -364,7 +364,7 @@
       "name": "46. The Lion and the Mouse",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/46.mp3",
+      "audioPath": "stories/en/46.The Lion and the Mouse _ Bedt.mp3",
       "imagePath": "images/image_46.jpg",
       "duration": 0
     },
@@ -372,7 +372,7 @@
       "name": "47. Princess Rose and the Golden Bird",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/47.mp3",
+      "audioPath": "stories/en/47.Rose Princess and the Golden Bird.mp3",
       "imagePath": "images/image_47.jpg",
       "duration": 0
     },
@@ -380,7 +380,7 @@
       "name": "48. Hansel and Gretel",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/48.mp3",
+      "audioPath": "stories/en/48.Hansel and Gretel.mp3",
       "imagePath": "images/image_48.jpg",
       "duration": 0
     },
@@ -388,7 +388,7 @@
       "name": "49. The Shoemaker and the Elves",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/49.mp3",
+      "audioPath": "stories/en/49.The Shoemaker and the Elves.mp3",
       "imagePath": "images/image_49.jpg",
       "duration": 0
     },
@@ -396,7 +396,7 @@
       "name": "50. Ali Baba and the Forty Thieves",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/50.mp3",
+      "audioPath": "stories/en/50.Ali Baba and the Forty 40 Thieves.mp3",
       "imagePath": "images/image_50.jpg",
       "duration": 0
     },
@@ -404,7 +404,7 @@
       "name": "51. The Jungle Book",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/51.mp3",
+      "audioPath": "stories/en/51.The Jungle Book.mp3",
       "imagePath": "images/image_51.jpg",
       "duration": 0
     },
@@ -412,7 +412,7 @@
       "name": "52. The Thirsty Frog Tiddalik",
       "type": "story",
       "description": "Test Description",
-      "audioPath": "stories/en/52.mp3",
+      "audioPath": "stories/en/52.Thirsty Frog Tiddalik.mp3",
       "imagePath": "images/image_52.jpg",
       "duration": 0
     }
