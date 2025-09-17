@@ -1,427 +1,78 @@
-{
-  "stories": [
-    {
-      "name": "1. Rapunzel",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/1.Rapunzel.mp3",
-      "imagePath": "images/image_1.jpg",
-      "duration": 0
-    },
-    {
-      "name": "2. Alice in Wonderland",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/53.Alice%20in%20Wonderland.mp3",
-      "imagePath": "images/image_2.jpg",
-      "duration": 0
-    },
-    {
-      "name": "3. The Princess and the Pea",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/2.The%20Princess%20and%20the%20Pea.mp3",
-      "imagePath": "images/image_3.jpg",
-      "duration": 0
-    },
-    {
-      "name": "4. Pinocchio",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/3.Pinocchio.mp3",
-      "imagePath": "images/image_4.jpg",
-      "duration": 0
-    },
-    {
-      "name": "5. The Gingerbread Man",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/5.The%20Gingerbread%20Man%29.mp3",
-      "imagePath": "images/image_5.jpg",
-      "duration": 0
-    },
-    {
-      "name": "6. The Wonderful Wizard of Oz",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/6.The%20Wonderful%20Wizard%20of%20Oz.mp3",
-      "imagePath": "images/image_6.jpg",
-      "duration": 0
-    },
-    {
-      "name": "7. Big Bad Wolf and Three Rabbits",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/7.Big%20Bad%20Wolf%20and%20Three%20Rabbits.mp3",
-      "imagePath": "images/image_7.jpg",
-      "duration": 0
-    },
-    {
-      "name": "8. Magic Pot",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/8.Magic%20Pot.mp3",
-      "imagePath": "images/image_8.jpg",
-      "duration": 0
-    },
-    {
-      "name": "9. Wolf and the Seven Goats",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/9.Wolf%20and%20the%20seven%20goats.mp3",
-      "imagePath": "images/image_9.jpg",
-      "duration": 0
-    },
-    {
-      "name": "10. Wild Cat and The Princess Mouse",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/10.Wild%20Cat%20and%20The%20Princess%20Mouse.mp3",
-      "imagePath": "images/image_10.jpg",
-      "duration": 0
-    },
-    {
-      "name": "11. Beauty and the Beast Belle",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/11.Beauty%20and%20the%20Beast%20Belle.mp3",
-      "imagePath": "images/image_11.jpg",
-      "duration": 0
-    },
-    {
-      "name": "12. The Lion, The Mouse and The Sleepy Bear",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/12.The%20Lion,%20The%20Mouse%20and%20The%20Sleepy%20Bear.mp3",
-      "imagePath": "images/image_12.jpg",
-      "duration": 0
-    },
-    {
-      "name": "13. Aladdin and the Magic Lamp",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/13.aladdin%20and%20the%20magic%20lamp.mp3",
-      "imagePath": "images/image_13.jpg",
-      "duration": 0
-    },
-    {
-      "name": "14. Little Mermaid Aria and The Mysterious Gate",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/14.Little%20Mermaid%20Aria%20and%20The%20Mysterious%20Gate.mp3",
-      "imagePath": "images/image_14.jpg",
-      "duration": 0
-    },
-    {
-      "name": "15. Snow Queen and The Shining Star",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/15.Snow%20Queen%20and%20The%20Shining%20Star.mp3",
-      "imagePath": "images/image_15.jpg",
-      "duration": 0
-    },
-    {
-      "name": "16. The Goose Girl",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/16.The%20Goose%20Girl.mp3",
-      "imagePath": "images/image_16.jpg",
-      "duration": 0
-    },
-    {
-      "name": "17. Mother Holle's Surprise",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/17.Mother%20Holle%27s%20Surprise.mp3",
-      "imagePath": "images/image_17.jpg",
-      "duration": 0
-    },
-    {
-      "name": "18. Sweet Porridge",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/18.sweet%20porridge.mp3",
-      "imagePath": "images/image_18.jpg",
-      "duration": 0
-    },
-    {
-      "name": "19. Princess of Earth",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/19.princess%20of%20earth.mp3",
-      "imagePath": "images/image_19.jpg",
-      "duration": 0
-    },
-    {
-      "name": "20. Sneaky Hyena and the Teachers' Day Camp",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/20.Sneaky%20Hyena%20and%20the%20Teachers%27%20Day%20Camp.mp3",
-      "imagePath": "images/image_20.jpg",
-      "duration": 0
-    },
-    {
-      "name": "21. Snow Queen and the Brave Prince",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/21.snow%20queen%20and%20the%20brave%20prince.mp3",
-      "imagePath": "images/image_21.jpg",
-      "duration": 0
-    },
-    {
-      "name": "22. The Magic Box",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/22.The%20magic%20box%21.mp3",
-      "imagePath": "images/image_22.jpg",
-      "duration": 0
-    },
-    {
-      "name": "23. Red Shoes and Duck",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/23.red%20shoes%20and%20duck.mp3",
-      "imagePath": "images/image_23.jpg",
-      "duration": 0
-    },
-    {
-      "name": "24. Invincible Warrior",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/24.invincible%20warrior%21.mp3",
-      "imagePath": "images/image_24.jpg",
-      "duration": 0
-    },
-    {
-      "name": "25. Forest Carnival",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/25.%20Forest%20Carnival.mp3",
-      "imagePath": "images/image_25.jpg",
-      "duration": 0
-    },
-    {
-      "name": "26. Koko and the Forest Language",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/26.koko%20and%20the%20forest%20language.mp3",
-      "imagePath": "images/image_26.jpg",
-      "duration": 0
-    },
-    {
-      "name": "27. Little Mouse That Was A Princess",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/27.Little%20Mouse%20That%20Was%20A%20Princess.mp3",
-      "imagePath": "images/image_27.jpg",
-      "duration": 0
-    },
-    {
-      "name": "28. Three Dancing Princesses",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/28.3%20dancing%20princesses.mp3",
-      "imagePath": "images/image_28.jpg",
-      "duration": 0
-    },
-    {
-      "name": "29. Sleeping Beauty",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/29.Sleeping%20Beauty.mp3",
-      "imagePath": "images/image_29.jpg",
-      "duration": 0
-    },
-    {
-      "name": "30. The Fisherman and His Wife",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/30.The%20Fisherman%20and%20His%20Wife.mp3",
-      "imagePath": "images/image_30.jpg",
-      "duration": 0
-    },
-    {
-      "name": "31. The Gingerbread Man And The Christmas Tree",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/31.The%20Gingerbread%20Man%20And%20The%20Christmas%20Tree.mp3",
-      "imagePath": "images/image_31.jpg",
-      "duration": 0
-    },
-    {
-      "name": "32. Mangina and Larina",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/32.mangina%20and%20larina.mp3",
-      "imagePath": "images/image_32.jpg",
-      "duration": 0
-    },
-    {
-      "name": "33. Beauty and the Beast with's Magic",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/33.%20Beauty%20and%20the%20beast%20with%27s%20magic.mp3",
-      "imagePath": "images/image_33.jpg",
-      "duration": 0
-    },
-    {
-      "name": "34. Trick or Treat",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/34.trick%20or%20treat.mp3",
-      "imagePath": "images/image_34.jpg",
-      "duration": 0
-    },
-    {
-      "name": "35. Goldilocks and the Mystery Book",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/35.Goldilocks%20and%20the%20Mystery%20Book.mp3",
-      "imagePath": "images/image_35.jpg",
-      "duration": 0
-    },
-    {
-      "name": "36. Pinocchio is Looking For His Father",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/36.Pinocchio%20is%20Looking%20For%20His%20Father.mp3",
-      "imagePath": "images/image_36.jpg",
-      "duration": 0
-    },
-    {
-      "name": "37. The Christmas Gift Factory",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/37.The%20Christmas%20Gift%20Factory.mp3",
-      "imagePath": "images/image_37.jpg",
-      "duration": 0
-    },
-    {
-      "name": "38. Jungle Cup",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/38.Jungle%20Cup.mp3",
-      "imagePath": "images/image_38.jpg",
-      "duration": 0
-    },
-    {
-      "name": "39. The Panda and The Iceman",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/39.The%20Panda%20and%20The%20Iceman.mp3",
-      "imagePath": "images/image_39.jpg",
-      "duration": 0
-    },
-    {
-      "name": "40. Brave Knight Maria",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/40.Brave%20Knight%20Maria.mp3",
-      "imagePath": "images/image_40.jpg",
-      "duration": 0
-    },
-    {
-      "name": "41. The Lost Dragon",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/41.The%20Lost%20Dragon.mp3",
-      "imagePath": "images/image_41.jpg",
-      "duration": 0
-    },
-    {
-      "name": "42. Red Shoes",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/42.Red%20Shoes.mp3",
-      "imagePath": "images/image_42.jpg",
-      "duration": 0
-    },
-    {
-      "name": "43. The Lazy Girl Story",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/43.The%20Lazy%20Girl%20Story.mp3",
-      "imagePath": "images/image_43.jpg",
-      "duration": 0
-    },
-    {
-      "name": "44. One Eye, Two Eyes And Three Eyes",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/44.One%20Eye,%20Two%20Eyes%20And%20Three%20Eyes.mp3",
-      "imagePath": "images/image_44.jpg",
-      "duration": 0
-    },
-    {
-      "name": "45. Cinderella and The Princess Yoga",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/45.Cinderella%20and%20The%20Princess%20Yoga%20%282%29.mp3",
-      "imagePath": "images/image_45.jpg",
-      "duration": 0
-    },
-    {
-      "name": "46. The Lion and the Mouse",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/46.The%20Lion%20and%20the%20Mouse%20_%20Bedt.mp3",
-      "imagePath": "images/image_46.jpg",
-      "duration
-    {
-      "name": "46. The Lion and the Mouse",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/46.The%20Lion%20and%20the%20Mouse%20_%20Bedt.mp3",
-      "imagePath": "images/image_46.jpg",
-      "duration": 0
-    },
-    {
-      "name": "47. Rose Princess and the Golden Bird",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/47.Rose%20Princess%20and%20the%20Golden%20Bird.mp3",
-      "imagePath": "images/image_47.jpg",
-      "duration": 0
-    },
-    {
-      "name": "48. Hansel and Gretel",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/48.Hansel%20and%20Gretel.mp3",
-      "imagePath": "images/image_48.jpg",
-      "duration": 0
-    },
-    {
-      "name": "49. The Shoemaker and the Elves",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/49.The%20Shoemaker%20and%20the%20Elves.mp3",
-      "imagePath": "images/image_49.jpg",
-      "duration": 0
-    },
-    {
-      "name": "50. Ali Baba and the Forty 40 Thieves",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/50.Ali%20Baba%20and%20the%20Forty%2040%20Thieves.mp3",
-      "imagePath": "images/image_50.jpg",
-      "duration": 0
-    },
-    {
-      "name": "51. The Jungle Book",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/51.The%20Jungle%20Book.mp3",
-      "imagePath": "images/image_51.jpg",
-      "duration": 0
-    },
-    {
-      "name": "52. Thirsty Frog Tiddalik",
-      "type": "story",
-      "description": "Test Description",
-      "audioPath": "https://krutov89bk.online/kolibelnie/stories/52.Thirsty%20Frog%20Tiddalik.mp3",
-      "imagePath": "images/image_52.jpg",
-      "duration": 0
+# Генерируем JSON для Spanish stories с использованием реальных имен файлов (с пробелами и спецсимволами)
+import urllib.parse
+
+spanish_files = [
+    "1. Rapunzel.mp3",
+    "53.Alice.mp3",
+    "2. La Princesa y El Guisante.mp3",
+    "3. Pinocho.mp3",
+    "4.Tres cerditos.mp3",
+    "5. El hombre de jengibre.mp3",
+    "6. El mago de Oz.mp3",
+    "7. El Lobo Feroz y Los Tres Conejos.mp3",
+    "8. Olla mágica.mp3",
+    "9. El lobo y los siete cabras.mp3",
+    "10. El Gato Salvaje Y La Princesa Ratón.mp3",
+    "11. La Bella Y La Bestia.mp3",
+    "12. El León, El Ratón y El Oso Somnoliento.mp3",
+    "13. Aladino y La Lámpara Mágica.mp3",
+    "14. La Sirenita Aria y la Puerta Misteriosa.mp3",
+    "15. La Reina de las Nieves.mp3",
+    "16. La Pastora de Ocas.mp3",
+    "17. Sorpresa de mamá Hall.mp3",
+    "18. Gachas Dulces.mp3",
+    "19. La Princesa De La Tierra.mp3",
+    "20. La Hiena Astuta y El Campamento De Día Del Maestro.mp3",
+    "21. La Reina de las Nieves y el Príncipe Valiente.mp3",
+    "22. El Caldero Mágico.mp3",
+    "23. Los Zapatos Rojos y El Pato.mp3",
+    "24. El Guerrero Invencible.mp3",
+    "25. El Carnaval Del Bosque.mp3",
+    "26. Koko y La Lenguaje De La Selva.mp3",
+    "27. La Ratoncita Que Era Princesa.mp3",
+    "28. Las Tres Princesas Bailarinas.mp3",
+    "29. La Bella Durmiente.mp3",
+    "30. El Pescador y Su Esposa.mp3",
+    "31. Hombre De Pan De Jengibre.mp3",
+    "32. Mangita y Larina.mp3",
+    "33. La bella y la bestia.mp3",
+    "34. Cuento de Halloween .mp3",
+    "35. Ricitos De Oro Y El Libro Misterioso.mp3",
+    "36. Pinocho Busca a Su Padre.mp3",
+    "37. La Fábrica de regalos de Navidad.mp3",
+    "38. La Copa de la Selva.mp3",
+    "39. El Bebé Panda .mp3",
+    "40. El Valiente Caballero María.mp3",
+    "41. El Dragón Perdido.mp3",
+    "42. Los Zapatos Rojos.mp3",
+    "43. Das faule Mädchen.mp3",
+    "44. Un Ojito, Dos Ojitos Y Tres Ojitos.mp3",
+    "45. Cenicienta y La Princesa Yoga.mp3",
+    "46. El León y el Ratón.mp3",
+    "47. La Princesa Rosa y El Ave Dorada.mp3",
+    "48. Hansel y Gretel.mp3",
+    "49. El Zapatero y los Duendes.mp3",
+    "50. Alibaba y los cuarenta ladrones.mp3",
+    "51. El libro de la selva.mp3",
+    "52. La Rana Sedienta Tiddalik.mp3"
+]
+
+json_data_es = {"stories": []}
+
+for i, filename in enumerate(spanish_files, start=1):
+    story = {
+        "name": filename.replace(".mp3", ""),
+        "type": "story",
+        "description": "Test Description",
+        "audioPath": f"stories/es/{urllib.parse.quote(filename)}",
+        "imagePath": f"images/image_{i}.jpg",
+        "duration": 0
     }
-  ]
-}
+    json_data_es["stories"].append(story)
+
+# Сохраним файл
+file_path_es = "/mnt/data/stories_es_full.json"
+with open(file_path_es, "w", encoding="utf-8") as f:
+    json.dump(json_data_es, f, indent=2, ensure_ascii=False)
+
+file_path_es
