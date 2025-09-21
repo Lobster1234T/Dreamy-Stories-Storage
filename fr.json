@@ -1,46 +1,420 @@
 {
-    "stories": [
-        {
-            "name": "Test Story 1",
-            "type": "story",
-            "description": "Test Description",
-            "audioPath": "stories/ru/story_1.mp3",
-            "imagePath": "images/ru/image_1.jpg",
-            "duration": 219
-        },
-        {
-            "name": "Test Story 2",
-            "type": "story",
-            "description": "Test Description",
-            "audioPath": "stories/ru/story_2.mp3",
-            "imagePath": "images/ru/image_2.jpg",
-            "duration": 243
-        },
-        {
-            "name": "Large story",
-            "type": "story",
-            "description": "Test Description",
-            "audioPath": "stories/ru/story_3.mp3",
-            "imagePath": "images/ru/image_2.jpg",
-            "duration": 7200
-        }
-    ],
-    "lullabies": [
-        {
-            "name": "Test Lullaby 1",
-            "type": "lullaby",
-            "description": "Test Description",
-            "audioPath": "lullabies/ru/lullaby_1.mp3",
-            "imagePath": "images/ru/image_3.jpg",
-            "duration": 242
-        },
-        {
-            "name": "Test Lullaby 2",
-            "type": "lullaby",
-            "description": "Test Description",
-            "audioPath": "lullabies/ru/lullaby_2.mp3",
-            "imagePath": "images/ru/image_4.jpg",
-            "duration": 186
-        }
-    ]
+  "stories": [
+    {
+      "name": "1. Raiponce",
+      "type": "story",
+      "description": "Une jeune fille aux cheveux magiques cherche liberté et amour.",
+      "audioPath": "stories/fr/1. Raiponce.mp3",
+      "imagePath": "images/image_1.jpg",
+      "index": 0
+    },
+    {
+      "name": "2. La Princesse au petit pois",
+      "type": "story",
+      "description": "Un petit pois dévoile la vraie princesse.",
+      "audioPath": "stories/fr/2. La Princesse au petit pois.mp3",
+      "imagePath": "images/image_2.jpg",
+      "index": 1
+    },
+    {
+      "name": "3. Pinocchio",
+      "type": "story",
+      "description": "Un pantin apprend le courage et la vérité.",
+      "audioPath": "stories/fr/3. Pinocchio.mp3",
+      "imagePath": "images/image_3.jpg",
+      "index": 2
+    },
+    {
+      "name": "4. Conte français pour enfants",
+      "type": "story",
+      "description": "Une courte histoire pleine de douceur et de malice.",
+      "audioPath": "stories/fr/4. French short story for kids..mp3",
+      "imagePath": "images/image_4.jpg",
+      "index": 3
+    },
+    {
+      "name": "5. Le petit bonhomme de pain d’épices",
+      "type": "story",
+      "description": "Une galette espiègle découvre à qui faire confiance.",
+      "audioPath": "stories/fr/5. Le petit bonhomme de pain d'épices.mp3",
+      "imagePath": "images/image_5.jpg",
+      "index": 4
+    },
+    {
+      "name": "6. Le Magicien d’Oz",
+      "type": "story",
+      "description": "Dorothy cherche le chemin de la maison avec de nouveaux amis.",
+      "audioPath": "stories/fr/6. le Magicien d'Oz.mp3",
+      "imagePath": "images/image_6.jpg",
+      "index": 5
+    },
+    {
+      "name": "7. Le Grand Méchant Loup et les Trois Lapins",
+      "type": "story",
+      "description": "Des lapins unis déjouent le loup.",
+      "audioPath": "stories/fr/7. Le Grand Méchant Loup et les Trois Lapins.mp3",
+      "imagePath": "images/image_7.jpg",
+      "index": 6
+    },
+    {
+      "name": "8. Le Pot magique",
+      "type": "story",
+      "description": "Un pot qui ne s’arrête jamais apprend à dire « stop ».",
+      "audioPath": "stories/fr/8. Le Pot Magique.mp3",
+      "imagePath": "images/image_8.jpg",
+      "index": 7
+    },
+    {
+      "name": "9. Le Loup et les sept chevreaux",
+      "type": "story",
+      "description": "Les chevreaux apprennent la prudence; maman veille.",
+      "audioPath": "stories/fr/9. Le Loup et les 7 Chevreaux.mp3",
+      "imagePath": "images/image_9.jpg",
+      "index": 8
+    },
+    {
+      "name": "10. Le Chat et les Souris",
+      "type": "story",
+      "description": "Une rencontre inattendue change le destin du royaume.",
+      "audioPath": "stories/fr/10. Le Chat et Les Souris.mp3",
+      "imagePath": "images/image_10.jpg",
+      "index": 9
+    },
+    {
+      "name": "11. La Belle et la Bête",
+      "type": "story",
+      "description": "La bonté reconnaît la beauté du cœur et brise le sort.",
+      "audioPath": "stories/fr/11. La Belle et la Bête.mp3",
+      "imagePath": "images/image_11.jpg",
+      "index": 10
+    },
+    {
+      "name": "12. Le Lion, la Souris et l’Ours endormi",
+      "type": "story",
+      "description": "Même le plus petit peut aider un grand ami.",
+      "audioPath": "stories/fr/12. Der Löwe, Die Maus Und Der Schlafende Bär märchen _ Gutenachtgeschichte für kinder.mp3",
+      "imagePath": "images/image_12.jpg",
+      "index": 11
+    },
+    {
+      "name": "13. Aladin et la Lampe Magique",
+      "type": "story",
+      "description": "Une lampe exauce des vœux et met à l’épreuve le cœur.",
+      "audioPath": "stories/fr/13. Aladin et la Lampe Magique _ Aladdin and The Magic Lamp in French _ @FrenchFairyTales.mp3",
+      "imagePath": "images/image_13.jpg",
+      "index": 12
+    },
+    {
+      "name": "14. La Petite Sirène",
+      "type": "story",
+      "description": "Une sirène choisit entre la mer et son rêve.",
+      "audioPath": "stories/fr/14. La Petite Sirène.mp3",
+      "imagePath": "images/image_14.jpg",
+      "index": 13
+    },
+    {
+      "name": "15. La Reine des neiges",
+      "type": "story",
+      "description": "Un cœur courageux fait fondre un froid enchantement.",
+      "audioPath": "stories/fr/15. la Reine des neiges _ Snow Queen in French _ Contes De Fées Français _@FrenchFairyTales.mp3",
+      "imagePath": "images/image_15.jpg",
+      "index": 14
+    },
+    {
+      "name": "16. L’Histoire de la petite gardeuse d’oies",
+      "type": "story",
+      "description": "Une gardeuse d’oies garde un secret et trouve le bonheur.",
+      "audioPath": "stories/fr/16. L’Histoire De La Petite Gardeuse D’OIES.mp3",
+      "imagePath": "images/image_16.jpg",
+      "index": 15
+    },
+    {
+      "name": "17. Dame Hiver et la Surprise",
+      "type": "story",
+      "description": "La gentillesse est récompensée par de doux miracles.",
+      "audioPath": "stories/fr/17. Dame Hiver (Dame Holle) et la Surprise.mp3",
+      "imagePath": "images/image_17.jpg",
+      "index": 16
+    },
+    {
+      "name": "18. Le porridge sucré",
+      "type": "story",
+      "description": "Un bol d’avoine réunit la famille avec tendresse.",
+      "audioPath": "stories/fr/18. Le porridge sucre.mp3",
+      "imagePath": "images/image_18.jpg",
+      "index": 17
+    },
+    {
+      "name": "19. La Princesse de la Terre",
+      "type": "story",
+      "description": "Une princesse apprend à protéger la nature de son royaume.",
+      "audioPath": "stories/fr/19. La Princesse de la Terre.mp3",
+      "imagePath": "images/image_19.jpg",
+      "index": 18
+    },
+    {
+      "name": "20. La Hyène et le Hérisson",
+      "type": "story",
+      "description": "La ruse sans amitié mène à la solitude.",
+      "audioPath": "stories/fr/20. La Hyène et le Hérisson.mp3",
+      "imagePath": "images/image_20.jpg",
+      "index": 19
+    },
+    {
+      "name": "21. La Reine des neiges",
+      "type": "story",
+      "description": "Un prince brave l’hiver pour sauver son amie.",
+      "audioPath": "stories/fr/21. La Reine des Neiges.mp3",
+      "imagePath": "images/image_21.jpg",
+      "index": 20
+    },
+    {
+      "name": "22. La Boîte magique",
+      "type": "story",
+      "description": "Une boîte exauce des souhaits — choisis bien.",
+      "audioPath": "stories/fr/22. La Boîte Magique.mp3",
+      "imagePath": "images/image_22.jpg",
+      "index": 21
+    },
+    {
+      "name": "23. Les Chaussons rouges et le Petit Canard",
+      "type": "story",
+      "description": "Des souliers joueurs mènent à de bons choix.",
+      "audioPath": "stories/fr/23. Les Chaussons Rouges et le Petit Canard.mp3",
+      "imagePath": "images/image_23.jpg",
+      "index": 22
+    },
+    {
+      "name": "24. Le Guerrier invincible",
+      "type": "story",
+      "description": "La véritable force est honnêteté, patience et amitié.",
+      "audioPath": "stories/fr/24. Le Guerrier Invincible.mp3",
+      "imagePath": "images/image_24.jpg",
+      "index": 23
+    },
+    {
+      "name": "25. Le Carnaval de la Forêt",
+      "type": "story",
+      "description": "Chaque talent compte à la fête des animaux.",
+      "audioPath": "stories/fr/25. Le Carnaval de la Forêt.mp3",
+      "imagePath": "images/image_25.jpg",
+      "index": 24
+    },
+    {
+      "name": "26. Koko et le Langage de la Forêt",
+      "type": "story",
+      "description": "Koko comprend la forêt et la protège.",
+      "audioPath": "stories/fr/26. Koko et le Langage de la Forêt.mp3",
+      "imagePath": "images/image_26.jpg",
+      "index": 25
+    },
+    {
+      "name": "27. Une petite souris qui était une princesse",
+      "type": "story",
+      "description": "La grandeur se mesure au courage, pas à la taille.",
+      "audioPath": "stories/fr/27. Une petite souris qui était une princess.mp3",
+      "imagePath": "images/image_27.jpg",
+      "index": 26
+    },
+    {
+      "name": "28. Douze Princesses dansantes",
+      "type": "story",
+      "description": "Un secret nocturne mène à une nouvelle amitié.",
+      "audioPath": "stories/fr/28. Douze Princesses Dansantes.mp3",
+      "imagePath": "images/image_28.jpg",
+      "index": 27
+    },
+    {
+      "name": "29. La Belle au bois dormant",
+      "type": "story",
+      "description": "L’amour et l’espoir rompent un long sommeil.",
+      "audioPath": "stories/fr/29. La belle au bois dormant.mp3",
+      "imagePath": "images/image_29.jpg",
+      "index": 28
+    },
+    {
+      "name": "30. Le Pêcheur et sa femme",
+      "type": "story",
+      "description": "La cupidité apporte la tempête; la gratitude, la paix.",
+      "audioPath": "stories/fr/30. Le pêcheur et sa femme.mp3",
+      "imagePath": "images/image_30.jpg",
+      "index": 29
+    },
+    {
+      "name": "31. Le Petit Bonhomme en pain d’épices et l’Arbre de Noël",
+      "type": "story",
+      "description": "Partager réchauffe plus que le four de Noël.",
+      "audioPath": "stories/fr/31. Le Petit Bonhomme en Pain d'épices et l'Arbre de Noël.mp3",
+      "imagePath": "images/image_31.jpg",
+      "index": 30
+    },
+    {
+      "name": "32. Mangita et Larina",
+      "type": "story",
+      "description": "Deux amies choisissent vérité et amitié plutôt que la facilité.",
+      "audioPath": "stories/fr/32. Mangita et Larina.mp3",
+      "imagePath": "images/image_32.jpg",
+      "index": 31
+    },
+    {
+      "name": "34. Des bonbons ou un sort",
+      "type": "story",
+      "description": "Le courage et la gentillesse chassent la peur.",
+      "audioPath": "stories/fr/34. Des Bonbons ou un Sort.mp3",
+      "imagePath": "images/image_34.jpg",
+      "index": 32
+    },
+    {
+      "name": "35. Boucle d’Or et le Livre mystérieux",
+      "type": "story",
+      "description": "Un livre ouvre des portes vers de doux apprentissages.",
+      "audioPath": "stories/fr/35. Boucle d'Or et le Livre Mystérieux.mp3",
+      "imagePath": "images/image_35.jpg",
+      "index": 33
+    },
+    {
+      "name": "36. Pinocchio cherche son père",
+      "type": "story",
+      "description": "Un voyage pour retrouver Geppetto et soi-même.",
+      "audioPath": "stories/fr/36. Pinocchio Cherche Son père.mp3",
+      "imagePath": "images/image_36.jpg",
+      "index": 34
+    },
+    {
+      "name": "37. La Fabrique des cadeaux de Noël",
+      "type": "story",
+      "description": "L’esprit d’équipe et un peu de magie illuminent la fête.",
+      "audioPath": "stories/fr/37. La Fabrique des Cadeaux de Noël.mp3",
+      "imagePath": "images/image_37.jpg",
+      "index": 35
+    },
+    {
+      "name": "38. La Coupe de la jungle",
+      "type": "story",
+      "description": "Jouer honnêtement transforme les rivaux en amis.",
+      "audioPath": "stories/fr/38. La Coupe du Monde de Foot dans la Jungle.mp3",
+      "imagePath": "images/image_38.jpg",
+      "index": 36
+    },
+    {
+      "name": "39. Le Panda et le marchand de glaces",
+      "type": "story",
+      "description": "Un cœur chaleureux fait fondre la glace de la solitude.",
+      "audioPath": "stories/fr/39. Panda et le Marchand de Glaces.mp3",
+      "imagePath": "images/image_39.jpg",
+      "index": 37
+    },
+    {
+      "name": "40. Le Chevalier courageux Maria",
+      "type": "story",
+      "description": "Être chevalier, c’est bravoure, compassion et parole tenue.",
+      "audioPath": "stories/fr/40. Brave Knight Maria.mp3",
+      "imagePath": "images/image_40.jpg",
+      "index": 38
+    },
+    {
+      "name": "41. Le Dragon perdu",
+      "type": "story",
+      "description": "Un petit dragon trouve un foyer grâce à l’amitié.",
+      "audioPath": "stories/fr/41. Le Dragon perdu.mp3",
+      "imagePath": "images/image_41.jpg",
+      "index": 39
+    },
+    {
+      "name": "42. Les Souliers rouges",
+      "type": "story",
+      "description": "Suivre son cœur vaut mieux que le simple éclat.",
+      "audioPath": "stories/fr/42. Les Souliers Rouges.mp3",
+      "imagePath": "images/image_42.jpg",
+      "index": 40
+    },
+    {
+      "name": "43. La Fille fainéante",
+      "type": "story",
+      "description": "La constance au quotidien crée de grands changements.",
+      "audioPath": "stories/fr/43. La Fille Fainéante.mp3",
+      "imagePath": "images/image_43.jpg",
+      "index": 41
+    },
+    {
+      "name": "44. Un Œil, Deux Yeux et Trois Yeux",
+      "type": "story",
+      "description": "Justice et bonté donnent à chacun sa place.",
+      "audioPath": "stories/fr/44. Un Œil Deux Yeux et Trois Yeux.mp3",
+      "imagePath": "images/image_44.jpg",
+      "index": 42
+    },
+    {
+      "name": "45. Le Yoga des princesses",
+      "type": "story",
+      "description": "La force intérieure change le destin sans baguette.",
+      "audioPath": "stories/fr/45. Le Yoga des Princesses.mp3",
+      "imagePath": "images/image_45.jpg",
+      "index": 43
+    },
+    {
+      "name": "46. Le Lion et la Souris",
+      "type": "story",
+      "description": "Un geste de bonté revient multiplié.",
+      "audioPath": "stories/fr/46. Le Lion et la Souris.mp3",
+      "imagePath": "images/image_46.jpg",
+      "index": 44
+    },
+    {
+      "name": "47. La Princesse Rose et l’Oiseau d’Or",
+      "type": "story",
+      "description": "La plus grande richesse est un bon cœur.",
+      "audioPath": "stories/fr/47. La Princesse Rose et l’Oiseau dOr.mp3",
+      "imagePath": "images/image_47.jpg",
+      "index": 45
+    },
+    {
+      "name": "48. Hansel, Gretel et la Sorcière des bonbons",
+      "type": "story",
+      "description": "Un frère et une sœur vainquent la sorcière en restant unis.",
+      "audioPath": "stories/fr/48. Hansel, Gretel et la Sorcière des Bonbons.mp3",
+      "imagePath": "images/image_48.jpg",
+      "index": 46
+    },
+    {
+      "name": "49. Les Lutins et le Cordonnier",
+      "type": "story",
+      "description": "Des aides mystérieux récompensent l’effort et la générosité.",
+      "audioPath": "stories/fr/49. Les lutins et le cordonnier.mp3",
+      "imagePath": "images/image_49.jpg",
+      "index": 47
+    },
+    {
+      "name": "50. Alibaba et les Quarante Voleurs",
+      "type": "story",
+      "description": "Le courage et l’ingéniosité triomphent de la cupidité.",
+      "audioPath": "stories/fr/50. Alibaba et Les Quarante Voleurs.mp3",
+      "imagePath": "images/image_50.jpg",
+      "index": 48
+    },
+    {
+      "name": "51. Le Livre de la jungle",
+      "type": "story",
+      "description": "Mowgli apprend les lois de la jungle et de la maison.",
+      "audioPath": "stories/fr/51. Le Livre de la Jungle.mp3",
+      "imagePath": "images/image_51.jpg",
+      "index": 49
+    },
+    {
+      "name": "52. Tiddalik, la Grenouille",
+      "type": "story",
+      "description": "L’amitié ramène la pluie et apprend à partager.",
+      "audioPath": "stories/fr/52. Tiddalik, la Grenouille.mp3",
+      "imagePath": "images/image_52.jpg",
+      "index": 50
+    },
+    {
+      "name": "53. Alice au pays des merveilles",
+      "type": "story",
+      "description": "Une fillette curieuse découvre un monde à l’envers.",
+      "audioPath": "stories/fr/53.Alice fran.mp3",
+      "imagePath": "images/image_53.jpg",
+      "index": 51
+    }
+  ]
 }
