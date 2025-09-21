@@ -3,7 +3,7 @@
     {
       "name": "1. Rapunzel",
       "type": "story",
-      "description": "",
+      "description": "Una joven de cabellos mágicos descubre la libertad y el amor.",
       "audioPath": "stories/es/1. Rapunzel.mp3",
       "imagePath": "images/image_1.jpg",
       "index": 0
@@ -11,7 +11,7 @@
     {
       "name": "2. La Princesa y El Guisante",
       "type": "story",
-      "description": "",
+      "description": "Una prueba con un guisante revela a la verdadera princesa.",
       "audioPath": "stories/es/2. La Princesa y El Guisante.mp3",
       "imagePath": "images/image_2.jpg",
       "index": 1
@@ -19,7 +19,7 @@
     {
       "name": "3. Pinocho",
       "type": "story",
-      "description": "",
+      "description": "Un muñeco aprende a ser valiente y decir la verdad.",
       "audioPath": "stories/es/3. Pinocho.mp3",
       "imagePath": "images/image_3.jpg",
       "index": 2
@@ -27,7 +27,7 @@
     {
       "name": "4.Tres cerditos",
       "type": "story",
-      "description": "",
+      "description": "Tres hermanos trabajan duro y vencen al lobo.",
       "audioPath": "stories/es/4.Tres cerditos.mp3",
       "imagePath": "images/image_4.jpg",
       "index": 3
@@ -35,7 +35,7 @@
     {
       "name": "5. El hombre de jengibre",
       "type": "story",
-      "description": "",
+      "description": "Una galleta traviesa aprende a no confiar en cualquiera.",
       "audioPath": "stories/es/5. El hombre de jengibre.mp3",
       "imagePath": "images/image_5.jpg",
       "index": 4
@@ -43,7 +43,7 @@
     {
       "name": "6. El mago de Oz",
       "type": "story",
-      "description": "",
+      "description": "Dorothy busca el camino a casa junto a nuevos amigos.",
       "audioPath": "stories/es/6. El mago de Oz.mp3",
       "imagePath": "images/image_6.jpg",
       "index": 5
@@ -51,7 +51,7 @@
     {
       "name": "7. El Lobo Feroz y Los Tres Conejos",
       "type": "story",
-      "description": "",
+      "description": "Los conejos se unen y engañan al lobo feroz.",
       "audioPath": "stories/es/7. El Lobo Feroz y Los Tres Conejos.mp3",
       "imagePath": "images/image_7.jpg",
       "index": 6
@@ -59,7 +59,7 @@
     {
       "name": "8. Olla mágica",
       "type": "story",
-      "description": "",
+      "description": "Una olla que no para enseña a decir 'basta'.",
       "audioPath": "stories/es/8. Olla mágica.mp3",
       "imagePath": "images/image_8.jpg",
       "index": 7
@@ -67,7 +67,7 @@
     {
       "name": "9. El lobo y los siete cabras",
       "type": "story",
-      "description": "",
+      "description": "Los cabritos aprenden cautela y mamá los rescata.",
       "audioPath": "stories/es/9. El lobo y los siete cabras.mp3",
       "imagePath": "images/image_9.jpg",
       "index": 8
@@ -75,7 +75,7 @@
     {
       "name": "10. El Gato Salvaje Y La Princesa Ratón",
       "type": "story",
-      "description": "",
+      "description": "Una amistad imposible cambia el destino del reino.",
       "audioPath": "stories/es/10. El Gato Salvaje Y La Princesa Ratón.mp3",
       "imagePath": "images/image_10.jpg",
       "index": 9
@@ -83,7 +83,7 @@
     {
       "name": "11. La Bella Y La Bestia",
       "type": "story",
-      "description": "",
+      "description": "La bondad ve la belleza interior y rompe el hechizo.",
       "audioPath": "stories/es/11. La Bella Y La Bestia.mp3",
       "imagePath": "images/image_11.jpg",
       "index": 10
@@ -91,7 +91,7 @@
     {
       "name": "12. El León, El Ratón y El Oso Somnoliento",
       "type": "story",
-      "description": "",
+      "description": "Hasta el más pequeño puede ayudar a los grandes amigos.",
       "audioPath": "stories/es/12. El León, El Ratón y El Oso Somnoliento.mp3",
       "imagePath": "images/image_12.jpg",
       "index": 11
@@ -99,7 +99,7 @@
     {
       "name": "13. Aladino y La Lámpara Mágica",
       "type": "story",
-      "description": "",
+      "description": "Una lámpara mágica trae deseos, retos y responsabilidad.",
       "audioPath": "stories/es/13. Aladino y La Lámpara Mágica.mp3",
       "imagePath": "images/image_13.jpg",
       "index": 12
@@ -107,7 +107,7 @@
     {
       "name": "14. La Sirenita Aria y la Puerta Misteriosa",
       "type": "story",
-      "description": "",
+      "description": "Aria abre una puerta antigua y elige su propio sueño.",
       "audioPath": "stories/es/14. La Sirenita Aria y la Puerta Misteriosa.mp3",
       "imagePath": "images/image_14.jpg",
       "index": 13
@@ -115,7 +115,7 @@
     {
       "name": "15. La Reina de las Nieves",
       "type": "story",
-      "description": "",
+      "description": "Un corazón valiente derrite el hielo del encantamiento.",
       "audioPath": "stories/es/15. La Reina de las Nieves.mp3",
       "imagePath": "images/image_15.jpg",
       "index": 14
@@ -123,7 +123,7 @@
     {
       "name": "16. La Pastora de Ocas",
       "type": "story",
-      "description": "",
+      "description": "Una pastorcita guarda un secreto y encuentra su dicha.",
       "audioPath": "stories/es/16. La Pastora de Ocas.mp3",
       "imagePath": "images/image_16.jpg",
       "index": 15
@@ -131,7 +131,7 @@
     {
       "name": "17. Sorpresa de mamá Hall",
       "type": "story",
-      "description": "",
+      "description": "Un tierno plan recuerda que el cariño vale más que magia.",
       "audioPath": "stories/es/17. Sorpresa de mamá Hall.mp3",
       "imagePath": "images/image_17.jpg",
       "index": 16
@@ -139,7 +139,7 @@
     {
       "name": "18. Gachas Dulces",
       "type": "story",
-      "description": "",
+      "description": "Un cuenco de avena une a la familia con cariño.",
       "audioPath": "stories/es/18. Gachas Dulces.mp3",
       "imagePath": "images/image_18.jpg",
       "index": 17
@@ -147,7 +147,7 @@
     {
       "name": "19. La Princesa De La Tierra",
       "type": "story",
-      "description": "",
+      "description": "Una princesa aprende a cuidar la naturaleza de su reino.",
       "audioPath": "stories/es/19. La Princesa De La Tierra.mp3",
       "imagePath": "images/image_19.jpg",
       "index": 18
@@ -155,7 +155,7 @@
     {
       "name": "20. La Hiena Astuta y El Campamento De Día Del Maestro",
       "type": "story",
-      "description": "",
+      "description": "La astucia sin amistad termina en soledad.",
       "audioPath": "stories/es/20. La Hiena Astuta y El Campamento De Día Del Maestro.mp3",
       "imagePath": "images/image_20.jpg",
       "index": 19
@@ -163,7 +163,7 @@
     {
       "name": "21. La Reina de las Nieves y el Príncipe Valiente",
       "type": "story",
-      "description": "",
+      "description": "Un príncipe desafía el frío para salvar a su amiga.",
       "audioPath": "stories/es/21. La Reina de las Nieves y el Príncipe Valiente.mp3",
       "imagePath": "images/image_21.jpg",
       "index": 20
@@ -171,7 +171,7 @@
     {
       "name": "22. El Caldero Mágico",
       "type": "story",
-      "description": "",
+      "description": "El caldero concede deseos; pide con cabeza.",
       "audioPath": "stories/es/22. El Caldero Mágico.mp3",
       "imagePath": "images/image_22.jpg",
       "index": 21
@@ -179,7 +179,7 @@
     {
       "name": "23. Los Zapatos Rojos y El Pato",
       "type": "story",
-      "description": "",
+      "description": "Zapatos juguetones llevan a aventuras y buenas decisiones.",
       "audioPath": "stories/es/23. Los Zapatos Rojos y El Pato.mp3",
       "imagePath": "images/image_23.jpg",
       "index": 22
@@ -187,7 +187,7 @@
     {
       "name": "24. El Guerrero Invencible",
       "type": "story",
-      "description": "",
+      "description": "El poder real es honestidad, paciencia y amistad.",
       "audioPath": "stories/es/24. El Guerrero Invencible.mp3",
       "imagePath": "images/image_24.jpg",
       "index": 23
@@ -195,7 +195,7 @@
     {
       "name": "25. El Carnaval Del Bosque",
       "type": "story",
-      "description": "",
+      "description": "Los animales celebran que cada talento importa.",
       "audioPath": "stories/es/25. El Carnaval Del Bosque.mp3",
       "imagePath": "images/image_25.jpg",
       "index": 24
@@ -203,7 +203,7 @@
     {
       "name": "26. Koko y La Lenguaje De La Selva",
       "type": "story",
-      "description": "",
+      "description": "Koko aprende a oír hojas y animales para proteger el bosque.",
       "audioPath": "stories/es/26. Koko y La Lenguaje De La Selva.mp3",
       "imagePath": "images/image_26.jpg",
       "index": 25
@@ -211,7 +211,7 @@
     {
       "name": "27. La Ratoncita Que Era Princesa",
       "type": "story",
-      "description": "",
+      "description": "La grandeza se mide en valentía, no en tamaño.",
       "audioPath": "stories/es/27. La Ratoncita Que Era Princesa.mp3",
       "imagePath": "images/image_27.jpg",
       "index": 26
@@ -219,7 +219,7 @@
     {
       "name": "28. Las Tres Princesas Bailarinas",
       "type": "story",
-      "description": "",
+      "description": "Un secreto nocturno conduce a una nueva amistad.",
       "audioPath": "stories/es/28. Las Tres Princesas Bailarinas.mp3",
       "imagePath": "images/image_28.jpg",
       "index": 27
@@ -227,7 +227,7 @@
     {
       "name": "29. La Bella Durmiente",
       "type": "story",
-      "description": "",
+      "description": "El amor y la esperanza rompen un largo sueño.",
       "audioPath": "stories/es/29. La Bella Durmiente.mp3",
       "imagePath": "images/image_29.jpg",
       "index": 28
@@ -235,7 +235,7 @@
     {
       "name": "30. El Pescador y Su Esposa",
       "type": "story",
-      "description": "",
+      "description": "La codicia trae tormentas; la gratitud devuelve calma.",
       "audioPath": "stories/es/30. El Pescador y Su Esposa.mp3",
       "imagePath": "images/image_30.jpg",
       "index": 29
@@ -243,7 +243,7 @@
     {
       "name": "31. Hombre De Pan De Jengibre",
       "type": "story",
-      "description": "",
+      "description": "En Navidad, compartir calienta más que el horno.",
       "audioPath": "stories/es/31. Hombre De Pan De Jengibre.mp3",
       "imagePath": "images/image_31.jpg",
       "index": 30
@@ -251,7 +251,7 @@
     {
       "name": "32. Mangita y Larina",
       "type": "story",
-      "description": "",
+      "description": "Dos amigas eligen verdad y amistad sobre atajos.",
       "audioPath": "stories/es/32. Mangita y Larina.mp3",
       "imagePath": "images/image_32.jpg",
       "index": 31
@@ -259,7 +259,7 @@
     {
       "name": "33. La bella y la bestia",
       "type": "story",
-      "description": "",
+      "description": "Otra versión donde el amor disipa hechizos y miedos.",
       "audioPath": "stories/es/33. La bella y la bestia.mp3",
       "imagePath": "images/image_33.jpg",
       "index": 32
@@ -267,7 +267,7 @@
     {
       "name": "34. Cuento de Halloween ",
       "type": "story",
-      "description": "",
+      "description": "Valentía y bondad espantan cualquier susto.",
       "audioPath": "stories/es/34. Cuento de Halloween .mp3",
       "imagePath": "images/image_34.jpg",
       "index": 33
@@ -275,7 +275,7 @@
     {
       "name": "35. Ricitos De Oro Y El Libro Misterioso",
       "type": "story",
-      "description": "",
+      "description": "Un libro abre puertas a lecciones amables.",
       "audioPath": "stories/es/35. Ricitos De Oro Y El Libro Misterioso.mp3",
       "imagePath": "images/image_35.jpg",
       "index": 34
@@ -283,7 +283,7 @@
     {
       "name": "36. Pinocho Busca a Su Padre",
       "type": "story",
-      "description": "",
+      "description": "Un viaje para hallar a Geppetto y a sí mismo.",
       "audioPath": "stories/es/36. Pinocho Busca a Su Padre.mp3",
       "imagePath": "images/image_36.jpg",
       "index": 35
@@ -291,7 +291,7 @@
     {
       "name": "37. La Fábrica de regalos de Navidad",
       "type": "story",
-      "description": "",
+      "description": "Trabajo en equipo y magia hacen brillar la fiesta.",
       "audioPath": "stories/es/37. La Fábrica de regalos de Navidad.mp3",
       "imagePath": "images/image_37.jpg",
       "index": 36
@@ -299,7 +299,7 @@
     {
       "name": "38. La Copa de la Selva",
       "type": "story",
-      "description": "",
+      "description": "Competir con honestidad convierte rivales en amigos.",
       "audioPath": "stories/es/38. La Copa de la Selva.mp3",
       "imagePath": "images/image_38.jpg",
       "index": 37
@@ -307,7 +307,7 @@
     {
       "name": "39. El Bebé Panda ",
       "type": "story",
-      "description": "",
+      "description": "Un corazón cálido derrite el hielo de un gigante solitario.",
       "audioPath": "stories/es/39. El Bebé Panda .mp3",
       "imagePath": "images/image_39.jpg",
       "index": 38
@@ -315,7 +315,7 @@
     {
       "name": "40. El Valiente Caballero María",
       "type": "story",
-      "description": "",
+      "description": "Ser caballero es valor, compasión y palabra dada.",
       "audioPath": "stories/es/40. El Valiente Caballero María.mp3",
       "imagePath": "images/image_40.jpg",
       "index": 39
@@ -323,7 +323,7 @@
     {
       "name": "41. El Dragón Perdido",
       "type": "story",
-      "description": "",
+      "description": "Un pequeño dragón halla hogar gracias a la amistad.",
       "audioPath": "stories/es/41. El Dragón Perdido.mp3",
       "imagePath": "images/image_41.jpg",
       "index": 40
@@ -331,7 +331,7 @@
     {
       "name": "42. Los Zapatos Rojos",
       "type": "story",
-      "description": "",
+      "description": "Seguir el corazón vale más que el brillo.",
       "audioPath": "stories/es/42. Los Zapatos Rojos.mp3",
       "imagePath": "images/image_42.jpg",
       "index": 41
@@ -339,7 +339,7 @@
     {
       "name": "43. Das faule Mädchen",
       "type": "story",
-      "description": "",
+      "description": "La constancia diaria crea grandes cambios.",
       "audioPath": "stories/es/43. Das faule Mädchen.mp3",
       "imagePath": "images/image_43.jpg",
       "index": 42
@@ -347,7 +347,7 @@
     {
       "name": "44. Un Ojito, Dos Ojitos Y Tres Ojitos",
       "type": "story",
-      "description": "",
+      "description": "La justicia y la bondad dan a cada quien su lugar.",
       "audioPath": "stories/es/44. Un Ojito, Dos Ojitos Y Tres Ojitos.mp3",
       "imagePath": "images/image_44.jpg",
       "index": 43
@@ -355,7 +355,7 @@
     {
       "name": "45. Cenicienta y La Princesa Yoga",
       "type": "story",
-      "description": "",
+      "description": "Cenicienta halla fuerza interior y calma sin varita.",
       "audioPath": "stories/es/45. Cenicienta y La Princesa Yoga.mp3",
       "imagePath": "images/image_45.jpg",
       "index": 44
@@ -363,7 +363,7 @@
     {
       "name": "46. El León y el Ratón",
       "type": "story",
-      "description": "",
+      "description": "Un gesto de bondad vuelve multiplicado.",
       "audioPath": "stories/es/46. El León y el Ratón.mp3",
       "imagePath": "images/image_46.jpg",
       "index": 45
@@ -371,7 +371,7 @@
     {
       "name": "47. La Princesa Rosa y El Ave Dorada",
       "type": "story",
-      "description": "",
+      "description": "La mayor riqueza es un buen corazón.",
       "audioPath": "stories/es/47. La Princesa Rosa y El Ave Dorada.mp3",
       "imagePath": "images/image_47.jpg",
       "index": 46
@@ -379,7 +379,7 @@
     {
       "name": "48. Hansel y Gretel",
       "type": "story",
-      "description": "",
+      "description": "Hermanos unidos vencen a la bruja con esperanza.",
       "audioPath": "stories/es/48. Hansel y Gretel.mp3",
       "imagePath": "images/image_48.jpg",
       "index": 47
@@ -387,7 +387,7 @@
     {
       "name": "49. El Zapatero y los Duendes",
       "type": "story",
-      "description": "",
+      "description": "Ayudantes misteriosos premian esfuerzo y generosidad.",
       "audioPath": "stories/es/49. El Zapatero y los Duendes.mp3",
       "imagePath": "images/image_49.jpg",
       "index": 48
@@ -395,7 +395,7 @@
     {
       "name": "50. Alibaba y los cuarenta ladrones",
       "type": "story",
-      "description": "",
+      "description": "Valor e ingenio vencen a la codicia.",
       "audioPath": "stories/es/50. Alibaba y los cuarenta ladrones.mp3",
       "imagePath": "images/image_50.jpg",
       "index": 49
@@ -403,7 +403,7 @@
     {
       "name": "51. El libro de la selva",
       "type": "story",
-      "description": "",
+      "description": "Mowgli aprende las leyes de la selva y del hogar.",
       "audioPath": "stories/es/51. El libro de la selva.mp3",
       "imagePath": "images/image_51.jpg",
       "index": 50
@@ -411,7 +411,7 @@
     {
       "name": "52. La Rana Sedienta Tiddalik",
       "type": "story",
-      "description": "",
+      "description": "La amistad devuelve la lluvia y enseña a no acaparar.",
       "audioPath": "stories/es/52. La Rana Sedienta Tiddalik.mp3",
       "imagePath": "images/image_52.jpg",
       "index": 51
