@@ -84,7 +84,7 @@
       "name": "11. La Belle et la Bête",
       "type": "story",
       "description": "La bonté reconnaît la beauté du cœur et brise le sort.",
-      "audioPath": "stories/fr/11. La Belle et la BГЄte",
+      "audioPath": "stories/fr/11.mp3",
       "imagePath": "images/image_11.jpg",
       "index": 10
     },
@@ -92,7 +92,7 @@
       "name": "12. Le Lion, la Souris et l’Ours endormi",
       "type": "story",
       "description": "Même le plus petit peut aider un grand ami.",
-      "audioPath": "stories/fr/12. Le Lion, la Souris et l’Ours endormi",
+      "audioPath": "stories/fr/12.mp3",
       "imagePath": "images/image_12.jpg",
       "index": 11
     },
@@ -332,7 +332,7 @@
       "name": "43. La Fille fainéante",
       "type": "story",
       "description": "La constance au quotidien crée de grands changements.",
-      "audioPath": "stories/fr/43. La Fille Fainéante.mp3",
+      "audioPath": "stories/fr/43.mp3",
       "imagePath": "images/image_43.jpg",
       "index": 41
     },
@@ -372,7 +372,7 @@
       "name": "48. Hansel, Gretel et la Sorcière des bonbons",
       "type": "story",
       "description": "Un frère et une sœur vainquent la sorcière en restant unis.",
-      "audioPath": "stories/fr/48. Hansel, Gretel et la Sorcière des Bonbons.mp3",
+      "audioPath": "stories/fr/48.mp3",
       "imagePath": "images/image_48.jpg",
       "index": 46
     },
