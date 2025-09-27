@@ -36,7 +36,7 @@
       "name": "5. Le petit bonhomme de pain d’épices",
       "type": "story",
       "description": "Une galette espiègle découvre à qui faire confiance.",
-      "audioPath": "stories/fr/5. Le petit bonhomme de pain d'épices.mp3",
+      "audioPath": "stories/fr/5. Le petit bonhomme de pain d’épices.mp3",
       "imagePath": "images/image_5.jpg",
       "index": 4
     },
@@ -84,7 +84,7 @@
       "name": "11. La Belle et la Bête",
       "type": "story",
       "description": "La bonté reconnaît la beauté du cœur et brise le sort.",
-      "audioPath": "stories/fr/11. La Belle et la Bête.mp3",
+      "audioPath": "stories/fr/11. La Belle et la BГЄte",
       "imagePath": "images/image_11.jpg",
       "index": 10
     },
@@ -92,7 +92,7 @@
       "name": "12. Le Lion, la Souris et l’Ours endormi",
       "type": "story",
       "description": "Même le plus petit peut aider un grand ami.",
-      "audioPath": "stories/fr/12. Der Löwe, Die Maus Und Der Schlafende Bär märchen _ Gutenachtgeschichte für kinder.mp3",
+      "audioPath": "stories/fr/12. Le Lion, la Souris et l’Ours endormi",
       "imagePath": "images/image_12.jpg",
       "index": 11
     },
@@ -108,7 +108,7 @@
       "name": "14. La Petite Sirène",
       "type": "story",
       "description": "Une sirène choisit entre la mer et son rêve.",
-      "audioPath": "stories/fr/14. La Petite Sirène.mp3",
+      "audioPath": "stories/fr/14. La Petite SirГЁne.mp3",
       "imagePath": "images/image_14.jpg",
       "index": 13
     },
@@ -116,7 +116,7 @@
       "name": "15. La Reine des neiges",
       "type": "story",
       "description": "Un cœur courageux fait fondre un froid enchantement.",
-      "audioPath": "stories/fr/15. la Reine des neiges _ Snow Queen in French _ Contes De Fées Français _@FrenchFairyTales.mp3",
+      "audioPath": "stories/fr/15. La Reine des neiges.mp3",
       "imagePath": "images/image_15.jpg",
       "index": 14
     },
@@ -212,7 +212,7 @@
       "name": "27. Une petite souris qui était une princesse",
       "type": "story",
       "description": "La grandeur se mesure au courage, pas à la taille.",
-      "audioPath": "stories/fr/27. Une petite souris qui était une princess.mp3",
+      "audioPath": "stories/fr/27. Une petite souris qui était une princesse.mp3",
       "imagePath": "images/image_27.jpg",
       "index": 26
     },
@@ -236,7 +236,7 @@
       "name": "30. Le Pêcheur et sa femme",
       "type": "story",
       "description": "La cupidité apporte la tempête; la gratitude, la paix.",
-      "audioPath": "stories/fr/30. Le pêcheur et sa femme.mp3",
+      "audioPath": "stories/fr/30. Le Pêcheur et sa femme.mp3",
       "imagePath": "images/image_30.jpg",
       "index": 29
     },
@@ -244,7 +244,7 @@
       "name": "31. Le Petit Bonhomme en pain d’épices et l’Arbre de Noël",
       "type": "story",
       "description": "Partager réchauffe plus que le four de Noël.",
-      "audioPath": "stories/fr/31. Le Petit Bonhomme en Pain d'épices et l'Arbre de Noël.mp3",
+      "audioPath": "stories/fr/31. Le Petit Bonhomme en pain d’épices et l’Arbre de Noël.mp3",
       "imagePath": "images/image_31.jpg",
       "index": 30
     },
@@ -268,7 +268,7 @@
       "name": "35. Boucle d’Or et le Livre mystérieux",
       "type": "story",
       "description": "Un livre ouvre des portes vers de doux apprentissages.",
-      "audioPath": "stories/fr/35. Boucle d'Or et le Livre Mystérieux.mp3",
+      "audioPath": "stories/fr/35. Boucle d’Or et le Livre mystérieux.mp3",
       "imagePath": "images/image_35.jpg",
       "index": 33
     },
@@ -276,7 +276,7 @@
       "name": "36. Pinocchio cherche son père",
       "type": "story",
       "description": "Un voyage pour retrouver Geppetto et soi-même.",
-      "audioPath": "stories/fr/36. Pinocchio Cherche Son père.mp3",
+      "audioPath": "stories/fr/36. Pinocchio cherche son père.mp3",
       "imagePath": "images/image_36.jpg",
       "index": 34
     },
@@ -284,7 +284,7 @@
       "name": "37. La Fabrique des cadeaux de Noël",
       "type": "story",
       "description": "L’esprit d’équipe et un peu de magie illuminent la fête.",
-      "audioPath": "stories/fr/37. La Fabrique des Cadeaux de Noël.mp3",
+      "audioPath": "stories/fr/37. La Fabrique des cadeaux de Noël.mp3",
       "imagePath": "images/image_37.jpg",
       "index": 35
     },
@@ -340,7 +340,7 @@
       "name": "44. Un Œil, Deux Yeux et Trois Yeux",
       "type": "story",
       "description": "Justice et bonté donnent à chacun sa place.",
-      "audioPath": "stories/fr/44. Un Œil Deux Yeux et Trois Yeux.mp3",
+      "audioPath": "stories/fr/44. Un Œil, Deux Yeux et Trois Yeux.mp3",
       "imagePath": "images/image_44.jpg",
       "index": 42
     },
@@ -407,14 +407,6 @@
       "audioPath": "stories/fr/52. Tiddalik, la Grenouille.mp3",
       "imagePath": "images/image_52.jpg",
       "index": 50
-    },
-    {
-      "name": "53. Alice au pays des merveilles",
-      "type": "story",
-      "description": "Une fillette curieuse découvre un monde à l’envers.",
-      "audioPath": "stories/fr/53.Alice fran.mp3",
-      "imagePath": "images/image_53.jpg",
-      "index": 51
     }
   ]
 }
