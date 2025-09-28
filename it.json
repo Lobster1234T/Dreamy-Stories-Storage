@@ -25,7 +25,7 @@
       "index": 2
     },
     {
-      "name": "4. Tre porcellini e il lupo",
+      "name": "4. I tre porcellini e il lupo",
       "type": "story",
       "description": "Tre fratelli lavorano sodo e sconfiggono il lupo.",
       "audioPath": "stories/it/4. Tre porcellini e il lupo.mp3",
@@ -65,9 +65,9 @@
       "index": 7
     },
     {
-      "name": "9. Il lupo e i sette bambini",
+      "name": "9. Il lupo e i sette capretti",
       "type": "story",
-      "description": "I caprettini imparano la prudenza e la mamma li salva.",
+      "description": "I capretti imparano la prudenza e la mamma li salva.",
       "audioPath": "stories/it/9. Il lupo e i sette bambini.mp3",
       "imagePath": "images/image_9.jpg",
       "index": 8
@@ -81,7 +81,7 @@
       "index": 9
     },
     {
-      "name": "11. La bella e la Bestia",
+      "name": "11. La bella e la bestia",
       "type": "story",
       "description": "La bontà vede la bellezza interiore e spezza l’incantesimo.",
       "audioPath": "stories/it/11. La bella e la Bestia.mp3",
@@ -89,7 +89,7 @@
       "index": 10
     },
     {
-      "name": "12. Il Leone, il Topo e l’orso dormiglione",
+      "name": "12. Il leone, il topo e l’orso dormiglione",
       "type": "story",
       "description": "Anche il più piccolo può aiutare i grandi amici.",
       "audioPath": "stories/it/12. Il Leone, Il Topo E L'orso Dormiglione.mp3",
@@ -97,7 +97,7 @@
       "index": 11
     },
     {
-      "name": "13. Aladino e la Lampada Magica",
+      "name": "13. Aladino e la lampada magica",
       "type": "story",
       "description": "Una lampada magica porta desideri, prove e responsabilità.",
       "audioPath": "stories/it/13. Aladino e a Lampada Magica.mp3",
@@ -113,7 +113,7 @@
       "index": 13
     },
     {
-      "name": "15. La Regina delle nevi",
+      "name": "15. La regina delle nevi",
       "type": "story",
       "description": "Un cuore coraggioso scioglie l’incantesimo di ghiaccio.",
       "audioPath": "stories/it/15. La Regina delle nevi.mp3",
@@ -121,7 +121,7 @@
       "index": 14
     },
     {
-      "name": "16. La piccola guardiana di oche",
+      "name": "16. La piccola guardiana delle oche",
       "type": "story",
       "description": "Una principessa nascosta ritrova la sua felicità.",
       "audioPath": "stories/it/16. L a piccolo guardiana di oche.mp3",
@@ -145,7 +145,7 @@
       "index": 17
     },
     {
-      "name": "19. Principessa della Terra",
+      "name": "19. La principessa della Terra",
       "type": "story",
       "description": "Cura la natura e il regno torna a fiorire.",
       "audioPath": "stories/it/19. Principessa Della Terra.mp3",
@@ -153,7 +153,7 @@
       "index": 18
     },
     {
-      "name": "20. La Iena Furtiva",
+      "name": "20. La iena furtiva",
       "type": "story",
       "description": "L’astuzia senza amicizia porta solitudine.",
       "audioPath": "stories/it/20. La Iena Furtiva.mp3",
@@ -161,7 +161,7 @@
       "index": 19
     },
     {
-      "name": "21. La Regina delle Nevi e il Principe coraggioso",
+      "name": "21. La regina delle nevi e il principe coraggioso",
       "type": "story",
       "description": "Un principe sfida il gelo per salvare un’amica.",
       "audioPath": "stories/it/21. La Regina delle Nevi e il Principe coraggioso.mp3",
@@ -169,7 +169,7 @@
       "index": 20
     },
     {
-      "name": "22. Scatola Magica",
+      "name": "22. La scatola magica",
       "type": "story",
       "description": "Desideri concessi… ma con saggezza e misura.",
       "audioPath": "stories/it/22. Scatola Magica.mp3",
@@ -177,7 +177,7 @@
       "index": 21
     },
     {
-      "name": "23. Le Scarpe Rosse e la Papera",
+      "name": "23. Le scarpe rosse e la papera",
       "type": "story",
       "description": "Scarpe dispettose, avventure e scelte sagge.",
       "audioPath": "stories/it/23. Le Scarpe Rosse E La Paper.mp3",
@@ -185,7 +185,7 @@
       "index": 22
     },
     {
-      "name": "24. Il Guerriero Invincibile",
+      "name": "24. Il guerriero invincibile",
       "type": "story",
       "description": "La vera forza è onestà, pazienza e amicizia.",
       "audioPath": "stories/it/24. Il Guerriero Invincibile.mp3",
@@ -193,7 +193,7 @@
       "index": 23
     },
     {
-      "name": "25. Il Carnevale della Foresta",
+      "name": "25. Il carnevale della foresta",
       "type": "story",
       "description": "Ogni talento conta per la festa del bosco.",
       "audioPath": "stories/it/25. Il Carnevale Della Foresta.mp3",
@@ -201,7 +201,7 @@
       "index": 24
     },
     {
-      "name": "26. Koko e la Lingua della Foresta",
+      "name": "26. Koko e la lingua della foresta",
       "type": "story",
       "description": "Ascoltare la foresta è il primo passo per proteggerla.",
       "audioPath": "stories/it/26. Koko e La Lingua Della Foresta.mp3",
@@ -217,7 +217,7 @@
       "index": 26
     },
     {
-      "name": "28. 3 Principesse Danzanti",
+      "name": "28. Le tre principesse danzanti",
       "type": "story",
       "description": "Un segreto notturno crea nuove amicizie.",
       "audioPath": "stories/it/28. 3 Principesse Danzanti.mp3",
@@ -257,7 +257,7 @@
       "index": 31
     },
     {
-      "name": "33. La bella e la bestia",
+      "name": "33. La bella e la bestia (con magia)",
       "type": "story",
       "description": "La compassione dissolve incantesimi e paure.",
       "audioPath": "stories/it/33. La bella e la bestia.mp3",
@@ -265,7 +265,7 @@
       "index": 32
     },
     {
-      "name": "34. Me contro Te – Dolcetto o Scherzetto",
+      "name": "34. Me contro Te – Dolcetto o scherzetto",
       "type": "story",
       "description": "Coraggio e gentilezza scacciano ogni spavento.",
       "audioPath": "stories/it/34. Me contro Te - Dolcetto o Scherzetto.mp3",
@@ -297,15 +297,15 @@
       "index": 36
     },
     {
-      "name": "38. La Coppa della Giungla",
+      "name": "38. La Coppa della giungla",
       "type": "story",
-      "description": "Gioco leale trasforma rivali in amici.",
+      "description": "Il gioco leale trasforma i rivali in amici.",
       "audioPath": "stories/it/38. La Coppa della Giungla.mp3",
       "imagePath": "images/image_38.jpg",
       "index": 37
     },
     {
-      "name": "39. Il Panda e l’Uomo di Ghiaccio",
+      "name": "39. Il panda e l’uomo di ghiaccio",
       "type": "story",
       "description": "Un cuore caldo scioglie il gelo della solitudine.",
       "audioPath": "stories/it/39. Панда и Ледяной человек.mp3",
@@ -313,7 +313,7 @@
       "index": 38
     },
     {
-      "name": "40. Cavaliere Coraggioso Maria",
+      "name": "40. Il cavaliere coraggioso Maria",
       "type": "story",
       "description": "Essere cavaliere è coraggio, compassione e parola data.",
       "audioPath": "stories/it/40. Cavaliere Coraggioso Maria.mp3",
@@ -321,7 +321,7 @@
       "index": 39
     },
     {
-      "name": "41. Il Drago Perduto",
+      "name": "41. Il drago perduto",
       "type": "story",
       "description": "Con nuovi amici, anche un drago trova casa.",
       "audioPath": "stories/it/41. Il Drago Perduto.mp3",
@@ -361,7 +361,7 @@
       "index": 44
     },
     {
-      "name": "46. Leone e topo",
+      "name": "46. Il leone e il topo",
       "type": "story",
       "description": "Un piccolo favore torna moltiplicato.",
       "audioPath": "stories/it/46. Leone e topo.mp3",
@@ -369,7 +369,7 @@
       "index": 45
     },
     {
-      "name": "47. La Principessa Rosa e l’Uccello d’Oro",
+      "name": "47. La principessa Rosa e l’uccello d’oro",
       "type": "story",
       "description": "La ricchezza più grande è un buon cuore.",
       "audioPath": "stories/it/47. La Principessa Rosa e l'Uccello d'Oro.mp3",
@@ -393,7 +393,7 @@
       "index": 48
     },
     {
-      "name": "50. Alibaba e i 40 Ladroni",
+      "name": "50. Ali Baba e i 40 ladroni",
       "type": "story",
       "description": "Coraggio e ingegno battono l’avidità.",
       "audioPath": "stories/it/50. Alibaba e 40 Ladroni.mp3",
