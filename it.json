@@ -1,46 +1,420 @@
 {
-    "stories": [
-        {
-            "name": "Test Story 1",
-            "type": "story",
-            "description": "Test Description",
-            "audioPath": "stories/ru/story_1.mp3",
-            "imagePath": "images/ru/image_1.jpg",
-            "duration": 219
-        },
-        {
-            "name": "Test Story 2",
-            "type": "story",
-            "description": "Test Description",
-            "audioPath": "stories/ru/story_2.mp3",
-            "imagePath": "images/ru/image_2.jpg",
-            "duration": 243
-        },
-        {
-            "name": "Large story",
-            "type": "story",
-            "description": "Test Description",
-            "audioPath": "stories/ru/story_3.mp3",
-            "imagePath": "images/ru/image_2.jpg",
-            "duration": 7200
-        }
-    ],
-    "lullabies": [
-        {
-            "name": "Test Lullaby 1",
-            "type": "lullaby",
-            "description": "Test Description",
-            "audioPath": "lullabies/ru/lullaby_1.mp3",
-            "imagePath": "images/ru/image_3.jpg",
-            "duration": 242
-        },
-        {
-            "name": "Test Lullaby 2",
-            "type": "lullaby",
-            "description": "Test Description",
-            "audioPath": "lullabies/ru/lullaby_2.mp3",
-            "imagePath": "images/ru/image_4.jpg",
-            "duration": 186
-        }
-    ]
+  "stories": [
+    {
+      "name": "1. Raperonzolo",
+      "type": "story",
+      "description": "Una giovane dai capelli magici trova la libertà e l’amore.",
+      "audioPath": "stories/it/1. Raperonzolo.mp3",
+      "imagePath": "images/image_1.jpg",
+      "index": 0
+    },
+    {
+      "name": "2. La principessa sul pisello",
+      "type": "story",
+      "description": "Una prova con un pisello rivela la vera principessa.",
+      "audioPath": "stories/it/2. La principessa sul pisello.mp3",
+      "imagePath": "images/image_2.jpg",
+      "index": 1
+    },
+    {
+      "name": "3. Pinocchio",
+      "type": "story",
+      "description": "Un burattino impara il coraggio e la verità.",
+      "audioPath": "stories/it/3. Pinocchio.mp3",
+      "imagePath": "images/image_3.jpg",
+      "index": 2
+    },
+    {
+      "name": "4. Tre porcellini e il lupo",
+      "type": "story",
+      "description": "Tre fratelli lavorano sodo e sconfiggono il lupo.",
+      "audioPath": "stories/it/4. Tre porcellini e il lupo.mp3",
+      "imagePath": "images/image_4.jpg",
+      "index": 3
+    },
+    {
+      "name": "5. L’omino di pan di zenzero e l’albero di Natale",
+      "type": "story",
+      "description": "Un biscotto vivace impara a non fidarsi di chiunque.",
+      "audioPath": "stories/it/5. L'omino Di Pan Di Zenzero E L’albero Di Natale.mp3",
+      "imagePath": "images/image_5.jpg",
+      "index": 4
+    },
+    {
+      "name": "6. Il meraviglioso mago di Oz",
+      "type": "story",
+      "description": "Dorothy cerca la strada di casa con nuovi amici.",
+      "audioPath": "stories/it/6.Il meraviglioso mago di Oz.mp3",
+      "imagePath": "images/image_6.jpg",
+      "index": 5
+    },
+    {
+      "name": "7. Il Grande Lupo Cattivo e i Tre Coniglietti",
+      "type": "story",
+      "description": "Tre conigli battono il lupo con astuzia e lavoro di squadra.",
+      "audioPath": "stories/it/7. Il Grande Lupo Cattivo E I Tre Coniglietti.mp3",
+      "imagePath": "images/image_7.jpg",
+      "index": 6
+    },
+    {
+      "name": "8. La pentola magica",
+      "type": "story",
+      "description": "Una pentola che non smette mai insegna a dire “basta”.",
+      "audioPath": "stories/it/8. La pentola magica.mp3",
+      "imagePath": "images/image_8.jpg",
+      "index": 7
+    },
+    {
+      "name": "9. Il lupo e i sette bambini",
+      "type": "story",
+      "description": "I caprettini imparano la prudenza e la mamma li salva.",
+      "audioPath": "stories/it/9. Il lupo e i sette bambini.mp3",
+      "imagePath": "images/image_9.jpg",
+      "index": 8
+    },
+    {
+      "name": "10. Il Gatto Selvaggio e la Principessa Topo",
+      "type": "story",
+      "description": "Un’amicizia impossibile cambia il destino del regno.",
+      "audioPath": "stories/it/10. Il Gatto Selvaggio E La Principessa Topo.mp3",
+      "imagePath": "images/image_10.jpg",
+      "index": 9
+    },
+    {
+      "name": "11. La bella e la Bestia",
+      "type": "story",
+      "description": "La bontà vede la bellezza interiore e spezza l’incantesimo.",
+      "audioPath": "stories/it/11. La bella e la Bestia.mp3",
+      "imagePath": "images/image_11.jpg",
+      "index": 10
+    },
+    {
+      "name": "12. Il Leone, il Topo e l’orso dormiglione",
+      "type": "story",
+      "description": "Anche il più piccolo può aiutare i grandi amici.",
+      "audioPath": "stories/it/12. Il Leone, Il Topo E L'orso Dormiglione.mp3",
+      "imagePath": "images/image_12.jpg",
+      "index": 11
+    },
+    {
+      "name": "13. Aladino e la Lampada Magica",
+      "type": "story",
+      "description": "Una lampada magica porta desideri, prove e responsabilità.",
+      "audioPath": "stories/it/13. Aladino e a Lampada Magica.mp3",
+      "imagePath": "images/image_13.jpg",
+      "index": 12
+    },
+    {
+      "name": "14. La sirenetta Aria e la porta misteriosa",
+      "type": "story",
+      "description": "Aria apre una porta antica e sceglie il proprio sogno.",
+      "audioPath": "stories/it/14. Mermaid.mp3",
+      "imagePath": "images/image_14.jpg",
+      "index": 13
+    },
+    {
+      "name": "15. La Regina delle nevi",
+      "type": "story",
+      "description": "Un cuore coraggioso scioglie l’incantesimo di ghiaccio.",
+      "audioPath": "stories/it/15. La Regina delle nevi.mp3",
+      "imagePath": "images/image_15.jpg",
+      "index": 14
+    },
+    {
+      "name": "16. La piccola guardiana di oche",
+      "type": "story",
+      "description": "Una principessa nascosta ritrova la sua felicità.",
+      "audioPath": "stories/it/16. L a piccolo guardiana di oche.mp3",
+      "imagePath": "images/image_16.jpg",
+      "index": 15
+    },
+    {
+      "name": "17. La sorpresa di Madre Holle",
+      "type": "story",
+      "description": "L’affetto quotidiano vale più di ogni magia.",
+      "audioPath": "stories/it/17. La Sorpresa de la Madre Holle.mp3",
+      "imagePath": "images/image_17.jpg",
+      "index": 16
+    },
+    {
+      "name": "18. Dolci fiocchi d’avena",
+      "type": "story",
+      "description": "Una ricetta semplice avvicina tutta la famiglia.",
+      "audioPath": "stories/it/18. Dolci fiocchi d’avena.mp3",
+      "imagePath": "images/image_18.jpg",
+      "index": 17
+    },
+    {
+      "name": "19. Principessa della Terra",
+      "type": "story",
+      "description": "Cura la natura e il regno torna a fiorire.",
+      "audioPath": "stories/it/19. Principessa Della Terra.mp3",
+      "imagePath": "images/image_19.jpg",
+      "index": 18
+    },
+    {
+      "name": "20. La Iena Furtiva",
+      "type": "story",
+      "description": "L’astuzia senza amicizia porta solitudine.",
+      "audioPath": "stories/it/20. La Iena Furtiva.mp3",
+      "imagePath": "images/image_20.jpg",
+      "index": 19
+    },
+    {
+      "name": "21. La Regina delle Nevi e il Principe coraggioso",
+      "type": "story",
+      "description": "Un principe sfida il gelo per salvare un’amica.",
+      "audioPath": "stories/it/21. La Regina delle Nevi e il Principe coraggioso.mp3",
+      "imagePath": "images/image_21.jpg",
+      "index": 20
+    },
+    {
+      "name": "22. Scatola Magica",
+      "type": "story",
+      "description": "Desideri concessi… ma con saggezza e misura.",
+      "audioPath": "stories/it/22. Scatola Magica.mp3",
+      "imagePath": "images/image_22.jpg",
+      "index": 21
+    },
+    {
+      "name": "23. Le Scarpe Rosse e la Papera",
+      "type": "story",
+      "description": "Scarpe dispettose, avventure e scelte sagge.",
+      "audioPath": "stories/it/23. Le Scarpe Rosse E La Paper.mp3",
+      "imagePath": "images/image_23.jpg",
+      "index": 22
+    },
+    {
+      "name": "24. Il Guerriero Invincibile",
+      "type": "story",
+      "description": "La vera forza è onestà, pazienza e amicizia.",
+      "audioPath": "stories/it/24. Il Guerriero Invincibile.mp3",
+      "imagePath": "images/image_24.jpg",
+      "index": 23
+    },
+    {
+      "name": "25. Il Carnevale della Foresta",
+      "type": "story",
+      "description": "Ogni talento conta per la festa del bosco.",
+      "audioPath": "stories/it/25. Il Carnevale Della Foresta.mp3",
+      "imagePath": "images/image_25.jpg",
+      "index": 24
+    },
+    {
+      "name": "26. Koko e la Lingua della Foresta",
+      "type": "story",
+      "description": "Ascoltare la foresta è il primo passo per proteggerla.",
+      "audioPath": "stories/it/26. Koko e La Lingua Della Foresta.mp3",
+      "imagePath": "images/image_26.jpg",
+      "index": 25
+    },
+    {
+      "name": "27. La principessa topo",
+      "type": "story",
+      "description": "La grandezza si misura nel coraggio, non nella taglia.",
+      "audioPath": "stories/it/27. Principessa mouse.mp3",
+      "imagePath": "images/image_27.jpg",
+      "index": 26
+    },
+    {
+      "name": "28. 3 Principesse Danzanti",
+      "type": "story",
+      "description": "Un segreto notturno crea nuove amicizie.",
+      "audioPath": "stories/it/28. 3 Principesse Danzanti.mp3",
+      "imagePath": "images/image_28.jpg",
+      "index": 27
+    },
+    {
+      "name": "29. La bella addormentata",
+      "type": "story",
+      "description": "Amore e speranza spezzano un lungo sonno.",
+      "audioPath": "stories/it/29. La bella addormentata.mp3",
+      "imagePath": "images/image_29.jpg",
+      "index": 28
+    },
+    {
+      "name": "30. Il pescatore e sua moglie",
+      "type": "story",
+      "description": "L’avidità porta tempeste; la gratitudine, calma.",
+      "audioPath": "stories/it/30. Il pescatore e sua moglie.mp3",
+      "imagePath": "images/image_30.jpg",
+      "index": 29
+    },
+    {
+      "name": "31. L’omino di pan di zenzero",
+      "type": "story",
+      "description": "A Natale, condividere scalda più del forno.",
+      "audioPath": "stories/it/31. L’ omino di pan di zenzero.mp3",
+      "imagePath": "images/image_31.jpg",
+      "index": 30
+    },
+    {
+      "name": "32. Mangita e Larina",
+      "type": "story",
+      "description": "La verità e l’amicizia battono ogni scorciatoia.",
+      "audioPath": "stories/it/32. Mangita e Larina.mp3",
+      "imagePath": "images/image_32.jpg",
+      "index": 31
+    },
+    {
+      "name": "33. La bella e la bestia",
+      "type": "story",
+      "description": "La compassione dissolve incantesimi e paure.",
+      "audioPath": "stories/it/33. La bella e la bestia.mp3",
+      "imagePath": "images/image_33.jpg",
+      "index": 32
+    },
+    {
+      "name": "34. Me contro Te – Dolcetto o Scherzetto",
+      "type": "story",
+      "description": "Coraggio e gentilezza scacciano ogni spavento.",
+      "audioPath": "stories/it/34. Me contro Te - Dolcetto o Scherzetto.mp3",
+      "imagePath": "images/image_34.jpg",
+      "index": 33
+    },
+    {
+      "name": "35. Riccioli d’oro e il libro misterioso",
+      "type": "story",
+      "description": "Un libro apre porte a lezioni gentili.",
+      "audioPath": "stories/it/35. Riccioli D'oro E Il Libro Misterioso.mp3",
+      "imagePath": "images/image_35.jpg",
+      "index": 34
+    },
+    {
+      "name": "36. Pinocchio cerca suo padre",
+      "type": "story",
+      "description": "Nel cercare Geppetto, Pinocchio cresce davvero.",
+      "audioPath": "stories/it/36. Pinocchio Cerca Suo Padre.mp3",
+      "imagePath": "images/image_36.jpg",
+      "index": 35
+    },
+    {
+      "name": "37. La fabbrica dei regali di Natale",
+      "type": "story",
+      "description": "La vera magia è il lavoro di squadra.",
+      "audioPath": "stories/it/37. La fabbrica dei regali di Natale.mp3",
+      "imagePath": "images/image_37.jpg",
+      "index": 36
+    },
+    {
+      "name": "38. La Coppa della Giungla",
+      "type": "story",
+      "description": "Gioco leale trasforma rivali in amici.",
+      "audioPath": "stories/it/38. La Coppa della Giungla.mp3",
+      "imagePath": "images/image_38.jpg",
+      "index": 37
+    },
+    {
+      "name": "39. Il Panda e l’Uomo di Ghiaccio",
+      "type": "story",
+      "description": "Un cuore caldo scioglie il gelo della solitudine.",
+      "audioPath": "stories/it/39. Панда и Ледяной человек.mp3",
+      "imagePath": "images/image_39.jpg",
+      "index": 38
+    },
+    {
+      "name": "40. Cavaliere Coraggioso Maria",
+      "type": "story",
+      "description": "Essere cavaliere è coraggio, compassione e parola data.",
+      "audioPath": "stories/it/40. Cavaliere Coraggioso Maria.mp3",
+      "imagePath": "images/image_40.jpg",
+      "index": 39
+    },
+    {
+      "name": "41. Il Drago Perduto",
+      "type": "story",
+      "description": "Con nuovi amici, anche un drago trova casa.",
+      "audioPath": "stories/it/41. Il Drago Perduto.mp3",
+      "imagePath": "images/image_41.jpg",
+      "index": 40
+    },
+    {
+      "name": "42. Le scarpe rosse",
+      "type": "story",
+      "description": "Seguire il cuore vale più dello sfarzo.",
+      "audioPath": "stories/it/42. Le scarpe rosse.mp3",
+      "imagePath": "images/image_42.jpg",
+      "index": 41
+    },
+    {
+      "name": "43. La ragazza pigra",
+      "type": "story",
+      "description": "La costanza quotidiana crea grandi cambiamenti.",
+      "audioPath": "stories/it/43. La ragazza Pigra.mp3",
+      "imagePath": "images/image_43.jpg",
+      "index": 42
+    },
+    {
+      "name": "44. Un occhio, due occhi e tre occhi",
+      "type": "story",
+      "description": "Giustizia e bontà rimettono ognuno al suo posto.",
+      "audioPath": "stories/it/44. Un occhio Due occhi Tre occhi.mp3",
+      "imagePath": "images/image_44.jpg",
+      "index": 43
+    },
+    {
+      "name": "45. Cenerentola e la Principessa Yoga",
+      "type": "story",
+      "description": "Forza interiore e calma senza bacchetta.",
+      "audioPath": "stories/it/45. Cenerentola E La Principessa Yoga.mp3",
+      "imagePath": "images/image_45.jpg",
+      "index": 44
+    },
+    {
+      "name": "46. Leone e topo",
+      "type": "story",
+      "description": "Un piccolo favore torna moltiplicato.",
+      "audioPath": "stories/it/46. Leone e topo.mp3",
+      "imagePath": "images/image_46.jpg",
+      "index": 45
+    },
+    {
+      "name": "47. La Principessa Rosa e l’Uccello d’Oro",
+      "type": "story",
+      "description": "La ricchezza più grande è un buon cuore.",
+      "audioPath": "stories/it/47. La Principessa Rosa e l'Uccello d'Oro.mp3",
+      "imagePath": "images/image_47.jpg",
+      "index": 46
+    },
+    {
+      "name": "48. Hansel e Gretel",
+      "type": "story",
+      "description": "Uniti, i fratelli sconfiggono la strega.",
+      "audioPath": "stories/it/48. Hansel e Gretel.mp3",
+      "imagePath": "images/image_48.jpg",
+      "index": 47
+    },
+    {
+      "name": "49. Gli elfi e il calzolaio",
+      "type": "story",
+      "description": "Aiutanti misteriosi premiano impegno e generosità.",
+      "audioPath": "stories/it/49. Gli Elfi e il Calzolaio _ Shoemaker.mp3",
+      "imagePath": "images/image_49.jpg",
+      "index": 48
+    },
+    {
+      "name": "50. Alibaba e i 40 Ladroni",
+      "type": "story",
+      "description": "Coraggio e ingegno battono l’avidità.",
+      "audioPath": "stories/it/50. Alibaba e 40 Ladroni.mp3",
+      "imagePath": "images/image_50.jpg",
+      "index": 49
+    },
+    {
+      "name": "51. Il libro della giungla",
+      "type": "story",
+      "description": "Mowgli impara le leggi della giungla e della casa.",
+      "audioPath": "stories/it/51. Il libro della giungla.mp3",
+      "imagePath": "images/image_51.jpg",
+      "index": 50
+    },
+    {
+      "name": "52. Tiddalik, la rana assetata",
+      "type": "story",
+      "description": "Gli animali la fanno ridere e l’acqua torna al mondo.",
+      "audioPath": "stories/it/52. Tiddalik La Rana Assetata.mp3",
+      "imagePath": "images/image_52.jpg",
+      "index": 51
+    }
+  ]
 }
