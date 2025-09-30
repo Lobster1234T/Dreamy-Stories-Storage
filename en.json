@@ -11,7 +11,7 @@
     {
       "name": "2. The Princess and the Pea",
       "type": "story",
-      "description": "A prince tests a mysterious girl by placing a pea under many mattresses, proving that true nobility is felt, not seen.",
+      "description": "A tiny pea reveals a true princess.",
       "audioPath": "stories/en/2.The Princess and the Pea.mp3",
       "imagePath": "images/image_2.jpg",
       "index": 1
@@ -19,7 +19,7 @@
     {
       "name": "3. Pinocchio",
       "type": "story",
-      "description": "A wooden puppet with a growing nose learns honesty and courage while searching for his father.",
+      "description": "A wooden boy learns honesty and courage.",
       "audioPath": "stories/en/3.Pinocchio.mp3",
       "imagePath": "images/image_3.jpg",
       "index": 2
@@ -27,7 +27,7 @@
     {
       "name": "4. The Three Little Pigs",
       "type": "story",
-      "description": "Three pigs build homes of straw, sticks, and bricks and outwit a huffing wolf by working smart.",
+      "description": "Three pigs outsmart a huffing, puffing wolf.",
       "audioPath": "stories/en/4.the three little pigs.mp3",
       "imagePath": "images/image_4.jpg",
       "index": 3
@@ -35,7 +35,7 @@
     {
       "name": "5. The Gingerbread Man",
       "type": "story",
-      "description": "A runaway cookie dashes past everyone until a clever fox ends the chase.",
+      "description": "A runaway cookie meets a clever fox.",
       "audioPath": "stories/en/5.The Gingerbread Man).mp3",
       "imagePath": "images/image_5.jpg",
       "index": 4
@@ -43,7 +43,7 @@
     {
       "name": "6. The Wonderful Wizard of Oz",
       "type": "story",
-      "description": "Dorothy and her new friends follow the yellow road to find courage, heart, brains, and a way home.",
+      "description": "Friends seek courage, heart, brains, and home.",
       "audioPath": "stories/en/6.The Wonderful Wizard of Oz.mp3",
       "imagePath": "images/image_6.jpg",
       "index": 5
@@ -51,7 +51,7 @@
     {
       "name": "7. Big Bad Wolf and Three Rabbits",
       "type": "story",
-      "description": "A sly wolf targets three rabbits, but teamwork and quick thinking turn the tables.",
+      "description": "Three rabbits outwit the big bad wolf.",
       "audioPath": "stories/en/7.Big Bad Wolf and Three Rabbits.mp3",
       "imagePath": "images/image_7.jpg",
       "index": 6
@@ -59,7 +59,7 @@
     {
       "name": "8. Magic Pot",
       "type": "story",
-      "description": "A humble child receives a pot that cooks on command and learns when enough is enough.",
+      "description": "A magic pot cooks—and won’t stop!",
       "audioPath": "stories/en/8.Magic Pot.mp3",
       "imagePath": "images/image_8.jpg",
       "index": 7
@@ -67,7 +67,7 @@
     {
       "name": "9. Wolf and the Seven Goats",
       "type": "story",
-      "description": "A wolf tricks goat kids, but their brave mother rescues them and restores peace.",
+      "description": "A brave mother goat rescues her kids.",
       "audioPath": "stories/en/9.Wolf and the seven goats.mp3",
       "imagePath": "images/image_9.jpg",
       "index": 8
@@ -75,7 +75,7 @@
     {
       "name": "10. Wild Cat and The Princess Mouse",
       "type": "story",
-      "description": "A bold wild cat and a gentle princess mouse form an unlikely friendship to save the meadow.",
+      "description": "A wild cat and mouse save their meadow.",
       "audioPath": "stories/en/10.Wild Cat and The Princess Mouse.mp3",
       "imagePath": "images/image_10.jpg",
       "index": 9
@@ -83,7 +83,7 @@
     {
       "name": "11. Beauty and the Beast Belle",
       "type": "story",
-      "description": "Belle trades places to save her father and discovers that kindness can break even the darkest curse.",
+      "description": "Kindness breaks the Beast’s dark curse.",
       "audioPath": "stories/en/11.Beauty and the Beast Belle.mp3",
       "imagePath": "images/image_11.jpg",
       "index": 10
@@ -91,7 +91,7 @@
     {
       "name": "12. The Lion, The Mouse and The Sleepy Bear",
       "type": "story",
-      "description": "A tiny mouse frees a trapped lion, and together they outsmart a grumpy, sleepy bear.",
+      "description": "A mouse frees a lion; teamwork wins.",
       "audioPath": "stories/en/12.The Lion, The Mouse and The Sleepy Bear.mp3",
       "imagePath": "images/image_12.jpg",
       "index": 11
@@ -99,7 +99,7 @@
     {
       "name": "13. Aladdin and the Magic Lamp",
       "type": "story",
-      "description": "A poor boy finds a lamp with a powerful genie and learns that wisdom matters more than wishes.",
+      "description": "A genie grants wishes; wisdom matters most.",
       "audioPath": "stories/en/13.aladdin and the magic lamp.mp3",
       "imagePath": "images/image_13.jpg",
       "index": 12
@@ -107,7 +107,7 @@
     {
       "name": "14. Little Mermaid Aria and The Mysterious Gate",
       "type": "story",
-      "description": "Mermaid Aria discovers a sealed sea gate and must choose between the deep and the shore to protect her friends.",
+      "description": "Mermaid Aria guards a secret sea gate.",
       "audioPath": "stories/en/14.Little Mermaid Aria and The Mysterious Gate.mp3",
       "imagePath": "images/image_14.jpg",
       "index": 13
@@ -115,7 +115,7 @@
     {
       "name": "15. Snow Queen and The Shining Star",
       "type": "story",
-      "description": "A brave girl follows a shining star to melt the Snow Queen’s spell and bring her friend home.",
+      "description": "A shining star melts the Snow Queen’s spell.",
       "audioPath": "stories/en/15.Snow Queen and The Shining Star.mp3",
       "imagePath": "images/image_15.jpg",
       "index": 14
@@ -123,7 +123,7 @@
     {
       "name": "16. The Goose Girl",
       "type": "story",
-      "description": "A true princess is forced to tend geese, but truth and courage reveal her identity at last.",
+      "description": "A hidden princess finds her true place.",
       "audioPath": "stories/en/16.The Goose Girl.mp3",
       "imagePath": "images/image_16.jpg",
       "index": 15
@@ -131,7 +131,7 @@
     {
       "name": "17. Mother Holle's Surprise",
       "type": "story",
-      "description": "A kind girl serves Mother Holle and is richly rewarded, while her lazy sister learns a lesson.",
+      "description": "Kind work is rewarded; laziness isn’t.",
       "audioPath": "stories/en/17.Mother Holle's Surprise.mp3",
       "imagePath": "images/image_17.jpg",
       "index": 16
@@ -139,7 +139,7 @@
     {
       "name": "18. Sweet Porridge",
       "type": "story",
-      "description": "A magic pot overflows with porridge when the stopping words are forgotten, teaching careful use of gifts.",
+      "description": "Magic porridge overflows until words are found.",
       "audioPath": "stories/en/18.sweet porridge.mp3",
       "imagePath": "images/image_18.jpg",
       "index": 17
@@ -147,7 +147,7 @@
     {
       "name": "19. Princess of Earth",
       "type": "story",
-      "description": "A princess who listens to the earth heals a withering land and unites her people.",
+      "description": "She heals the land by listening to earth.",
       "audioPath": "stories/en/19.princess of earth.mp3",
       "imagePath": "images/image_19.jpg",
       "index": 18
@@ -155,7 +155,7 @@
     {
       "name": "20. Sneaky Hyena and the Teachers' Day Camp",
       "type": "story",
-      "description": "A sneaky hyena tries to prank a camp but discovers that helping others is more fun.",
+      "description": "A prankster hyena learns to help others.",
       "audioPath": "stories/en/20.Sneaky Hyena and the Teachers' Day Camp.mp3",
       "imagePath": "images/image_20.jpg",
       "index": 19
@@ -163,7 +163,7 @@
     {
       "name": "21. Snow Queen and the Brave Prince",
       "type": "story",
-      "description": "A fearless prince challenges the Snow Queen and proves that warm hearts can end the longest winter.",
+      "description": "A brave prince ends the longest winter.",
       "audioPath": "stories/en/21.snow queen and the brave prince.mp3",
       "imagePath": "images/image_21.jpg",
       "index": 20
@@ -171,7 +171,7 @@
     {
       "name": "22. The Magic Box!",
       "type": "story",
-      "description": "A small box grants playful surprises that open only for those who share and show kindness.",
+      "description": "A magic box opens for sharing hearts.",
       "audioPath": "stories/en/22.The magic box!.mp3",
       "imagePath": "images/image_22.jpg",
       "index": 21
@@ -179,7 +179,7 @@
     {
       "name": "23. Red Shoes and Duck",
       "type": "story",
-      "description": "A girl with bright red shoes and a clever duck learn that friendship shines brighter than fancy things.",
+      "description": "Red shoes and a duck celebrate friendship.",
       "audioPath": "stories/en/23.red shoes and duck.mp3",
       "imagePath": "images/image_23.jpg",
       "index": 22
@@ -187,7 +187,7 @@
     {
       "name": "24. Invincible Warrior!",
       "type": "story",
-      "description": "A mighty warrior learns that true invincibility comes from mercy, teamwork, and a steady heart.",
+      "description": "True strength is mercy, not might.",
       "audioPath": "stories/en/24.invincible warrior!.mp3",
       "imagePath": "images/image_24.jpg",
       "index": 23
@@ -195,7 +195,7 @@
     {
       "name": "25. Forest Carnival",
       "type": "story",
-      "description": "Forest animals host a grand carnival where a shy child finds the courage to join the dance.",
+      "description": "Forest animals host a joyful carnival.",
       "audioPath": "stories/en/25. Forest Carnival.mp3",
       "imagePath": "images/image_25.jpg",
       "index": 24
@@ -203,7 +203,7 @@
     {
       "name": "26. Koko and the Forest Language",
       "type": "story",
-      "description": "Koko learns the secret language of the forest and uses it to protect trees and friends.",
+      "description": "Koko learns the secret language of trees.",
       "audioPath": "stories/en/26.koko and the forest language.mp3",
       "imagePath": "images/image_26.jpg",
       "index": 25
@@ -211,7 +211,7 @@
     {
       "name": "27. Little Mouse That Was A Princess",
       "type": "story",
-      "description": "A tiny mouse shows a royal heart through a brave deed and is hailed as a princess.",
+      "description": "A tiny mouse proves a royal heart.",
       "audioPath": "stories/en/27.Little Mouse That Was A Princess.mp3",
       "imagePath": "images/image_27.jpg",
       "index": 26
@@ -219,7 +219,7 @@
     {
       "name": "28. 3 Dancing Princesses",
       "type": "story",
-      "description": "Three sisters vanish each night to a hidden ballroom until a clever soldier uncovers the secret.",
+      "description": "A soldier discovers a hidden midnight ballroom.",
       "audioPath": "stories/en/28.3 dancing princesses.mp3",
       "imagePath": "images/image_28.jpg",
       "index": 27
@@ -227,7 +227,7 @@
     {
       "name": "29. Sleeping Beauty",
       "type": "story",
-      "description": "A cursed princess sleeps for years until bravery and love awaken the whole kingdom.",
+      "description": "A kiss of love wakes a sleeping kingdom.",
       "audioPath": "stories/en/29.Sleeping Beauty.mp3",
       "imagePath": "images/image_29.jpg",
       "index": 28
@@ -235,7 +235,7 @@
     {
       "name": "30. The Fisherman and His Wife",
       "type": "story",
-      "description": "A magic fish grants endless wishes, but greed spoils everything until contentment returns.",
+      "description": "A magic fish teaches contentment.",
       "audioPath": "stories/en/30.The Fisherman and His Wife.mp3",
       "imagePath": "images/image_30.jpg",
       "index": 29
@@ -243,7 +243,7 @@
     {
       "name": "31. The Gingerbread Man And The Christmas Tree",
       "type": "story",
-      "description": "The Gingerbread Man returns for the holidays and helps save the Christmas tree celebration.",
+      "description": "Gingerbread saves the Christmas tree party.",
       "audioPath": "stories/en/31.The Gingerbread Man And The Christmas Tree.mp3",
       "imagePath": "images/image_31.jpg",
       "index": 30
@@ -251,7 +251,7 @@
     {
       "name": "32. Mangina and Larina",
       "type": "story",
-      "description": "Best friends Mangina and Larina bridge a feud between villages with empathy and daring.",
+      "description": "Two friends heal a village feud.",
       "audioPath": "stories/en/32.mangina and larina.mp3",
       "imagePath": "images/image_32.jpg",
       "index": 31
@@ -259,7 +259,7 @@
     {
       "name": "33. Beauty and the Beast with's Magic",
       "type": "story",
-      "description": "Belle discovers a hidden enchantment in the castle library and breaks it through love and curiosity.",
+      "description": "Belle breaks a hidden library enchantment.",
       "audioPath": "stories/en/33. Beauty and the beast with's magic.mp3",
       "imagePath": "images/image_33.jpg",
       "index": 32
@@ -267,7 +267,7 @@
     {
       "name": "34. Trick or Treat",
       "type": "story",
-      "description": "On a spooky night, friends share treats, face small frights, and learn to look out for one another.",
+      "description": "Spooky fun with treats and true friends.",
       "audioPath": "stories/en/34.trick or treat.mp3",
       "imagePath": "images/image_34.jpg",
       "index": 33
@@ -275,7 +275,7 @@
     {
       "name": "35. Goldilocks and the Mystery Book",
       "type": "story",
-      "description": "Goldilocks finds a book that writes her choices in real time and chooses respect over mischief.",
+      "description": "Goldilocks chooses respect over mischief.",
       "audioPath": "stories/en/35.Goldilocks and the Mystery Book.mp3",
       "imagePath": "images/image_35.jpg",
       "index": 34
@@ -283,7 +283,7 @@
     {
       "name": "36. Pinocchio is Looking For His Father",
       "type": "story",
-      "description": "Temptations test Pinocchio as he searches for his father and proves his brave, true heart.",
+      "description": "Pinocchio braves trials to find his father.",
       "audioPath": "stories/en/36.Pinocchio is Looking For His Father.mp3",
       "imagePath": "images/image_36.jpg",
       "index": 35
@@ -291,7 +291,7 @@
     {
       "name": "37. The Christmas Gift Factory",
       "type": "story",
-      "description": "A young helper fixes a jammed gift factory with the elves, saving Christmas just in time.",
+      "description": "Elves and kids save the gift factory.",
       "audioPath": "stories/en/37.The Christmas Gift Factory.mp3",
       "imagePath": "images/image_37.jpg",
       "index": 36
@@ -299,7 +299,7 @@
     {
       "name": "38. Jungle Cup",
       "type": "story",
-      "description": "Animal teams compete for the Jungle Cup, where fair play and practice beat raw strength.",
+      "description": "Fair play wins the Jungle Cup.",
       "audioPath": "stories/en/38.Jungle Cup.mp3",
       "imagePath": "images/image_38.jpg",
       "index": 37
@@ -307,7 +307,7 @@
     {
       "name": "39. The Panda and The Iceman",
       "type": "story",
-      "description": "A playful panda befriends an icy wanderer who learns to warm a frozen valley with kindness.",
+      "description": "A panda helps thaw a frozen valley.",
       "audioPath": "stories/en/39.The Panda and The Iceman.mp3",
       "imagePath": "images/image_39.jpg",
       "index": 38
@@ -315,7 +315,7 @@
     {
       "name": "40. Brave Knight Maria",
       "type": "story",
-      "description": "Young knight Maria protects the weak and shows that courage is gentle as well as strong.",
+      "description": "Knight Maria proves courage can be gentle.",
       "audioPath": "stories/en/40.Brave Knight Maria.mp3",
       "imagePath": "images/image_40.jpg",
       "index": 39
@@ -323,7 +323,7 @@
     {
       "name": "41. The Lost Dragon",
       "type": "story",
-      "description": "Children help a lost dragon find family and show the town that not all dragons are fearsome.",
+      "description": "Kids help a lost dragon find home.",
       "audioPath": "stories/en/41.The Lost Dragon.mp3",
       "imagePath": "images/image_41.jpg",
       "index": 40
@@ -331,7 +331,7 @@
     {
       "name": "42. Red Shoes",
       "type": "story",
-      "description": "Magic shoes whirl a girl into nonstop dances until she chooses humility over glitter.",
+      "description": "Magic shoes whirl her toward humility.",
       "audioPath": "stories/en/42.Red Shoes.mp3",
       "imagePath": "images/image_42.jpg",
       "index": 41
@@ -339,7 +339,7 @@
     {
       "name": "43. The Lazy Girl Story",
       "type": "story",
-      "description": "A girl avoids chores until a small adventure reveals the joy of helping and growing.",
+      "description": "A lazy girl discovers the joy of helping.",
       "audioPath": "stories/en/43.The Lazy Girl Story.mp3",
       "imagePath": "images/image_43.jpg",
       "index": 42
@@ -347,7 +347,7 @@
     {
       "name": "44. One Eye, Two Eyes And Three Eyes",
       "type": "story",
-      "description": "Mistreated Two Eyes finds magic, kindness, and her place despite her sisters One Eye and Three Eyes.",
+      "description": "Two Eyes finds magic—and her place.",
       "audioPath": "stories/en/44.One Eye, Two Eyes And Three Eyes.mp3",
       "imagePath": "images/image_44.jpg",
       "index": 43
@@ -355,7 +355,7 @@
     {
       "name": "45. Cinderella and The Princess Yoga (2)",
       "type": "story",
-      "description": "Cinderella hosts a royal yoga day where balance and breath untangle a royal mix-up.",
+      "description": "Royal yoga day untangles a mix-up.",
       "audioPath": "stories/en/45.Cinderella and The Princess Yoga (2).mp3",
       "imagePath": "images/image_45.jpg",
       "index": 44
@@ -363,7 +363,7 @@
     {
       "name": "46. The Lion and the Mouse _ Bedt",
       "type": "story",
-      "description": "The classic fable retold for bedtime: a small mouse frees a great lion, proving that size is not strength.",
+      "description": "A mouse frees a lion at bedtime.",
       "audioPath": "stories/en/46.The Lion and the Mouse _ Bedt.mp3",
       "imagePath": "images/image_46.jpg",
       "index": 45
@@ -371,7 +371,7 @@
     {
       "name": "47. Rose Princess and the Golden Bird",
       "type": "story",
-      "description": "Following a golden bird, a rose princess restores a fading garden and heals her kingdom.",
+      "description": "A golden bird restores a fading garden.",
       "audioPath": "stories/en/47.Rose Princess and the Golden Bird.mp3",
       "imagePath": "images/image_47.jpg",
       "index": 46
@@ -379,7 +379,7 @@
     {
       "name": "48. Hansel and Gretel",
       "type": "story",
-      "description": "Lost in the woods, clever siblings outwit a witch in a candy house and find their way home.",
+      "description": "Siblings outwit a witch and find home.",
       "audioPath": "stories/en/48.Hansel and Gretel.mp3",
       "imagePath": "images/image_48.jpg",
       "index": 47
@@ -387,7 +387,7 @@
     {
       "name": "49. The Shoemaker and the Elves",
       "type": "story",
-      "description": "Grateful elves craft fine shoes for a struggling cobbler, and kindness is repaid.",
+      "description": "Elves repay kindness with perfect shoes.",
       "audioPath": "stories/en/49.The Shoemaker and the Elves.mp3",
       "imagePath": "images/image_49.jpg",
       "index": 48
@@ -395,7 +395,7 @@
     {
       "name": "50. Ali Baba and the Forty 40 Thieves",
       "type": "story",
-      "description": "Ali Baba discovers a secret cave of thieves and survives through wit rather than greed.",
+      "description": "Wit saves Ali Baba from greedy thieves.",
       "audioPath": "stories/en/50.Ali Baba and the Forty 40 Thieves.mp3",
       "imagePath": "images/image_50.jpg",
       "index": 49
@@ -403,7 +403,7 @@
     {
       "name": "51. The Jungle Book",
       "type": "story",
-      "description": "Raised by wolves, Mowgli learns the laws of the jungle and finds where he truly belongs.",
+      "description": "Mowgli learns the laws of the jungle.",
       "audioPath": "stories/en/51.The Jungle Book.mp3",
       "imagePath": "images/image_51.jpg",
       "index": 50
@@ -411,7 +411,7 @@
     {
       "name": "52. Thirsty Frog Tiddalik",
       "type": "story",
-      "description": "The thirsty frog drinks up the land, and the animals make him laugh to bring the waters back.",
+      "description": "They make Tiddalik laugh to bring back water.",
       "audioPath": "stories/en/52.Thirsty Frog Tiddalik.mp3",
       "imagePath": "images/image_52.jpg",
       "index": 51
