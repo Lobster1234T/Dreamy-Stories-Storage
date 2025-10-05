@@ -419,10 +419,10 @@
   ],
 
 
-  "lulabbies": [
+  "lullabies": [
     {
       "name": "1. Звёздная ночь",
-      "type": "lullabies",
+      "type": "lullaby",
       "description": "Спокойная песня о звёздах, что оберегают сон малыша.",
       "audioPath": "lullabies/0.mp3",
       "imagePath": "images/lullaby_1.jpg",
@@ -430,7 +430,7 @@
     },
     {
       "name": "2. Колыбель луны",
-      "type": "lullabies",
+      "type": "lullaby",
       "description": "Луна качает колыбель, убаюкивая мир нежным светом.",
       "audioPath": "lullabies/1.mp3",
       "imagePath": "images/lullaby_2.jpg",
@@ -438,7 +438,7 @@
     },
     {
       "name": "3. Сонный котёнок",
-      "type": "lullabies",
+      "type": "lullaby",
       "description": "Котёнок мурлычет рядом, зовя в мягкий сон и уют.",
       "audioPath": "lullabies/2.mp3",
       "imagePath": "images/lullaby_3.jpg",
@@ -446,7 +446,7 @@
     },
     {
       "name": "4. Дремлет облачко",
-      "type": "lullabies",
+      "type": "lullaby",
       "description": "Белое облачко плывёт по небу, унося сны малыша.",
       "audioPath": "lullabies/3.mp3",
       "imagePath": "images/lullaby_4.jpg",
@@ -454,7 +454,7 @@
     },
     {
       "name": "5. Волшебный сон",
-      "type": "lullabies",
+      "type": "lullaby",
       "description": "Тихий ветер приносит сказку и укутывает ночной тишиной.",
       "audioPath": "lullabies/4.mp3",
       "imagePath": "images/lullaby_5.jpg",
@@ -470,7 +470,7 @@
     },
     {
       "name": "7. Медвежонок спит",
-      "type": "lullabies",
+      "type": "lullaby",
       "description": "Медвежонок свернулся клубком и видит тёплые сны о лесе.",
       "audioPath": "lullabies/6.mp3",
       "imagePath": "images/lullaby_7.jpg",
@@ -478,7 +478,7 @@
     },
     {
       "name": "8. Сонные звёзды",
-      "type": "lullabies",
+      "type": "lullaby",
       "description": "Звёзды закрывают глазки, освещая путь в мир грёз.",
       "audioPath": "lullabies/7.mp3",
       "imagePath": "images/lullaby_8.jpg",
