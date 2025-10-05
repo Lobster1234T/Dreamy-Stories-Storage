@@ -416,5 +416,74 @@
       "imagePath": "images/image_52.jpg",
       "index": 51
     }
+  ],
+
+
+  "lulabbies": [
+    {
+      "name": "1. Звёздная ночь",
+      "type": "lullabies",
+      "description": "Спокойная песня о звёздах, что оберегают сон малыша.",
+      "audioPath": "lullabies/ru/0.mp3",
+      "imagePath": "images/lullaby_1.jpg",
+      "index": 0
+    },
+    {
+      "name": "2. Колыбель луны",
+      "type": "lullabies",
+      "description": "Луна качает колыбель, убаюкивая мир нежным светом.",
+      "audioPath": "lullabies/ru/1.mp3",
+      "imagePath": "images/lullaby_2.jpg",
+      "index": 1
+    },
+    {
+      "name": "3. Сонный котёнок",
+      "type": "lullabies",
+      "description": "Котёнок мурлычет рядом, зовя в мягкий сон и уют.",
+      "audioPath": "lullabies/ru/2.mp3",
+      "imagePath": "images/lullaby_3.jpg",
+      "index": 2
+    },
+    {
+      "name": "4. Дремлет облачко",
+      "type": "lullabies",
+      "description": "Белое облачко плывёт по небу, унося сны малыша.",
+      "audioPath": "lullabies/ru/3.mp3",
+      "imagePath": "images/lullaby_4.jpg",
+      "index": 3
+    },
+    {
+      "name": "5. Волшебный сон",
+      "type": "lullabies",
+      "description": "Тихий ветер приносит сказку и укутывает ночной тишиной.",
+      "audioPath": "lullabies/ru/4.mp3",
+      "imagePath": "images/lullaby_5.jpg",
+      "index": 4
+    },
+    {
+      "name": "6. Песня ветра",
+      "type": "lullaby",
+      "description": "Нежный ветерок шепчет на ушко, убаюкивая мир.",
+      "audioPath": "lullabies/ru/5.mp3",
+      "imagePath": "images/lullaby_6.jpg",
+      "index": 5
+    },
+    {
+      "name": "7. Медвежонок спит",
+      "type": "lullabies",
+      "description": "Медвежонок свернулся клубком и видит тёплые сны о лесе.",
+      "audioPath": "lullabies/ru/6.mp3",
+      "imagePath": "images/lullaby_7.jpg",
+      "index": 6
+    },
+    {
+      "name": "8. Сонные звёзды",
+      "type": "lullabies",
+      "description": "Звёзды закрывают глазки, освещая путь в мир грёз.",
+      "audioPath": "lullabies/ru/7.mp3",
+      "imagePath": "images/lullaby_8.jpg",
+      "index": 7
+    }
   ]
+
 }
