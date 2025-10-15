@@ -1,76 +1,12 @@
 {
   "stories": [
     {
-      "name": "1. Рапунцель",
-      "type": "story",
-      "description": "Девочка с волшебными волосами находит свободу и любовь, преодолевая колдовство.",
-      "audioPath": "stories/ru/1.mp3",
-      "imagePath": "images/image_1.jpg",
-      "index": 0
-    },
-    {
-      "name": "2. Алиса в стране чудес",
-      "type": "story",
-      "description": "Любопытная девочка попадает в мир, где всё наоборот, и учится задавать правильные вопросы.",
-      "audioPath": "stories/ru/2.mp3",
-      "imagePath": "images/image_2.jpg",
-      "index": 1
-    },
-    {
-      "name": "3. Пиноккио",
-      "type": "story",
-      "description": "Деревянный мальчик учится честности и смелости, мечтая стать настоящим.",
-      "audioPath": "stories/ru/3.mp3",
-      "imagePath": "images/image_3.jpg",
-      "index": 2
-    },
-    {
-      "name": "4. Три поросенка",
-      "type": "story",
-      "description": "Братья строят домики и понимают: трудолюбие и ум побеждают хитрость.",
-      "audioPath": "stories/ru/4.mp3",
-      "imagePath": "images/image_4.jpg",
-      "index": 3
-    },
-    {
-      "name": "5. Пряничный человечек",
-      "type": "story",
-      "description": "Резвый пряник узнаёт, что смекалка важна, но доверять нужно с осторожностью.",
-      "audioPath": "stories/ru/5.mp3",
-      "imagePath": "images/image_5.jpg",
-      "index": 4
-    },
-    {
-      "name": "6. Волшебник страны Оз",
-      "type": "story",
-      "description": "Дороти и друзья идут по Жёлтой дороге за сердцем, смелостью и дорогой домой.",
-      "audioPath": "stories/ru/6.mp3",
-      "imagePath": "images/image_6.jpg",
-      "index": 5
-    },
-    {
       "name": "7. Злой волк и три кролика",
       "type": "story",
       "description": "Кролики объединяются и обыгрывают волка, доказывая силу дружбы и находчивости.",
       "audioPath": "stories/ru/7.mp3",
       "imagePath": "images/image_7.jpg",
-      "index": 6
-    },
-    {
-      "name": "8. Волшебный горшок",
-      "type": "story",
-      "description": "Чудесный горшочек варит кашу без конца, пока кто-то не скажет «хватит».",
-      "audioPath": "stories/ru/8.mp3",
-      "imagePath": "images/image_8.jpg",
-      "index": 7
-    },
-    {
-      "name": "9. Волк и семеро козлят",
-      "type": "story",
-      "description": "Козлята учатся осторожности, а мама-коза спасает детей от хитрого волка.",
-      "audioPath": "stories/ru/9.mp3",
-      "imagePath": "images/image_9.jpg",
-      "index": 8
+      "index": 0
     },
     {
       "name": "10. Дикий кот и мышиная принцесса",
@@ -78,55 +14,7 @@
       "description": "Неожиданная дружба между котом и принцессой-мышью меняет их судьбы и королевство.",
       "audioPath": "stories/ru/10.mp3",
       "imagePath": "images/image_10.jpg",
-      "index": 9
-    },
-    {
-      "name": "11. Красавица и чудовище",
-      "type": "story",
-      "description": "Доброе сердце видит красоту внутри и снимает древнее заклятие.",
-      "audioPath": "stories/ru/11.mp3",
-      "imagePath": "images/image_11.jpg",
-      "index": 10
-    },
-    {
-      "name": "12. Лев, мышка и сонный медведь",
-      "type": "story",
-      "description": "Маленькая мышка доказывает, что даже кроха может помочь сильным друзьям.",
-      "audioPath": "stories/ru/12.mp3",
-      "imagePath": "images/image_12.jpg",
-      "index": 11
-    },
-    {
-      "name": "13. Аладдин и волшебная лампаа",
-      "type": "story",
-      "description": "Юноша находит лампу, а вместе с ней — ответственность, дружбу и испытания.",
-      "audioPath": "stories/ru/13.mp3",
-      "imagePath": "images/image_13.jpg",
-      "index": 12
-    },
-    {
-      "name": "14. Русалочка и таинственные врата",
-      "type": "story",
-      "description": "Юная русалочка открывает древние врата и делает выбор между морем и мечтой.",
-      "audioPath": "stories/ru/14.mp3",
-      "imagePath": "images/image_14.jpg",
-      "index": 13
-    },
-    {
-      "name": "15. Снежная королева и сияющая звезда",
-      "type": "story",
-      "description": "Смелое сердце следует за звездой, растапливая лёд холодного заклятия.",
-      "audioPath": "stories/ru/15.mp3",
-      "imagePath": "images/image_15.jpg",
-      "index": 14
-    },
-    {
-      "name": "16. Девочка-гусыня",
-      "type": "story",
-      "description": "Добрая пастушка хранит тайну и с помощью гусей обретает своё счастье.",
-      "audioPath": "stories/ru/16.mp3",
-      "imagePath": "images/image_16.jpg",
-      "index": 15
+      "index": 1
     },
     {
       "name": "17. Мамино удивление",
@@ -134,15 +22,7 @@
       "description": "Дети готовят тёплый сюрприз, напоминая: забота и внимание дороже волшебства.",
       "audioPath": "stories/ru/17.mp3",
       "imagePath": "images/image_17.jpg",
-      "index": 16
-    },
-    {
-      "name": "18. Сладкая овсянка",
-      "type": "story",
-      "description": "Каша объединяет семью, а щепотка доброты делает день вкуснее.",
-      "audioPath": "stories/ru/18.mp3",
-      "imagePath": "images/image_18.jpg",
-      "index": 17
+      "index": 2
     },
     {
       "name": "19. Принцесса о земле",
@@ -150,7 +30,7 @@
       "description": "Любознательная принцесса узнаёт, как природа помогает королевству, и учится беречь землю.",
       "audioPath": "stories/ru/19.mp3",
       "imagePath": "images/image_19.jpg",
-      "index": 18
+      "index": 3
     },
     {
       "name": "20. Хитрая гиена",
@@ -158,15 +38,7 @@
       "description": "Хитрюга-гиена понимает: без дружбы и честности хитрость приводит к одиночеству.",
       "audioPath": "stories/ru/20.mp3",
       "imagePath": "images/image_20.jpg",
-      "index": 19
-    },
-    {
-      "name": "21. Снежная королева и храбрый принц",
-      "type": "story",
-      "description": "Принц отправляется в морозный мир, чтобы спасти подругу и своё сердце.",
-      "audioPath": "stories/ru/21.mp3",
-      "imagePath": "images/image_21.jpg",
-      "index": 20
+      "index": 4
     },
     {
       "name": "22. Волшебная шкатулка",
@@ -174,15 +46,7 @@
       "description": "Таинственная шкатулка исполняет желания, но учит просить с умом.",
       "audioPath": "stories/ru/22.mp3",
       "imagePath": "images/image_22.jpg",
-      "index": 21
-    },
-    {
-      "name": "23. Красные башмачки и уточка",
-      "type": "story",
-      "description": "Весёлые башмачки ведут к приключениям, а добрая утка помогает выбрать верный путь.",
-      "audioPath": "stories/ru/23.mp3",
-      "imagePath": "images/image_23.jpg",
-      "index": 22
+      "index": 5
     },
     {
       "name": "24. Непобедимый воин",
@@ -190,7 +54,7 @@
       "description": "Сила не в мечах: герой побеждает благодаря честности, дружбе и терпению.",
       "audioPath": "stories/ru/24.mp3",
       "imagePath": "images/image_24.jpg",
-      "index": 23
+      "index": 6
     },
     {
       "name": "25. Лесной карнавал",
@@ -198,7 +62,7 @@
       "description": "Звери устраивают праздник света, где каждый талант важен и нужен.",
       "audioPath": "stories/ru/25.mp3",
       "imagePath": "images/image_25.jpg",
-      "index": 24
+      "index": 7
     },
     {
       "name": "26. Коко и язык леса",
@@ -206,7 +70,7 @@
       "description": "Мальчик учится понимать язык листьев и зверей и становится защитником леса.",
       "audioPath": "stories/ru/26.mp3",
       "imagePath": "images/image_26.jpg",
-      "index": 25
+      "index": 8
     },
     {
       "name": "27. Мышка-принцесса",
@@ -214,39 +78,7 @@
       "description": "Крошка-мышка доказывает, что величие измеряется смелостью, а не ростом.",
       "audioPath": "stories/ru/27.mp3",
       "imagePath": "images/image_27.jpg",
-      "index": 26
-    },
-    {
-      "name": "28. Танцующие принцессы",
-      "type": "story",
-      "description": "Сёстры потайком танцуют по ночам, пока тайна не приводит к новой дружбе.",
-      "audioPath": "stories/ru/28.mp3",
-      "imagePath": "images/image_28.jpg",
-      "index": 27
-    },
-    {
-      "name": "29. Спящая красавица",
-      "type": "story",
-      "description": "Заклятье сна рушится силой любви и верой в чудеса.",
-      "audioPath": "stories/ru/29.mp3",
-      "imagePath": "images/image_29.jpg",
-      "index": 28
-    },
-    {
-      "name": "30. Рыбак и его жена",
-      "type": "story",
-      "description": "Жадность приносит бурю, а благодарность возвращает мир в дом.",
-      "audioPath": "stories/ru/30.mp3",
-      "imagePath": "images/image_30.jpg",
-      "index": 29
-    },
-    {
-      "name": "31. Пряничный человечек и ёлка",
-      "type": "story",
-      "description": "Новогоднее чудо учит делиться теплом, даже если ты сделан из теста.",
-      "audioPath": "stories/ru/31.mp3",
-      "imagePath": "images/image_31.jpg",
-      "index": 30
+      "index": 9
     },
     {
       "name": "32. Мангина и Ларина",
@@ -254,15 +86,7 @@
       "description": "Две подруги проходят испытания, выбирая дружбу и честность вместо лёгких путей.",
       "audioPath": "stories/ru/32.mp3",
       "imagePath": "images/image_32.jpg",
-      "index": 31
-    },
-    {
-      "name": "33. Красавица и чудовище с волшебством",
-      "type": "story",
-      "description": "Ещё одна история о том, как любовь рассеивает чары и меняет судьбы.",
-      "audioPath": "stories/ru/33.mp3",
-      "imagePath": "images/image_33.jpg",
-      "index": 32
+      "index": 10
     },
     {
       "name": "34. Сладость или гадость",
@@ -270,23 +94,7 @@
       "description": "Хэллоуинское приключение доказывает: смелость и доброта страшилок не боятся.",
       "audioPath": "stories/ru/34.mp3",
       "imagePath": "images/image_34.jpg",
-      "index": 33
-    },
-    {
-      "name": "35. Златовласка и таинственная книга",
-      "type": "story",
-      "description": "Любопытная девочка находит книгу, открывающую двери в мир добрых уроков.",
-      "audioPath": "stories/ru/35.mp3",
-      "imagePath": "images/image_35.jpg",
-      "index": 34
-    },
-    {
-      "name": "36. Пиноккио ищет отца",
-      "type": "story",
-      "description": "Пиноккио отправляется в путь, чтобы найти Джеппетто и стать лучше.",
-      "audioPath": "stories/ru/36.mp3",
-      "imagePath": "images/image_36.jpg",
-      "index": 35
+      "index": 11
     },
     {
       "name": "37. Фабрика рождественских подарков",
@@ -294,7 +102,7 @@
       "description": "Эльфы и чудеса учат работать вместе и верить в праздник.",
       "audioPath": "stories/ru/37.mp3",
       "imagePath": "images/image_37.jpg",
-      "index": 36
+      "index": 12
     },
     {
       "name": "38. Кубок джунглей",
@@ -302,7 +110,7 @@
       "description": "Звери соревнуются честно и узнают: победа — это дружба и поддержка.",
       "audioPath": "stories/ru/38.mp3",
       "imagePath": "images/image_38.jpg",
-      "index": 37
+      "index": 13
     },
     {
       "name": "39. Панда и ледяной человек",
@@ -310,7 +118,7 @@
       "description": "Тёплое сердце панды растапливает лёд одинокого великана.",
       "audioPath": "stories/ru/39.mp3",
       "imagePath": "images/image_39.jpg",
-      "index": 38
+      "index": 14
     },
     {
       "name": "40. Смелый рыцарь Мария",
@@ -318,7 +126,7 @@
       "description": "Мария доказывает, что рыцарство — это доблесть, милосердие и верность слову.",
       "audioPath": "stories/ru/40.mp3",
       "imagePath": "images/image_40.jpg",
-      "index": 39
+      "index": 15
     },
     {
       "name": "41. Потерянный дракон",
@@ -326,15 +134,7 @@
       "description": "Маленький дракон ищет дом и понимает ценность верных друзей.",
       "audioPath": "stories/ru/41.mp3",
       "imagePath": "images/image_41.jpg",
-      "index": 40
-    },
-    {
-      "name": "42. Красные туфельки",
-      "type": "story",
-      "description": "Туфельки учат героиню слушать сердце, а не только блеск и моду.",
-      "audioPath": "stories/ru/42.mp3",
-      "imagePath": "images/image_42.jpg",
-      "index": 41
+      "index": 16
     },
     {
       "name": "43. История ленивой девочки",
@@ -342,83 +142,9 @@
       "description": "Героиня узнаёт: маленькие шаги каждый день творят большие чудеса.",
       "audioPath": "stories/ru/43.mp3",
       "imagePath": "images/image_43.jpg",
-      "index": 42
-    },
-    {
-      "name": "44. Один глаз, два глаза и три глаза",
-      "type": "story",
-      "description": "Сёстры разные, но доброта и справедливость помогают каждому найти своё место.",
-      "audioPath": "stories/ru/44.mp3",
-      "imagePath": "images/image_44.jpg",
-      "index": 43
-    },
-    {
-      "name": "45. Золушка и принцесса йога",
-      "type": "story",
-      "description": "Золушка находит внутреннюю силу и спокойствие, меняя судьбу без волшебной палочки.",
-      "audioPath": "stories/ru/45.mp3",
-      "imagePath": "images/image_45.jpg",
-      "index": 44
-    },
-    {
-      "name": "46. Лев и мышонок",
-      "type": "story",
-      "description": "Лев пощадил кроху, а мышонок отплатил свободой — добро возвращается.",
-      "audioPath": "stories/ru/46.mp3",
-      "imagePath": "images/image_46.jpg",
-      "index": 45
-    },
-    {
-      "name": "47. Принцесса Роза и золотая птица",
-      "type": "story",
-      "description": "Роза ищет волшебную птицу и открывает, что главное богатство — доброе сердце.",
-      "audioPath": "stories/ru/47.mp3",
-      "imagePath": "images/image_47.jpg",
-      "index": 46
-    },
-    {
-      "name": "48. Гензель и Гретель",
-      "type": "story",
-      "description": "Брат и сестра побеждают ведьму, держась вместе и не теряя надежды.",
-      "audioPath": "stories/ru/48.mp3",
-      "imagePath": "images/image_48.jpg",
-      "index": 47
-    },
-    {
-      "name": "49. Сапожник и эльфы",
-      "type": "story",
-      "description": "Таинственные помощники награждают трудолюбие и щедрость.",
-      "audioPath": "stories/ru/49.mp3",
-      "imagePath": "images/image_49.jpg",
-      "index": 48
-    },
-    {
-      "name": "50. Али-Баба и сорок разбойников",
-      "type": "story",
-      "description": "Смелость и смекалка помогают простому человеку перехитрить жадных разбойников.",
-      "audioPath": "stories/ru/50.mp3",
-      "imagePath": "images/image_50.jpg",
-      "index": 49
-    },
-    {
-      "name": "51. Книга джунглей",
-      "type": "story",
-      "description": "Мальчик Маугли учится законам джунглей и находит семью в двух мирах.",
-      "audioPath": "stories/ru/51.mp3",
-      "imagePath": "images/image_51.jpg",
-      "index": 50
-    },
-    {
-      "name": "52. Жаждущий лягушонок Тиддалик",
-      "type": "story",
-      "description": "Жадный Тиддалик выпил всю воду, но друзья находят способ вернуть дождь.",
-      "audioPath": "stories/ru/52.mp3",
-      "imagePath": "images/image_52.jpg",
-      "index": 51
+      "index": 17
     }
   ],
-
-
   "lullabies": [
     {
       "name": "1. Звёздная ночь",
@@ -485,5 +211,4 @@
       "index": 7
     }
   ]
-
 }

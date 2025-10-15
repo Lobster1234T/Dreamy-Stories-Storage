@@ -1,60 +1,12 @@
 {
   "stories": [
     {
-      "name": "1. Rapunzel",
-      "type": "story",
-      "description": "Ein Mädchen mit Zauberhaaren sucht Freiheit und Liebe.",
-      "audioPath": "stories/de/1. Rapunzel.mp3",
-      "imagePath": "images/image_1.jpg",
-      "index": 0
-    },
-    {
-      "name": "2. Die Prinzessin auf der Erbse",
-      "type": "story",
-      "description": "Eine winzige Erbse entlarvt die wahre Prinzessin.",
-      "audioPath": "stories/de/2. Die Prinzessin auf der Erbse.mp3",
-      "imagePath": "images/image_2.jpg",
-      "index": 1
-    },
-    {
-      "name": "3. Pinocchio",
-      "type": "story",
-      "description": "Eine Holzpuppe lernt Mut und Ehrlichkeit.",
-      "audioPath": "stories/de/3. Pinocchio.mp3",
-      "imagePath": "images/image_3.jpg",
-      "index": 2
-    },
-    {
-      "name": "4. Die drei kleinen Schweinchen",
-      "type": "story",
-      "description": "Fleiß besiegt die List des Wolfs.",
-      "audioPath": "stories/de/4. Die drei kleinen Schweinchen.mp3",
-      "imagePath": "images/image_4.jpg",
-      "index": 3
-    },
-    {
-      "name": "5. Der Lebkuchenmann",
-      "type": "story",
-      "description": "Ein frecher Lebkuchen lernt Vorsicht.",
-      "audioPath": "stories/de/5. Der Lebkuchenmann.mp3",
-      "imagePath": "images/image_5.jpg",
-      "index": 4
-    },
-    {
-      "name": "6. Der Zauberer von Oz",
-      "type": "story",
-      "description": "Dorothy sucht den Heimweg mit neuen Freunden.",
-      "audioPath": "stories/de/6. Der Zauberer von OZ.mp3",
-      "imagePath": "images/image_6.jpg",
-      "index": 5
-    },
-    {
       "name": "7. Unbekannte Geschichte",
       "type": "story",
       "description": "Eine Märchenaufnahme ohne Titel.",
       "audioPath": "stories/de/7.mp3",
       "imagePath": "images/image_7.jpg",
-      "index": 6
+      "index": 0
     },
     {
       "name": "8. Der Zaubertopf",
@@ -62,15 +14,7 @@
       "description": "Ein Topf kocht endlos, bis jemand stoppt.",
       "audioPath": "stories/de/8. Der Zaubertopf.mp3",
       "imagePath": "images/image_8.jpg",
-      "index": 7
-    },
-    {
-      "name": "9. Der Wolf und die sieben Geißlein",
-      "type": "story",
-      "description": "Die Geißlein lernen Vorsicht; Mutter rettet sie.",
-      "audioPath": "stories/de/9. Der Wolf Und Die Sieben Geislein.mp3",
-      "imagePath": "images/image_9.jpg",
-      "index": 8
+      "index": 1
     },
     {
       "name": "10. Die hinterhältige Hyäne und das Tageslager des Lehrers",
@@ -78,15 +22,7 @@
       "description": "List ohne Freundschaft endet einsam.",
       "audioPath": "stories/de/10. Die Hinterhältige Hyäne Und Das Tageslager Des Lehrers.mp3",
       "imagePath": "images/image_10.jpg",
-      "index": 9
-    },
-    {
-      "name": "11. Die Schöne und das Biest",
-      "type": "story",
-      "description": "Liebe sieht das Herz und bricht den Fluch.",
-      "audioPath": "stories/de/11. Die Schöne und das Biest _.mp3",
-      "imagePath": "images/image_11.jpg",
-      "index": 10
+      "index": 2
     },
     {
       "name": "12. Der Löwe, die Maus und der schlafende Bär",
@@ -94,55 +30,7 @@
       "description": "Auch die Kleinsten können groß helfen.",
       "audioPath": "stories/de/12. Der Löwe, Die Maus Und Der Schlafende Bär märchen.mp3",
       "imagePath": "images/image_12.jpg",
-      "index": 11
-    },
-    {
-      "name": "13. Aladin und die Wunderlampe",
-      "type": "story",
-      "description": "Eine Lampe bringt Wünsche und Prüfungen.",
-      "audioPath": "stories/de/13. Aladin und Wunderlampe.mp3",
-      "imagePath": "images/image_13.jpg",
-      "index": 12
-    },
-    {
-      "name": "14. Die kleine Meerjungfrau",
-      "type": "story",
-      "description": "Eine Meerjungfrau wählt zwischen Meer und Traum.",
-      "audioPath": "stories/de/14. Kleine Meerjungfrau.mp3",
-      "imagePath": "images/image_14.jpg",
-      "index": 13
-    },
-    {
-      "name": "15. Die Schneekönigin",
-      "type": "story",
-      "description": "Ein mutiges Herz taut eisigen Zauber.",
-      "audioPath": "stories/de/15. Schneekönigin.mp3",
-      "imagePath": "images/image_15.jpg",
-      "index": 14
-    },
-    {
-      "name": "16. Die Gänseliesel",
-      "type": "story",
-      "description": "Treue und ein Geheimnis führen zum Glück.",
-      "audioPath": "stories/de/16. Die Gänse-Liesel.mp3",
-      "imagePath": "images/image_16.jpg",
-      "index": 15
-    },
-    {
-      "name": "17. Mutter Holles Überraschung",
-      "type": "story",
-      "description": "Freundlichkeit wird reich belohnt.",
-      "audioPath": "stories/de/17. Mutter Holle's Überraschung.mp3",
-      "imagePath": "images/image_17.jpg",
-      "index": 16
-    },
-    {
-      "name": "18. Der süße Brei",
-      "type": "story",
-      "description": "Süßer Brei verbindet die Familie.",
-      "audioPath": "stories/de/18. Der Süße Brei.mp3",
-      "imagePath": "images/image_18.jpg",
-      "index": 17
+      "index": 3
     },
     {
       "name": "19. Die Erdprinzessin",
@@ -150,7 +38,7 @@
       "description": "Eine Prinzessin lernt, die Erde zu schützen.",
       "audioPath": "stories/de/19. Erdprinzessin.mp3",
       "imagePath": "images/image_19.jpg",
-      "index": 18
+      "index": 4
     },
     {
       "name": "20. Eine schlaue Hyenta",
@@ -158,15 +46,7 @@
       "description": "Die Geschichte einer schlauen Hyäne",
       "audioPath": "stories/de/20. Eine schlaue Hyenta.mp3",
       "imagePath": "images/image_20.jpg",
-      "index": 19
-    },
-    {
-      "name": "21. Die Schneekönigin und der tapfere Prinz",
-      "type": "story",
-      "description": "Ein Prinz trotzt dem Eis für die Freundin.",
-      "audioPath": "stories/de/21. Die Schneekönigin und der tapfere Prinz.mp3",
-      "imagePath": "images/image_21.jpg",
-      "index": 20
+      "index": 5
     },
     {
       "name": "22. Der Zauberkasten",
@@ -174,15 +54,7 @@
       "description": "Eine Kiste erfüllt Wünsche — weise wählen.",
       "audioPath": "stories/de/22. Zauberkasten.mp3",
       "imagePath": "images/image_22.jpg",
-      "index": 21
-    },
-    {
-      "name": "23. Die roten Schuhe",
-      "type": "story",
-      "description": "Schuhe lehren, dem Herzen zu folgen.",
-      "audioPath": "stories/de/23. Die roten Schuhe.mp3",
-      "imagePath": "images/image_23.jpg",
-      "index": 22
+      "index": 6
     },
     {
       "name": "24. Der unbesiegbare Krieger",
@@ -190,7 +62,7 @@
       "description": "Wahre Stärke ist Ehrlichkeit und Geduld.",
       "audioPath": "stories/de/24. Der Unbesiegbare Kriegel.mp3",
       "imagePath": "images/image_24.jpg",
-      "index": 23
+      "index": 7
     },
     {
       "name": "25. Der Waldkarneval",
@@ -198,7 +70,7 @@
       "description": "Jedes Talent zählt im Waldfest.",
       "audioPath": "stories/de/25. Der Wald Karneval.mp3",
       "imagePath": "images/image_25.jpg",
-      "index": 24
+      "index": 8
     },
     {
       "name": "26. Koko und die Waldsprache",
@@ -206,7 +78,7 @@
       "description": "Koko versteht die Sprache des Waldes.",
       "audioPath": "stories/de/26. Koko und Die Waldsprache.mp3",
       "imagePath": "images/image_26.jpg",
-      "index": 25
+      "index": 9
     },
     {
       "name": "27. Die kleine Maus, die eine Prinzessin war",
@@ -214,31 +86,7 @@
       "description": "Größe misst sich am Mut, nicht an Zentimetern.",
       "audioPath": "stories/de/27. Die kleine Maus Die Eine Prinzessin War.mp3",
       "imagePath": "images/image_27.jpg",
-      "index": 26
-    },
-    {
-      "name": "28. Drei tanzende Prinzessinnen",
-      "type": "story",
-      "description": "Ein nächtliches Geheimnis führt zu Freundschaft.",
-      "audioPath": "stories/de/28. 3 Tanzende Prinzessinnen.mp3",
-      "imagePath": "images/image_28.jpg",
-      "index": 27
-    },
-    {
-      "name": "29. Die schlafende Schönheit",
-      "type": "story",
-      "description": "Liebe bricht den Zauberschlaf.",
-      "audioPath": "stories/de/29. Die schlafende Schönheit.mp3",
-      "imagePath": "images/image_29.jpg",
-      "index": 28
-    },
-    {
-      "name": "30. Der Fischer und seine Frau",
-      "type": "story",
-      "description": "Gier bringt Sturm; Dankbarkeit Frieden.",
-      "audioPath": "stories/de/30. Der Fischer und seine Frau.mp3",
-      "imagePath": "images/image_30.jpg",
-      "index": 29
+      "index": 10
     },
     {
       "name": "31. Lebkuchenmann und Weihnachtsbaum",
@@ -246,7 +94,7 @@
       "description": "Teilen macht Weihnachten wärmer.",
       "audioPath": "stories/de/31. Lebkuchenmann und Weihnachtsbaum.mp3",
       "imagePath": "images/image_31.jpg",
-      "index": 30
+      "index": 11
     },
     {
       "name": "32. Mangita und Larina",
@@ -254,15 +102,7 @@
       "description": "Zwei Freundinnen wählen Wahrheit statt Abkürzungen.",
       "audioPath": "stories/de/32. Mangita und Larina.mp3",
       "imagePath": "images/image_32.jpg",
-      "index": 31
-    },
-    {
-      "name": "33. Die Schöne und das Biest",
-      "type": "story",
-      "description": "Liebe vertreibt jeden Zauber.",
-      "audioPath": "stories/de/33. Die Schöne und das Biest .mp3",
-      "imagePath": "images/image_33.jpg",
-      "index": 32
+      "index": 12
     },
     {
       "name": "34. Süßes oder Saures",
@@ -270,23 +110,7 @@
       "description": "Mut und Freundlichkeit vertreiben Angst.",
       "audioPath": "stories/de/34. Süßes oder Saures.mp3",
       "imagePath": "images/image_34.jpg",
-      "index": 33
-    },
-    {
-      "name": "35. Goldlöckchen und das geheimnisvolle Buch",
-      "type": "story",
-      "description": "Ein Buch öffnet Türen zu guten Lektionen.",
-      "audioPath": "stories/de/35. Goldlöckchen Und Das Geheimnisvolle Buch.mp3",
-      "imagePath": "images/image_35.jpg",
-      "index": 34
-    },
-    {
-      "name": "36. Pinocchio sucht seinen Vater",
-      "type": "story",
-      "description": "Eine Reise zu Geppetto und zu sich.",
-      "audioPath": "stories/de/36. Pinocchio Sucht Seinen Vater.mp3",
-      "imagePath": "images/image_36.jpg",
-      "index": 35
+      "index": 13
     },
     {
       "name": "37. Die Weihnachtsgeschenkfabrik",
@@ -294,7 +118,7 @@
       "description": "Teamarbeit und Magie bringen Freude.",
       "audioPath": "stories/de/37. Die Weihnachtsgeschenkfabrik.mp3",
       "imagePath": "images/image_37.jpg",
-      "index": 36
+      "index": 14
     },
     {
       "name": "38. Dschungel-Cup",
@@ -302,7 +126,7 @@
       "description": "Fairness macht Gegner zu Freunden.",
       "audioPath": "stories/de/38. Dschungel-Cup.mp3",
       "imagePath": "images/image_38.jpg",
-      "index": 37
+      "index": 15
     },
     {
       "name": "39. Der Panda und der Eismann",
@@ -310,7 +134,7 @@
       "description": "Ein warmes Herz taut Einsamkeit.",
       "audioPath": "stories/de/39. Der Panda und Der Eismann.mp3",
       "imagePath": "images/image_39.jpg",
-      "index": 38
+      "index": 16
     },
     {
       "name": "40. Tapfere Ritterin Maria",
@@ -318,7 +142,7 @@
       "description": "Ritterlichkeit ist Mut, Mitgefühl und Worttreue.",
       "audioPath": "stories/de/40. Tapfere Ritterin Maria & Koko und Die Waldsprache.mp3",
       "imagePath": "images/image_40.jpg",
-      "index": 39
+      "index": 17
     },
     {
       "name": "41. Der verlorene Drache",
@@ -326,7 +150,7 @@
       "description": "Ein kleiner Drache findet Heimat durch Freundschaft.",
       "audioPath": "stories/de/41. Il Drago Perduto.mp3",
       "imagePath": "images/image_41.jpg",
-      "index": 40
+      "index": 18
     },
     {
       "name": "42. Rote Schuhe und die Ente",
@@ -334,7 +158,7 @@
       "description": "Dem Herzen folgen statt nur dem Glanz.",
       "audioPath": "stories/de/42. Rote Schuhe und Die Ente.mp3",
       "imagePath": "images/image_42.jpg",
-      "index": 41
+      "index": 19
     },
     {
       "name": "43. Das faule Mädchen",
@@ -342,31 +166,7 @@
       "description": "Ausdauer im Alltag bewirkt Großes.",
       "audioPath": "stories/de/43. Das faule Mädchen.mp3",
       "imagePath": "images/image_43.jpg",
-      "index": 42
-    },
-    {
-      "name": "44. Einäuglein, Zweiäuglein und Dreiäuglein",
-      "type": "story",
-      "description": "Gerechtigkeit und Güte geben jedem seinen Platz.",
-      "audioPath": "stories/de/44. Einäuglein Zweiäuglein und Dreiäuglein.mp3",
-      "imagePath": "images/image_44.jpg",
-      "index": 43
-    },
-    {
-      "name": "45. Aschenputtel und der Prinzessinnen-Yoga",
-      "type": "story",
-      "description": "Innere Stärke verändert das Schicksal.",
-      "audioPath": "stories/de/45. Aschenputtel Und Der Prinzessinnen-Yoga.mp3",
-      "imagePath": "images/image_45.jpg",
-      "index": 44
-    },
-    {
-      "name": "46. Der Löwe und die Maus",
-      "type": "story",
-      "description": "Eine kleine Tat rettet den Großen.",
-      "audioPath": "stories/de/46. Der Löwe und die Maus.mp3",
-      "imagePath": "images/image_46.jpg",
-      "index": 45
+      "index": 20
     },
     {
       "name": "47. Die Prinzessin Rose und der goldene Vogel",
@@ -374,39 +174,7 @@
       "description": "Das größte Geschenk ist ein gutes Herz.",
       "audioPath": "stories/de/47. Die Prinzessin Rose und der goldene Vogel.mp3",
       "imagePath": "images/image_47.jpg",
-      "index": 46
-    },
-    {
-      "name": "48. Hänsel und Gretel",
-      "type": "story",
-      "description": "Geschwister besiegen die Hexe gemeinsam.",
-      "audioPath": "stories/de/48. Hänsel und Gretel.mp3",
-      "imagePath": "images/image_48.jpg",
-      "index": 47
-    },
-    {
-      "name": "49. Die Elfen und der Schuhmacher",
-      "type": "story",
-      "description": "Fleiß und Güte werden wundersam belohnt.",
-      "audioPath": "stories/de/49. Die Elfen und der Schuhmache.mp3",
-      "imagePath": "images/image_49.jpg",
-      "index": 48
-    },
-    {
-      "name": "50. Ali Baba und die vierzig Diebe",
-      "type": "story",
-      "description": "Mut und List besiegen die Habgier.",
-      "audioPath": "stories/de/50. Ali Baba und die vierzig Diebe.mp3",
-      "imagePath": "images/image_50.jpg",
-      "index": 49
-    },
-    {
-      "name": "51. Das Dschungelbuch",
-      "type": "story",
-      "description": "Mogli lernt die Gesetze des Dschungels und des Zuhauses.",
-      "audioPath": "stories/de/51. Das Dschungelbuch.mp3",
-      "imagePath": "images/image_51.jpg",
-      "index": 50
+      "index": 21
     },
     {
       "name": "52. Der durstige Frosch Tiddalik",
@@ -414,7 +182,7 @@
       "description": "Freundschaft bringt den Regen zurück — nicht horten.",
       "audioPath": "stories/de/52. Der Durstige Frosch Tiddalik.mp3",
       "imagePath": "images/image_52.jpg",
-      "index": 51
+      "index": 22
     }
   ]
 }
