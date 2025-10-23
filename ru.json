@@ -425,7 +425,7 @@
       "type": "lullaby",
       "description": "Спокойная песня о звёздах, что оберегают сон малыша.",
       "audioPath": "lullabies/0.mp3",
-      "imagePath": "lullaby_images/lullaby_1.jpg",
+      "imagePath": "images/image_1.jpg",
       "index": 0
     },
     {
