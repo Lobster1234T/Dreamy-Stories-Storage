@@ -416,5 +416,73 @@
       "imagePath": "images/image_52.jpg",
       "index": 51
     }
+  ],
+
+
+  "lullabies": [
+  {
+  "name": "1. Noite Estrelada",
+  "type": "lullaby",
+  "description": "Uma canção tranquila sobre estrelas que protegem o sono do bebé.",
+  "audioPath": "lullabies/0.mp3",
+  "imagePath": "images/lullaby_1.jpg",
+  "index": 0
+  },
+  {
+  "name": "2. Berço da Lua",
+  "type": "lullaby",
+  "description": "A lua embala o berço, adormecendo o mundo com a sua luz suave.",
+  "audioPath": "lullabies/1.mp3",
+  "imagePath": "images/lullaby_2.jpg",
+  "index": 1
+  },
+  {
+  "name": "3. Gatinho Sonolento",
+  "type": "lullaby",
+  "description": "Um gatinho ronrona ao lado, chamando para um sono macio e acolhedor.",
+  "audioPath": "lullabies/2.mp3",
+  "imagePath": "images/lullaby_3.jpg",
+  "index": 2
+  },
+  {
+  "name": "4. Nuvem Sonolenta",
+  "type": "lullaby",
+  "description": "Uma nuvem branca desliza pelo céu, levando os sonhos do bebé.",
+  "audioPath": "lullabies/3.mp3",
+  "imagePath": "images/lullaby_4.jpg",
+  "index": 3
+  },
+  {
+  "name": "5. Sonho Mágico",
+  "type": "lullaby",
+  "description": "Um vento suave traz um conto e envolve tudo no silêncio da noite.",
+  "audioPath": "lullabies/4.mp3",
+  "imagePath": "images/lullaby_5.jpg",
+  "index": 4
+  },
+  {
+  "name": "6. Canção do Vento",
+  "type": "lullaby",
+  "description": "Uma brisa meiga sussurra ao ouvido, embalando o mundo.",
+  "audioPath": "lullabies/5.mp3",
+  "imagePath": "images/lullaby_6.jpg",
+  "index": 5
+  },
+  {
+  "name": "7. O Ursinho Dorme",
+  "type": "lullaby",
+  "description": "O ursinho enrosca-se e sonha com a floresta, quente e serena.",
+  "audioPath": "lullabies/6.mp3",
+  "imagePath": "images/lullaby_7.jpg",
+  "index": 6
+  },
+  {
+  "name": "8. Estrelas Sonolentas",
+  "type": "lullaby",
+  "description": "As estrelas fecham os olhinhos, iluminando o caminho para o mundo dos sonhos.",
+  "audioPath": "lullabies/7.mp3",
+  "imagePath": "images/lullaby_8.jpg",
+  "index": 7
+  }
   ]
 }

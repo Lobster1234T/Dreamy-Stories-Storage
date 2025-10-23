@@ -417,4 +417,74 @@
       "index": 51
     }
   ]
+
+
+  
+,"lullabies": [
+{
+"name": "1. Starry Night",
+"type": "lullaby",
+"description": "A gentle song about the stars watching over the baby's sleep.",
+"audioPath": "lullabies/0.mp3",
+"imagePath": "images/lullaby_1.jpg",
+"index": 0
+},
+{
+"name": "2. Cradle of the Moon",
+"type": "lullaby",
+"description": "The moon rocks the cradle, lulling the world with its soft light.",
+"audioPath": "lullabies/1.mp3",
+"imagePath": "images/lullaby_2.jpg",
+"index": 1
+},
+{
+"name": "3. Sleepy Kitten",
+"type": "lullaby",
+"description": "A kitten purrs nearby, inviting a cozy, gentle sleep.",
+"audioPath": "lullabies/2.mp3",
+"imagePath": "images/lullaby_3.jpg",
+"index": 2
+},
+{
+"name": "4. Dozing Cloud",
+"type": "lullaby",
+"description": "A white cloud drifts across the sky, carrying the baby's dreams.",
+"audioPath": "lullabies/3.mp3",
+"imagePath": "images/lullaby_4.jpg",
+"index": 3
+},
+{
+"name": "5. Magic Dream",
+"type": "lullaby",
+"description": "A soft wind brings a fairy tale and wraps everything in the hush of night.",
+"audioPath": "lullabies/4.mp3",
+"imagePath": "images/lullaby_5.jpg",
+"index": 4
+},
+{
+"name": "6. Song of the Wind",
+"type": "lullaby",
+"description": "A tender breeze whispers in your ear, lulling the world.",
+"audioPath": "lullabies/5.mp3",
+"imagePath": "images/lullaby_6.jpg",
+"index": 5
+},
+{
+"name": "7. Little Bear Asleep",
+"type": "lullaby",
+"description": "The little bear curls up and dreams of the forest, warm and serene.",
+"audioPath": "lullabies/6.mp3",
+"imagePath": "images/lullaby_7.jpg",
+"index": 6
+},
+{
+"name": "8. Sleepy Stars",
+"type": "lullaby",
+"description": "The stars close their little eyes, lighting the path to the world of dreams.",
+"audioPath": "lullabies/7.mp3",
+"imagePath": "images/lullaby_8.jpg",
+"index": 7
+}
+]
+
 }

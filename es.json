@@ -416,5 +416,73 @@
       "imagePath": "images/image_52.jpg",
       "index": 51
     }
-  ]
+  ],
+
+  "lullabies": [
+{
+"name": "1. Noche estrellada",
+"type": "lullaby",
+"description": "Una canción tranquila sobre las estrellas que protegen el sueño del bebé.",
+"audioPath": "lullabies/0.mp3",
+"imagePath": "images/lullaby_1.jpg",
+"index": 0
+},
+{
+"name": "2. Cuna de la Luna",
+"type": "lullaby",
+"description": "La Luna mece la cuna, adormeciendo al mundo con su luz suave.",
+"audioPath": "lullabies/1.mp3",
+"imagePath": "images/lullaby_2.jpg",
+"index": 1
+},
+{
+"name": "3. Gatito somnoliento",
+"type": "lullaby",
+"description": "Un gatito ronronea cerca, invitando a un sueño suave y acogedor.",
+"audioPath": "lullabies/2.mp3",
+"imagePath": "images/lullaby_3.jpg",
+"index": 2
+},
+{
+"name": "4. Nubecita adormecida",
+"type": "lullaby",
+"description": "Una nubecita blanca cruza el cielo, llevando los sueños del bebé.",
+"audioPath": "lullabies/3.mp3",
+"imagePath": "images/lullaby_4.jpg",
+"index": 3
+},
+{
+"name": "5. Sueño mágico",
+"type": "lullaby",
+"description": "Una brisa suave trae un cuento y envuelve todo en el silencio de la noche.",
+"audioPath": "lullabies/4.mp3",
+"imagePath": "images/lullaby_5.jpg",
+"index": 4
+},
+{
+"name": "6. Canción del viento",
+"type": "lullaby",
+"description": "Una brisa suave susurra al oído, acunando al mundo.",
+"audioPath": "lullabies/5.mp3",
+"imagePath": "images/lullaby_6.jpg",
+"index": 5
+},
+{
+"name": "7. El osito duerme",
+"type": "lullaby",
+"description": "El osito se acurruca y sueña con el bosque, cálido y sereno.",
+"audioPath": "lullabies/6.mp3",
+"imagePath": "images/lullaby_7.jpg",
+"index": 6
+},
+{
+"name": "8. Estrellas somnolientas",
+"type": "lullaby",
+"description": "Las estrellas cierran sus ojitos, iluminando el camino hacia el mundo de los sueños.",
+"audioPath": "lullabies/7.mp3",
+"imagePath": "images/lullaby_8.jpg",
+"index": 7
+}
+]
+
 }

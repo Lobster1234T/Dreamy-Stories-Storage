@@ -408,5 +408,73 @@
       "imagePath": "images/image_52.jpg",
       "index": 50
     }
-  ]
+  ],
+
+"lullabies": [
+{
+"name": "1. Nuit étoilée",
+"type": "lullaby",
+"description": "Une chanson douce sur les étoiles qui protègent le sommeil du bébé.",
+"audioPath": "lullabies/0.mp3",
+"imagePath": "images/lullaby_1.jpg",
+"index": 0
+},
+{
+"name": "2. Berceau de la Lune",
+"type": "lullaby",
+"description": "La lune berce le berceau, endormant le monde de sa douce lumière.",
+"audioPath": "lullabies/1.mp3",
+"imagePath": "images/lullaby_2.jpg",
+"index": 1
+},
+{
+"name": "3. Chaton somnolent",
+"type": "lullaby",
+"description": "Un chaton ronronne tout près, invitant à un sommeil doux et douillet.",
+"audioPath": "lullabies/2.mp3",
+"imagePath": "images/lullaby_3.jpg",
+"index": 2
+},
+{
+"name": "4. Petit nuage assoupi",
+"type": "lullaby",
+"description": "Un petit nuage blanc glisse dans le ciel, emportant les rêves du bébé.",
+"audioPath": "lullabies/3.mp3",
+"imagePath": "images/lullaby_4.jpg",
+"index": 3
+},
+{
+"name": "5. Rêve magique",
+"type": "lullaby",
+"description": "Une brise légère apporte un conte et enveloppe tout du silence de la nuit.",
+"audioPath": "lullabies/4.mp3",
+"imagePath": "images/lullaby_5.jpg",
+"index": 4
+},
+{
+"name": "6. Chanson du vent",
+"type": "lullaby",
+"description": "Une brise douce chuchote à l'oreille, berçant le monde.",
+"audioPath": "lullabies/5.mp3",
+"imagePath": "images/lullaby_6.jpg",
+"index": 5
+},
+{
+"name": "7. L'ourson dort",
+"type": "lullaby",
+"description": "L'ourson se blottit et rêve de la forêt, chaude et sereine.",
+"audioPath": "lullabies/6.mp3",
+"imagePath": "images/lullaby_7.jpg",
+"index": 6
+},
+{
+"name": "8. Étoiles somnolentes",
+"type": "lullaby",
+"description": "Les étoiles ferment leurs petits yeux, éclairant le chemin vers le monde des rêves.",
+"audioPath": "lullabies/7.mp3",
+"imagePath": "images/lullaby_8.jpg",
+"index": 7
+}
+]
+
 }

@@ -416,5 +416,72 @@
       "imagePath": "images/image_52.jpg",
       "index": 51
     }
+  ],
+
+  "lullabies": [
+  {
+  "name": "1. Notte Stellata",
+  "type": "lullaby",
+  "description": "Una canzone tranquilla sulle stelle che proteggono il sonno del bambino.",
+  "audioPath": "lullabies/0.mp3",
+  "imagePath": "images/lullaby_1.jpg",
+  "index": 0
+  },
+  {
+  "name": "2. Culla della Luna",
+  "type": "lullaby",
+  "description": "La luna dondola la culla, addormentando il mondo con la sua luce dolce.",
+  "audioPath": "lullabies/1.mp3",
+  "imagePath": "images/lullaby_2.jpg",
+  "index": 1
+  },
+  {
+  "name": "3. Gattino Sonnolento",
+  "type": "lullaby",
+  "description": "Un gattino fa le fusa accanto, invitando a un sonno morbido e accogliente.",
+  "audioPath": "lullabies/2.mp3",
+  "imagePath": "images/lullaby_3.jpg",
+  "index": 2
+  },
+  {
+  "name": "4. Nuvoletta Sonnolenta",
+  "type": "lullaby",
+  "description": "Una nuvoletta bianca scivola nel cielo, portando con sé i sogni del bambino.",
+  "audioPath": "lullabies/3.mp3",
+  "imagePath": "images/lullaby_4.jpg",
+  "index": 3
+  },
+  {
+  "name": "5. Sogno Magico",
+  "type": "lullaby",
+  "description": "Una brezza lieve porta una fiaba e avvolge tutto nel silenzio della notte.",
+  "audioPath": "lullabies/4.mp3",
+  "imagePath": "images/lullaby_5.jpg",
+  "index": 4
+  },
+  {
+  "name": "6. Canzone del Vento",
+  "type": "lullaby",
+  "description": "Un venticello gentile sussurra all'orecchio, cullando il mondo.",
+  "audioPath": "lullabies/5.mp3",
+  "imagePath": "images/lullaby_6.jpg",
+  "index": 5
+  },
+  {
+  "name": "7. L'Orsetto Dorme",
+  "type": "lullaby",
+  "description": "L'orsetto si rannicchia e sogna la foresta, calda e serena.",
+  "audioPath": "lullabies/6.mp3",
+  "imagePath": "images/lullaby_7.jpg",
+  "index": 6
+  },
+  {
+  "name": "8. Stelle Sonnolente",
+  "type": "lullaby",
+  "description": "Le stelle chiudono gli occhietti, illuminando il cammino verso il mondo dei sogni.",
+  "audioPath": "lullabies/7.mp3",
+  "imagePath": "images/lullaby_8.jpg",
+  "index": 7
+  }
   ]
 }
