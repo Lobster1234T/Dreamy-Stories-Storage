@@ -188,6 +188,8 @@ export interface ImportEntry {
   readonly title: string;
   readonly audioPath: string;
   readonly duration: number | null;
+  /** Page the audio was downloaded from ("add by link"); kept as the item's `source` field. */
+  readonly source?: string;
 }
 
 /** Applies a whole bulk upload as one undo step. */
@@ -217,7 +219,7 @@ export function applyImport(locale: string, section: Section, entries: readonly 
         addedAt: todayIso(),
         duration: entry.duration,
         hidden: false,
-        extra: {},
+        extra: entry.source ? { source: entry.source } : {},
       });
     }, doc);
     return { ...work, docs: { ...work.docs, [locale]: next } };

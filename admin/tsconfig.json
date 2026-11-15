@@ -19,5 +19,5 @@
     "forceConsistentCasingInFileNames": true,
     "types": ["vite/client", "node", "@testing-library/jest-dom/vitest"]
   },
-  "include": ["src", "scripts", "vite.config.ts"]
+  "include": ["src", "scripts", "server", "vite.config.ts"]
 }

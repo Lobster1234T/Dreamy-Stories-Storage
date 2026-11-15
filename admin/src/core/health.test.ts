@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { findCandidates, issueUids, localeFromAudioPath, planSafeRenames, runHealthChecks } from './health.ts';
+import { findCandidates, incompleteVisibleItems, issueUids, localeFromAudioPath, planSafeRenames, runHealthChecks } from './health.ts';
 import type { Issue } from './health.ts';
 import { applyFix, markForDeletion, renameFile, unmarkDeletion } from './fixes.ts';
 import type { WorkState } from './types.ts';
@@ -7,6 +7,25 @@ import { fileMap, makeConfig, makeDoc, makeItem } from '../test/fixtures.ts';
 
 const config = makeConfig({}, ['en', 'ru']);
 const byKind = (issues: Issue[], kind: Issue['kind']) => issues.filter((i) => i.kind === kind);
+
+describe('incompleteVisibleItems', () => {
+  it('lists visible items without audio or cover and skips hidden drafts', () => {
+    const docs = {
+      en: makeDoc('en', [
+        makeItem({ title: 'Complete' }),
+        makeItem({ title: 'No cover', imagePath: '' }),
+        makeItem({ title: 'Nothing', imagePath: ' ', audioPath: '' }),
+        makeItem({ title: 'Hidden draft', imagePath: '', hidden: true }),
+      ], [makeItem({ title: '', audioPath: '' })]),
+    };
+
+    expect(incompleteVisibleItems(docs)).toEqual([
+      { locale: 'en', section: 'stories', title: 'No cover', missing: ['cover'] },
+      { locale: 'en', section: 'stories', title: 'Nothing', missing: ['audio', 'cover'] },
+      { locale: 'en', section: 'lullabies', title: '(без названия)', missing: ['audio'] },
+    ]);
+  });
+});
 
 describe('findCandidates', () => {
   const files = fileMap([

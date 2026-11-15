@@ -82,6 +82,25 @@ function ref({ locale, section, item }: Located): IssueRef {
   return { locale, section, uid: item.uid, title: item.title || '(без названия)' };
 }
 
+export interface IncompleteItem {
+  readonly locale: string;
+  readonly section: Section;
+  readonly title: string;
+  readonly missing: readonly ('audio' | 'cover')[];
+}
+
+/** Items the app shows without audio or without a cover: worth a warning before publishing. */
+export function incompleteVisibleItems(docs: Docs): IncompleteItem[] {
+  return allItems(docs).flatMap((entry) => {
+    if (entry.item.hidden) return [];
+    const missing = [
+      ...(String(entry.item.audioPath ?? '').trim() ? [] : (['audio'] as const)),
+      ...(String(entry.item.imagePath ?? '').trim() ? [] : (['cover'] as const)),
+    ];
+    return missing.length > 0 ? [{ locale: entry.locale, section: entry.section, title: ref(entry).title, missing }] : [];
+  });
+}
+
 export function runHealthChecks(input: HealthInput): Issue[] {
   const items = allItems(input.docs);
   return [

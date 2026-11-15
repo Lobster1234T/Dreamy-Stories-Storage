@@ -12,7 +12,7 @@ import {
   Text,
   TextInput,
 } from '@mantine/core';
-import { IconFileUpload, IconInfoCircle, IconPlus, IconSearch } from '@tabler/icons-react';
+import { IconFileUpload, IconInfoCircle, IconLink, IconPlus, IconSearch } from '@tabler/icons-react';
 import type { Section } from '../../core/types.ts';
 import { SECTION_LABEL } from '../../core/types.ts';
 import type { ItemFilter, SortMode, StatusFilter } from '../../core/sorting.ts';
@@ -78,6 +78,9 @@ export function ContentPage({ locale, section }: { locale: string; section: Sect
           <Text fw={700} size="xl">{label}</Text>
         </Group>
         <Group gap="xs">
+          <Button variant="default" leftSection={<IconLink size={16} />} onClick={() => openBulkImport(locale, section, 'links')}>
+            По ссылке
+          </Button>
           <Button variant="default" leftSection={<IconFileUpload size={16} />} onClick={() => openBulkImport(locale, section)}>
             Массовая загрузка
           </Button>

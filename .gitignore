@@ -3,6 +3,8 @@ admin/node_modules/
 admin/dist/
 admin/coverage/
 admin/.vite/
+# yt-dlp and ffmpeg for "add by link", downloaded on first use.
+admin/.tools/
 # Local overrides may hold private values; VITE_* values end up in the public bundle.
 admin/.env.local
 admin/.env.*.local

@@ -1,6 +1,8 @@
-import { Anchor, Checkbox, List, Stack, Text } from '@mantine/core';
+import { Alert, Anchor, Checkbox, List, Stack, Text } from '@mantine/core';
 import { modals } from '@mantine/modals';
 import { notifications } from '@mantine/notifications';
+import { incompleteVisibleItems } from '../../core/health.ts';
+import type { IncompleteItem } from '../../core/health.ts';
 import { publish } from '../../store/session.ts';
 import type { PublishOutcome } from '../../store/session.ts';
 import { getBackend, hasBackend, useAppStore } from '../../store/appStore.ts';
@@ -64,24 +66,53 @@ export function runPublish(message?: string): void {
   void publish({ message }).then((outcome) => showOutcome(outcome, message));
 }
 
+const MISSING_LABEL = { audio: 'аудио', cover: 'обложки' } as const;
+const SHOWN_INCOMPLETE = 6;
+
+function IncompleteWarning({ items }: { items: readonly IncompleteItem[] }) {
+  const count = `${items.length} ${pluralRu(items.length, 'сказка', 'сказки', 'сказок')}`;
+  return (
+    <Alert color="orange" variant="light" title={`${count} без обложки или аудио`}>
+      <Stack gap={4}>
+        <Text size="sm">Приложение покажет их с пустой картинкой или без звука. Добавьте файлы или выключите «Показывать в приложении».</Text>
+        <List size="sm" spacing={2}>
+          {items.slice(0, SHOWN_INCOMPLETE).map((item, index) => (
+            <List.Item key={index}>
+              {item.locale.toUpperCase()} · {item.title} — нет {item.missing.map((part) => MISSING_LABEL[part]).join(' и ')}
+            </List.Item>
+          ))}
+        </List>
+        {items.length > SHOWN_INCOMPLETE && <Text size="xs" c="dimmed">…и ещё {items.length - SHOWN_INCOMPLETE}</Text>}
+      </Stack>
+    </Alert>
+  );
+}
+
 export function confirmAndPublish(fileCount: number, message?: string): void {
   if (!hasBackend() || !getBackend().canWrite) {
     notifications.show({ color: 'orange', message: 'Режим только для просмотра — подключите токен, чтобы публиковать.' });
     return;
   }
-  const session = useAppStore.getState().session;
+  const { session, work } = useAppStore.getState();
+  const incomplete = incompleteVisibleItems(work.docs);
   const files = `${fileCount} ${pluralRu(fileCount, 'файл', 'файла', 'файлов')}`;
   modals.openConfirmModal({
     title: 'Опубликовать изменения?',
-    children: session?.mode === 'sandbox' ? (
-      <Text size="sm">Песочница: {files} «опубликуются» только в памяти этой вкладки — на GitHub ничего не уйдёт.</Text>
-    ) : (
-      <Text size="sm">
-        {files} будет записано одним коммитом в ветку <b>{session?.coords.branch}</b>. Пользователи приложения увидят изменения
-        примерно через 5 минут.
-      </Text>
+    children: (
+      <Stack gap="sm">
+        {session?.mode === 'sandbox' ? (
+          <Text size="sm">Песочница: {files} «опубликуются» только в памяти этой вкладки — на GitHub ничего не уйдёт.</Text>
+        ) : (
+          <Text size="sm">
+            {files} будет записано одним коммитом в ветку <b>{session?.coords.branch}</b>. Пользователи приложения увидят изменения
+            примерно через 5 минут.
+          </Text>
+        )}
+        {incomplete.length > 0 && <IncompleteWarning items={incomplete} />}
+      </Stack>
     ),
-    labels: { confirm: 'Опубликовать', cancel: 'Отмена' },
+    labels: { confirm: incomplete.length > 0 ? 'Опубликовать всё равно' : 'Опубликовать', cancel: 'Отмена' },
+    confirmProps: incomplete.length > 0 ? { color: 'orange' } : undefined,
     onConfirm: () => runPublish(message),
   });
 }

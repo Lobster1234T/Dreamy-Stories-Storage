@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
 import type { Plugin } from 'vite';
+import { linkAudioPlugin } from './server/linkAudioPlugin.ts';
 
 /**
  * Content-Security-Policy is injected only into the production build:
@@ -40,7 +41,8 @@ function cspPlugin(): Plugin {
 export default defineConfig({
   // Relative base: works on GitHub Pages (/<repo>/) and when served from any folder.
   base: './',
-  plugins: [react(), cspPlugin()],
+  // linkAudioPlugin: "add by link" downloads on this computer; dev server only (start-admin.cmd).
+  plugins: [react(), cspPlugin(), linkAudioPlugin()],
   build: {
     outDir: 'dist',
     sourcemap: false,
@@ -50,7 +52,7 @@ export default defineConfig({
     environment: 'jsdom',
     globals: false,
     setupFiles: ['./src/test/setup.ts'],
-    include: ['src/**/*.test.{ts,tsx}'],
+    include: ['src/**/*.test.{ts,tsx}', 'server/**/*.test.ts'],
     css: false,
     coverage: {
       provider: 'v8',

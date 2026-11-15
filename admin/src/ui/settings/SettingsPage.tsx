@@ -118,6 +118,7 @@ function AppSchema() {
             <Table.Tr><Table.Td><Code>duration</Code></Table.Td><Table.Td>Длительность в секундах — «12 мин» на карточке.</Table.Td></Table.Tr>
             <Table.Tr><Table.Td><Code>hidden</Code></Table.Td><Table.Td>Скрытые сказки лежат отдельно и в списки не попадают — приложению ничего делать не нужно.</Table.Td></Table.Tr>
             <Table.Tr><Table.Td>свои поля</Table.Td><Table.Td>Всё, что заведено во вкладке «Поля», пишется в сказку под своим ключом.</Table.Td></Table.Tr>
+            <Table.Tr><Table.Td><Code>source</Code></Table.Td><Table.Td>Страница, откуда скачано аудио (только у сказок, добавленных по ссылке).</Table.Td></Table.Tr>
           </Table.Tbody>
         </Table>
       </Paper>

@@ -19,11 +19,20 @@ export interface PlayerTrack {
   readonly cover: string | null;
 }
 
+/** How the bulk import dialog opens: dropped MP3 files or links to download. */
+export type BulkImportMode = 'files' | 'links';
+
+export interface BulkImportTarget {
+  readonly locale: string;
+  readonly section: Section;
+  readonly mode: BulkImportMode;
+}
+
 interface UiState {
   readonly editor: EditorTarget | null;
   readonly player: PlayerTrack | null;
   readonly changesOpen: boolean;
-  readonly bulkImport: { readonly locale: string; readonly section: Section } | null;
+  readonly bulkImport: BulkImportTarget | null;
 }
 
 export const useUiStore = create<UiState>()(() => ({
@@ -38,5 +47,6 @@ export const closeEditor = (): void => useUiStore.setState({ editor: null });
 export const play = (player: PlayerTrack): void => useUiStore.setState({ player });
 export const stopPlayer = (): void => useUiStore.setState({ player: null });
 export const setChangesOpen = (changesOpen: boolean): void => useUiStore.setState({ changesOpen });
-export const openBulkImport = (locale: string, section: Section): void => useUiStore.setState({ bulkImport: { locale, section } });
+export const openBulkImport = (locale: string, section: Section, mode: BulkImportMode = 'files'): void =>
+  useUiStore.setState({ bulkImport: { locale, section, mode } });
 export const closeBulkImport = (): void => useUiStore.setState({ bulkImport: null });
