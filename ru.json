@@ -801,6 +801,23 @@
       ],
       "addedAt": "2025-09-15",
       "duration": 662
+    },
+    {
+      "name": "54. Гуси-лебеди",
+      "type": "story",
+      "description": "Гуси-лебеди унесли маленького братца, и сестрица отправилась на его поиски. Впереди её ждут волшебный лес, загадочные помощники и встреча с Бабой-ягой. Удастся ли ей спасти брата?",
+      "audioPath": "stories/ru/gusi-lebedi-054cb027.mp3",
+      "imagePath": "images/gusi-lebedi-ca82f2fc.jpg",
+      "index": 53,
+      "id": "gusi-lebedi",
+      "categories": [
+        "magic",
+        "animals",
+        "adventure"
+      ],
+      "addedAt": "2026-11-15",
+      "duration": 786,
+      "source": "https://www.youtube.com/watch?v=EgJOLeznL_c"
     }
   ],
   "lullabies": [
