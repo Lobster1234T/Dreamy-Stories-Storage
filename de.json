@@ -6,7 +6,15 @@
       "description": "Ein Mädchen mit Zauberhaaren sucht Freiheit und Liebe.",
       "audioPath": "stories/de/1. Rapunzel.mp3",
       "imagePath": "images/image_1.jpg",
-      "index": 0
+      "index": 0,
+      "id": "rapunzel",
+      "categories": [
+        "classic",
+        "princesses",
+        "magic"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 811
     },
     {
       "name": "2. Die Prinzessin auf der Erbse",
@@ -14,7 +22,14 @@
       "description": "Eine winzige Erbse entlarvt die wahre Prinzessin.",
       "audioPath": "stories/de/2. Die Prinzessin auf der Erbse.mp3",
       "imagePath": "images/image_2.jpg",
-      "index": 1
+      "index": 1,
+      "id": "the-princess-and-the-pea",
+      "categories": [
+        "classic",
+        "princesses"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 724
     },
     {
       "name": "3. Pinocchio",
@@ -22,7 +37,14 @@
       "description": "Eine Holzpuppe lernt Mut und Ehrlichkeit.",
       "audioPath": "stories/de/3. Pinocchio.mp3",
       "imagePath": "images/image_3.jpg",
-      "index": 2
+      "index": 2,
+      "id": "pinocchio",
+      "categories": [
+        "classic",
+        "magic"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 789
     },
     {
       "name": "4. Die drei kleinen Schweinchen",
@@ -30,7 +52,14 @@
       "description": "Fleiß besiegt die List des Wolfs.",
       "audioPath": "stories/de/4. Die drei kleinen Schweinchen.mp3",
       "imagePath": "images/image_4.jpg",
-      "index": 3
+      "index": 3,
+      "id": "the-three-little-pigs",
+      "categories": [
+        "classic",
+        "animals"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 605
     },
     {
       "name": "5. Der Lebkuchenmann",
@@ -38,7 +67,13 @@
       "description": "Ein frecher Lebkuchen lernt Vorsicht.",
       "audioPath": "stories/de/5. Der Lebkuchenmann.mp3",
       "imagePath": "images/image_5.jpg",
-      "index": 4
+      "index": 4,
+      "id": "the-gingerbread-man",
+      "categories": [
+        "classic"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 369
     },
     {
       "name": "6. Der Zauberer von Oz",
@@ -46,7 +81,15 @@
       "description": "Dorothy sucht den Heimweg mit neuen Freunden.",
       "audioPath": "stories/de/6. Der Zauberer von OZ.mp3",
       "imagePath": "images/image_6.jpg",
-      "index": 5
+      "index": 5,
+      "id": "the-wonderful-wizard-of-oz",
+      "categories": [
+        "classic",
+        "adventure",
+        "magic"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 882
     },
     {
       "name": "7. Unbekannte Geschichte",
@@ -54,7 +97,14 @@
       "description": "Eine Märchenaufnahme ohne Titel.",
       "audioPath": "stories/de/7.mp3",
       "imagePath": "images/image_7.jpg",
-      "index": 6
+      "index": 6,
+      "id": "big-bad-wolf-and-three-rabbits",
+      "categories": [
+        "animals",
+        "friendship"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 531
     },
     {
       "name": "8. Der Zaubertopf",
@@ -62,7 +112,14 @@
       "description": "Ein Topf kocht endlos, bis jemand stoppt.",
       "audioPath": "stories/de/8. Der Zaubertopf.mp3",
       "imagePath": "images/image_8.jpg",
-      "index": 7
+      "index": 7,
+      "id": "magic-pot",
+      "categories": [
+        "classic",
+        "magic"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 548
     },
     {
       "name": "9. Der Wolf und die sieben Geißlein",
@@ -70,7 +127,14 @@
       "description": "Die Geißlein lernen Vorsicht; Mutter rettet sie.",
       "audioPath": "stories/de/9. Der Wolf Und Die Sieben Geislein.mp3",
       "imagePath": "images/image_9.jpg",
-      "index": 8
+      "index": 8,
+      "id": "wolf-and-the-seven-goats",
+      "categories": [
+        "classic",
+        "animals"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 511
     },
     {
       "name": "10. Die hinterhältige Hyäne und das Tageslager des Lehrers",
@@ -78,7 +142,14 @@
       "description": "List ohne Freundschaft endet einsam.",
       "audioPath": "stories/de/10. Die Hinterhältige Hyäne Und Das Tageslager Des Lehrers.mp3",
       "imagePath": "images/image_10.jpg",
-      "index": 9
+      "index": 9,
+      "id": "wild-cat-and-the-princess-mouse",
+      "categories": [
+        "animals",
+        "princesses"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 516
     },
     {
       "name": "11. Die Schöne und das Biest",
@@ -86,7 +157,15 @@
       "description": "Liebe sieht das Herz und bricht den Fluch.",
       "audioPath": "stories/de/11. Die Schöne und das Biest _.mp3",
       "imagePath": "images/image_11.jpg",
-      "index": 10
+      "index": 10,
+      "id": "beauty-and-the-beast",
+      "categories": [
+        "classic",
+        "princesses",
+        "magic"
+      ],
+      "addedAt": "2025-09-27",
+      "duration": 850
     },
     {
       "name": "12. Der Löwe, die Maus und der schlafende Bär",
@@ -94,7 +173,13 @@
       "description": "Auch die Kleinsten können groß helfen.",
       "audioPath": "stories/de/12. Der Löwe, Die Maus Und Der Schlafende Bär märchen.mp3",
       "imagePath": "images/image_12.jpg",
-      "index": 11
+      "index": 11,
+      "id": "the-lion-the-mouse-and-the-sleepy-bear",
+      "categories": [
+        "animals",
+        "friendship"
+      ],
+      "addedAt": "2025-09-10"
     },
     {
       "name": "13. Aladin und die Wunderlampe",
@@ -102,7 +187,15 @@
       "description": "Eine Lampe bringt Wünsche und Prüfungen.",
       "audioPath": "stories/de/13. Aladin und Wunderlampe.mp3",
       "imagePath": "images/image_13.jpg",
-      "index": 12
+      "index": 12,
+      "id": "aladdin-and-the-magic-lamp",
+      "categories": [
+        "classic",
+        "adventure",
+        "magic"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 766
     },
     {
       "name": "14. Die kleine Meerjungfrau",
@@ -110,7 +203,15 @@
       "description": "Eine Meerjungfrau wählt zwischen Meer und Traum.",
       "audioPath": "stories/de/14. Kleine Meerjungfrau.mp3",
       "imagePath": "images/image_14.jpg",
-      "index": 13
+      "index": 13,
+      "id": "little-mermaid-aria-and-the-mysterious-gate",
+      "categories": [
+        "princesses",
+        "magic",
+        "adventure"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 969
     },
     {
       "name": "15. Die Schneekönigin",
@@ -118,7 +219,14 @@
       "description": "Ein mutiges Herz taut eisigen Zauber.",
       "audioPath": "stories/de/15. Schneekönigin.mp3",
       "imagePath": "images/image_15.jpg",
-      "index": 14
+      "index": 14,
+      "id": "snow-queen-and-the-shining-star",
+      "categories": [
+        "magic",
+        "adventure"
+      ],
+      "addedAt": "2025-09-27",
+      "duration": 725
     },
     {
       "name": "16. Die Gänseliesel",
@@ -126,7 +234,14 @@
       "description": "Treue und ein Geheimnis führen zum Glück.",
       "audioPath": "stories/de/16. Die Gänse-Liesel.mp3",
       "imagePath": "images/image_16.jpg",
-      "index": 15
+      "index": 15,
+      "id": "the-goose-girl",
+      "categories": [
+        "classic",
+        "princesses"
+      ],
+      "addedAt": "2025-09-27",
+      "duration": 693
     },
     {
       "name": "17. Mutter Holles Überraschung",
@@ -134,7 +249,14 @@
       "description": "Freundlichkeit wird reich belohnt.",
       "audioPath": "stories/de/17. Mutter Holle's Überraschung.mp3",
       "imagePath": "images/image_17.jpg",
-      "index": 16
+      "index": 16,
+      "id": "mother-holles-surprise",
+      "categories": [
+        "classic",
+        "magic"
+      ],
+      "addedAt": "2025-09-27",
+      "duration": 547
     },
     {
       "name": "18. Der süße Brei",
@@ -142,7 +264,14 @@
       "description": "Süßer Brei verbindet die Familie.",
       "audioPath": "stories/de/18. Der Süße Brei.mp3",
       "imagePath": "images/image_18.jpg",
-      "index": 17
+      "index": 17,
+      "id": "sweet-porridge",
+      "categories": [
+        "classic",
+        "magic"
+      ],
+      "addedAt": "2025-09-27",
+      "duration": 757
     },
     {
       "name": "19. Die Erdprinzessin",
@@ -150,7 +279,14 @@
       "description": "Eine Prinzessin lernt, die Erde zu schützen.",
       "audioPath": "stories/de/19. Erdprinzessin.mp3",
       "imagePath": "images/image_19.jpg",
-      "index": 18
+      "index": 18,
+      "id": "princess-of-earth",
+      "categories": [
+        "princesses",
+        "magic"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 481
     },
     {
       "name": "20. Eine schlaue Hyenta",
@@ -158,7 +294,14 @@
       "description": "Die Geschichte einer schlauen Hyäne",
       "audioPath": "stories/de/20. Eine schlaue Hyenta.mp3",
       "imagePath": "images/image_20.jpg",
-      "index": 19
+      "index": 19,
+      "id": "sneaky-hyena-and-the-teachers-day-camp",
+      "categories": [
+        "animals",
+        "friendship"
+      ],
+      "addedAt": "2025-09-27",
+      "duration": 533
     },
     {
       "name": "21. Die Schneekönigin und der tapfere Prinz",
@@ -166,7 +309,14 @@
       "description": "Ein Prinz trotzt dem Eis für die Freundin.",
       "audioPath": "stories/de/21. Die Schneekönigin und der tapfere Prinz.mp3",
       "imagePath": "images/image_21.jpg",
-      "index": 20
+      "index": 20,
+      "id": "snow-queen-and-the-brave-prince",
+      "categories": [
+        "magic",
+        "adventure"
+      ],
+      "addedAt": "2025-09-27",
+      "duration": 516
     },
     {
       "name": "22. Der Zauberkasten",
@@ -174,7 +324,14 @@
       "description": "Eine Kiste erfüllt Wünsche — weise wählen.",
       "audioPath": "stories/de/22. Zauberkasten.mp3",
       "imagePath": "images/image_22.jpg",
-      "index": 21
+      "index": 21,
+      "id": "the-magic-box",
+      "categories": [
+        "magic",
+        "friendship"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 507
     },
     {
       "name": "23. Die roten Schuhe",
@@ -182,7 +339,14 @@
       "description": "Schuhe lehren, dem Herzen zu folgen.",
       "audioPath": "stories/de/23. Die roten Schuhe.mp3",
       "imagePath": "images/image_23.jpg",
-      "index": 22
+      "index": 22,
+      "id": "red-shoes-and-duck",
+      "categories": [
+        "animals",
+        "friendship"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 686
     },
     {
       "name": "24. Der unbesiegbare Krieger",
@@ -190,7 +354,13 @@
       "description": "Wahre Stärke ist Ehrlichkeit und Geduld.",
       "audioPath": "stories/de/24. Der Unbesiegbare Kriegel.mp3",
       "imagePath": "images/image_24.jpg",
-      "index": 23
+      "index": 23,
+      "id": "invincible-warrior",
+      "categories": [
+        "adventure"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 356
     },
     {
       "name": "25. Der Waldkarneval",
@@ -198,7 +368,14 @@
       "description": "Jedes Talent zählt im Waldfest.",
       "audioPath": "stories/de/25. Der Wald Karneval.mp3",
       "imagePath": "images/image_25.jpg",
-      "index": 24
+      "index": 24,
+      "id": "forest-carnival",
+      "categories": [
+        "animals",
+        "holidays"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 494
     },
     {
       "name": "26. Koko und die Waldsprache",
@@ -206,7 +383,14 @@
       "description": "Koko versteht die Sprache des Waldes.",
       "audioPath": "stories/de/26. Koko und Die Waldsprache.mp3",
       "imagePath": "images/image_26.jpg",
-      "index": 25
+      "index": 25,
+      "id": "koko-and-the-forest-language",
+      "categories": [
+        "animals",
+        "adventure"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 506
     },
     {
       "name": "27. Die kleine Maus, die eine Prinzessin war",
@@ -214,7 +398,15 @@
       "description": "Größe misst sich am Mut, nicht an Zentimetern.",
       "audioPath": "stories/de/27. Die kleine Maus Die Eine Prinzessin War.mp3",
       "imagePath": "images/image_27.jpg",
-      "index": 26
+      "index": 26,
+      "id": "little-mouse-that-was-a-princess",
+      "categories": [
+        "animals",
+        "princesses",
+        "magic"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 811
     },
     {
       "name": "28. Drei tanzende Prinzessinnen",
@@ -222,7 +414,14 @@
       "description": "Ein nächtliches Geheimnis führt zu Freundschaft.",
       "audioPath": "stories/de/28. 3 Tanzende Prinzessinnen.mp3",
       "imagePath": "images/image_28.jpg",
-      "index": 27
+      "index": 27,
+      "id": "3-dancing-princesses",
+      "categories": [
+        "classic",
+        "princesses"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 1745
     },
     {
       "name": "29. Die schlafende Schönheit",
@@ -230,7 +429,15 @@
       "description": "Liebe bricht den Zauberschlaf.",
       "audioPath": "stories/de/29. Die schlafende Schönheit.mp3",
       "imagePath": "images/image_29.jpg",
-      "index": 28
+      "index": 28,
+      "id": "sleeping-beauty",
+      "categories": [
+        "classic",
+        "princesses",
+        "magic"
+      ],
+      "addedAt": "2025-09-27",
+      "duration": 849
     },
     {
       "name": "30. Der Fischer und seine Frau",
@@ -238,7 +445,14 @@
       "description": "Gier bringt Sturm; Dankbarkeit Frieden.",
       "audioPath": "stories/de/30. Der Fischer und seine Frau.mp3",
       "imagePath": "images/image_30.jpg",
-      "index": 29
+      "index": 29,
+      "id": "the-fisherman-and-his-wife",
+      "categories": [
+        "classic",
+        "magic"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 799
     },
     {
       "name": "31. Lebkuchenmann und Weihnachtsbaum",
@@ -246,7 +460,13 @@
       "description": "Teilen macht Weihnachten wärmer.",
       "audioPath": "stories/de/31. Lebkuchenmann und Weihnachtsbaum.mp3",
       "imagePath": "images/image_31.jpg",
-      "index": 30
+      "index": 30,
+      "id": "the-gingerbread-man-and-the-christmas-tree",
+      "categories": [
+        "holidays"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 540
     },
     {
       "name": "32. Mangita und Larina",
@@ -254,7 +474,13 @@
       "description": "Zwei Freundinnen wählen Wahrheit statt Abkürzungen.",
       "audioPath": "stories/de/32. Mangita und Larina.mp3",
       "imagePath": "images/image_32.jpg",
-      "index": 31
+      "index": 31,
+      "id": "mangina-and-larina",
+      "categories": [
+        "friendship"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 722
     },
     {
       "name": "33. Die Schöne und das Biest",
@@ -262,7 +488,14 @@
       "description": "Liebe vertreibt jeden Zauber.",
       "audioPath": "stories/de/33. Die Schöne und das Biest .mp3",
       "imagePath": "images/image_33.jpg",
-      "index": 32
+      "index": 32,
+      "id": "beauty-and-the-beast-and-the-magic-library",
+      "categories": [
+        "princesses",
+        "magic"
+      ],
+      "addedAt": "2025-09-27",
+      "duration": 1664
     },
     {
       "name": "34. Süßes oder Saures",
@@ -270,7 +503,14 @@
       "description": "Mut und Freundlichkeit vertreiben Angst.",
       "audioPath": "stories/de/34. Süßes oder Saures.mp3",
       "imagePath": "images/image_34.jpg",
-      "index": 33
+      "index": 33,
+      "id": "trick-or-treat",
+      "categories": [
+        "holidays",
+        "friendship"
+      ],
+      "addedAt": "2025-09-27",
+      "duration": 484
     },
     {
       "name": "35. Goldlöckchen und das geheimnisvolle Buch",
@@ -278,7 +518,13 @@
       "description": "Ein Buch öffnet Türen zu guten Lektionen.",
       "audioPath": "stories/de/35. Goldlöckchen Und Das Geheimnisvolle Buch.mp3",
       "imagePath": "images/image_35.jpg",
-      "index": 34
+      "index": 34,
+      "id": "goldilocks-and-the-mystery-book",
+      "categories": [
+        "adventure"
+      ],
+      "addedAt": "2025-09-27",
+      "duration": 486
     },
     {
       "name": "36. Pinocchio sucht seinen Vater",
@@ -286,7 +532,14 @@
       "description": "Eine Reise zu Geppetto und zu sich.",
       "audioPath": "stories/de/36. Pinocchio Sucht Seinen Vater.mp3",
       "imagePath": "images/image_36.jpg",
-      "index": 35
+      "index": 35,
+      "id": "pinocchio-is-looking-for-his-father",
+      "categories": [
+        "adventure",
+        "magic"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 549
     },
     {
       "name": "37. Die Weihnachtsgeschenkfabrik",
@@ -294,7 +547,14 @@
       "description": "Teamarbeit und Magie bringen Freude.",
       "audioPath": "stories/de/37. Die Weihnachtsgeschenkfabrik.mp3",
       "imagePath": "images/image_37.jpg",
-      "index": 36
+      "index": 36,
+      "id": "the-christmas-gift-factory",
+      "categories": [
+        "holidays",
+        "magic"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 501
     },
     {
       "name": "38. Dschungel-Cup",
@@ -302,7 +562,14 @@
       "description": "Fairness macht Gegner zu Freunden.",
       "audioPath": "stories/de/38. Dschungel-Cup.mp3",
       "imagePath": "images/image_38.jpg",
-      "index": 37
+      "index": 37,
+      "id": "jungle-cup",
+      "categories": [
+        "animals",
+        "friendship"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 525
     },
     {
       "name": "39. Der Panda und der Eismann",
@@ -310,7 +577,14 @@
       "description": "Ein warmes Herz taut Einsamkeit.",
       "audioPath": "stories/de/39. Der Panda und Der Eismann.mp3",
       "imagePath": "images/image_39.jpg",
-      "index": 38
+      "index": 38,
+      "id": "the-panda-and-the-iceman",
+      "categories": [
+        "animals",
+        "friendship"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 502
     },
     {
       "name": "40. Tapfere Ritterin Maria",
@@ -318,7 +592,13 @@
       "description": "Ritterlichkeit ist Mut, Mitgefühl und Worttreue.",
       "audioPath": "stories/de/40. Tapfere Ritterin Maria & Koko und Die Waldsprache.mp3",
       "imagePath": "images/image_40.jpg",
-      "index": 39
+      "index": 39,
+      "id": "brave-knight-maria",
+      "categories": [
+        "adventure"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 1623
     },
     {
       "name": "41. Der verlorene Drache",
@@ -326,7 +606,14 @@
       "description": "Ein kleiner Drache findet Heimat durch Freundschaft.",
       "audioPath": "stories/de/41. Il Drago Perduto.mp3",
       "imagePath": "images/image_41.jpg",
-      "index": 40
+      "index": 40,
+      "id": "the-lost-dragon",
+      "categories": [
+        "adventure",
+        "magic"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 531
     },
     {
       "name": "42. Rote Schuhe und die Ente",
@@ -334,7 +621,14 @@
       "description": "Dem Herzen folgen statt nur dem Glanz.",
       "audioPath": "stories/de/42. Rote Schuhe und Die Ente.mp3",
       "imagePath": "images/image_42.jpg",
-      "index": 41
+      "index": 41,
+      "id": "red-shoes",
+      "categories": [
+        "classic",
+        "magic"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 379
     },
     {
       "name": "43. Das faule Mädchen",
@@ -342,7 +636,13 @@
       "description": "Ausdauer im Alltag bewirkt Großes.",
       "audioPath": "stories/de/43. Das faule Mädchen.mp3",
       "imagePath": "images/image_43.jpg",
-      "index": 42
+      "index": 42,
+      "id": "the-lazy-girl-story",
+      "categories": [
+        "classic"
+      ],
+      "addedAt": "2025-09-27",
+      "duration": 820
     },
     {
       "name": "44. Einäuglein, Zweiäuglein und Dreiäuglein",
@@ -350,7 +650,14 @@
       "description": "Gerechtigkeit und Güte geben jedem seinen Platz.",
       "audioPath": "stories/de/44. Einäuglein Zweiäuglein und Dreiäuglein.mp3",
       "imagePath": "images/image_44.jpg",
-      "index": 43
+      "index": 43,
+      "id": "one-eye-two-eyes-and-three-eyes",
+      "categories": [
+        "classic",
+        "magic"
+      ],
+      "addedAt": "2025-09-27",
+      "duration": 3632
     },
     {
       "name": "45. Aschenputtel und der Prinzessinnen-Yoga",
@@ -358,7 +665,13 @@
       "description": "Innere Stärke verändert das Schicksal.",
       "audioPath": "stories/de/45. Aschenputtel Und Der Prinzessinnen-Yoga.mp3",
       "imagePath": "images/image_45.jpg",
-      "index": 44
+      "index": 44,
+      "id": "cinderella-and-the-princess-yoga",
+      "categories": [
+        "princesses"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 499
     },
     {
       "name": "46. Der Löwe und die Maus",
@@ -366,7 +679,15 @@
       "description": "Eine kleine Tat rettet den Großen.",
       "audioPath": "stories/de/46. Der Löwe und die Maus.mp3",
       "imagePath": "images/image_46.jpg",
-      "index": 45
+      "index": 45,
+      "id": "the-lion-and-the-mouse",
+      "categories": [
+        "classic",
+        "animals",
+        "friendship"
+      ],
+      "addedAt": "2025-09-27",
+      "duration": 952
     },
     {
       "name": "47. Die Prinzessin Rose und der goldene Vogel",
@@ -374,7 +695,14 @@
       "description": "Das größte Geschenk ist ein gutes Herz.",
       "audioPath": "stories/de/47. Die Prinzessin Rose und der goldene Vogel.mp3",
       "imagePath": "images/image_47.jpg",
-      "index": 46
+      "index": 46,
+      "id": "rose-princess-and-the-golden-bird",
+      "categories": [
+        "princesses",
+        "magic"
+      ],
+      "addedAt": "2025-09-27",
+      "duration": 535
     },
     {
       "name": "48. Hänsel und Gretel",
@@ -382,7 +710,14 @@
       "description": "Geschwister besiegen die Hexe gemeinsam.",
       "audioPath": "stories/de/48. Hänsel und Gretel.mp3",
       "imagePath": "images/image_48.jpg",
-      "index": 47
+      "index": 47,
+      "id": "hansel-and-gretel",
+      "categories": [
+        "classic",
+        "adventure"
+      ],
+      "addedAt": "2025-09-27",
+      "duration": 688
     },
     {
       "name": "49. Die Elfen und der Schuhmacher",
@@ -390,7 +725,14 @@
       "description": "Fleiß und Güte werden wundersam belohnt.",
       "audioPath": "stories/de/49. Die Elfen und der Schuhmache.mp3",
       "imagePath": "images/image_49.jpg",
-      "index": 48
+      "index": 48,
+      "id": "the-shoemaker-and-the-elves",
+      "categories": [
+        "classic",
+        "magic"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 575
     },
     {
       "name": "50. Ali Baba und die vierzig Diebe",
@@ -398,7 +740,14 @@
       "description": "Mut und List besiegen die Habgier.",
       "audioPath": "stories/de/50. Ali Baba und die vierzig Diebe.mp3",
       "imagePath": "images/image_50.jpg",
-      "index": 49
+      "index": 49,
+      "id": "ali-baba-and-the-forty-thieves",
+      "categories": [
+        "classic",
+        "adventure"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 698
     },
     {
       "name": "51. Das Dschungelbuch",
@@ -406,7 +755,15 @@
       "description": "Mogli lernt die Gesetze des Dschungels und des Zuhauses.",
       "audioPath": "stories/de/51. Das Dschungelbuch.mp3",
       "imagePath": "images/image_51.jpg",
-      "index": 50
+      "index": 50,
+      "id": "the-jungle-book",
+      "categories": [
+        "classic",
+        "animals",
+        "adventure"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 625
     },
     {
       "name": "52. Der durstige Frosch Tiddalik",
@@ -414,76 +771,156 @@
       "description": "Freundschaft bringt den Regen zurück — nicht horten.",
       "audioPath": "stories/de/52. Der Durstige Frosch Tiddalik.mp3",
       "imagePath": "images/image_52.jpg",
-      "index": 51
+      "index": 51,
+      "id": "thirsty-frog-tiddalik",
+      "categories": [
+        "animals",
+        "friendship"
+      ],
+      "addedAt": "2025-09-22",
+      "duration": 662
+    }
+  ],
+  "lullabies": [
+    {
+      "name": "1. Sternennacht",
+      "type": "lullaby",
+      "description": "Ein sanftes Lied über Sterne, die den Schlaf des Babys behüten.",
+      "audioPath": "lullabies/0.mp3",
+      "imagePath": "images/lullaby_1.jpg",
+      "index": 0,
+      "id": "starry-night",
+      "categories": [],
+      "addedAt": "2025-10-06",
+      "duration": 7454
+    },
+    {
+      "name": "2. Wiege des Mondes",
+      "type": "lullaby",
+      "description": "Der Mond wiegt die Wiege und lullt die Welt mit seinem sanften Licht ein.",
+      "audioPath": "lullabies/1.mp3",
+      "imagePath": "images/lullaby_2.jpg",
+      "index": 1,
+      "id": "cradle-of-the-moon",
+      "categories": [],
+      "addedAt": "2025-10-06",
+      "duration": 10179
+    },
+    {
+      "name": "3. Schläfriges Kätzchen",
+      "type": "lullaby",
+      "description": "Ein Kätzchen schnurrt daneben und lädt zu einem weichen, gemütlichen Schlaf ein.",
+      "audioPath": "lullabies/2.mp3",
+      "imagePath": "images/lullaby_3.jpg",
+      "index": 2,
+      "id": "sleepy-kitten",
+      "categories": [],
+      "addedAt": "2025-10-06",
+      "duration": 1182
+    },
+    {
+      "name": "4. Schlummerndes Wölkchen",
+      "type": "lullaby",
+      "description": "Ein weißes Wölkchen zieht über den Himmel und trägt die Träume des Babys davon.",
+      "audioPath": "lullabies/3.mp3",
+      "imagePath": "images/lullaby_4.jpg",
+      "index": 3,
+      "id": "dozing-cloud",
+      "categories": [],
+      "addedAt": "2025-10-06",
+      "duration": 7320
+    },
+    {
+      "name": "5. Magischer Traum",
+      "type": "lullaby",
+      "description": "Ein leiser Wind bringt ein Märchen und hüllt alles in die Stille der Nacht.",
+      "audioPath": "lullabies/4.mp3",
+      "imagePath": "images/lullaby_5.jpg",
+      "index": 4,
+      "id": "magic-dream",
+      "categories": [],
+      "addedAt": "2025-10-06",
+      "duration": 8564
+    },
+    {
+      "name": "6. Lied des Windes",
+      "type": "lullaby",
+      "description": "Ein zarter Lufthauch flüstert ins Ohr und wiegt die Welt in den Schlaf.",
+      "audioPath": "lullabies/5.mp3",
+      "imagePath": "images/lullaby_6.jpg",
+      "index": 5,
+      "id": "song-of-the-wind",
+      "categories": [],
+      "addedAt": "2025-10-06",
+      "duration": 7211
+    },
+    {
+      "name": "7. Der kleine Bär schläft",
+      "type": "lullaby",
+      "description": "Der kleine Bär rollt sich zusammen und träumt vom warmen, stillen Wald.",
+      "audioPath": "lullabies/6.mp3",
+      "imagePath": "images/lullaby_7.jpg",
+      "index": 6,
+      "id": "little-bear-asleep",
+      "categories": [],
+      "addedAt": "2025-10-06",
+      "duration": 7058
+    },
+    {
+      "name": "8. Schläfrige Sterne",
+      "type": "lullaby",
+      "description": "Die Sterne schließen ihre Äuglein und erleuchten den Weg in die Traumwelt.",
+      "audioPath": "lullabies/7.mp3",
+      "imagePath": "images/lullaby_8.jpg",
+      "index": 7,
+      "id": "sleepy-stars",
+      "categories": [],
+      "addedAt": "2025-10-06",
+      "duration": 7467
+    }
+  ],
+  "categories": [
+    {
+      "id": "classic",
+      "name": "Klassiker",
+      "icon": "📖",
+      "color": "#4263eb"
+    },
+    {
+      "id": "princesses",
+      "name": "Prinzessinnen",
+      "icon": "👑",
+      "color": "#e64980"
+    },
+    {
+      "id": "animals",
+      "name": "Tiere",
+      "icon": "🐾",
+      "color": "#37b24d"
+    },
+    {
+      "id": "magic",
+      "name": "Magie",
+      "icon": "✨",
+      "color": "#7c6cf2"
+    },
+    {
+      "id": "adventure",
+      "name": "Abenteuer",
+      "icon": "🧭",
+      "color": "#f76707"
+    },
+    {
+      "id": "friendship",
+      "name": "Freundschaft",
+      "icon": "🤝",
+      "color": "#1098ad"
+    },
+    {
+      "id": "holidays",
+      "name": "Feiertage",
+      "icon": "🎄",
+      "color": "#f59f00"
     }
   ]
-
-
-,"lullabies": [
-{
-"name": "1. Sternennacht",
-"type": "lullaby",
-"description": "Ein sanftes Lied über Sterne, die den Schlaf des Babys behüten.",
-"audioPath": "lullabies/0.mp3",
-"imagePath": "images/lullaby_1.jpg",
-"index": 0
-},
-{
-"name": "2. Wiege des Mondes",
-"type": "lullaby",
-"description": "Der Mond wiegt die Wiege und lullt die Welt mit seinem sanften Licht ein.",
-"audioPath": "lullabies/1.mp3",
-"imagePath": "images/lullaby_2.jpg",
-"index": 1
-},
-{
-"name": "3. Schläfriges Kätzchen",
-"type": "lullaby",
-"description": "Ein Kätzchen schnurrt daneben und lädt zu einem weichen, gemütlichen Schlaf ein.",
-"audioPath": "lullabies/2.mp3",
-"imagePath": "images/lullaby_3.jpg",
-"index": 2
-},
-{
-"name": "4. Schlummerndes Wölkchen",
-"type": "lullaby",
-"description": "Ein weißes Wölkchen zieht über den Himmel und trägt die Träume des Babys davon.",
-"audioPath": "lullabies/3.mp3",
-"imagePath": "images/lullaby_4.jpg",
-"index": 3
-},
-{
-"name": "5. Magischer Traum",
-"type": "lullaby",
-"description": "Ein leiser Wind bringt ein Märchen und hüllt alles in die Stille der Nacht.",
-"audioPath": "lullabies/4.mp3",
-"imagePath": "images/lullaby_5.jpg",
-"index": 4
-},
-{
-"name": "6. Lied des Windes",
-"type": "lullaby",
-"description": "Ein zarter Lufthauch flüstert ins Ohr und wiegt die Welt in den Schlaf.",
-"audioPath": "lullabies/5.mp3",
-"imagePath": "images/lullaby_6.jpg",
-"index": 5
-},
-{
-"name": "7. Der kleine Bär schläft",
-"type": "lullaby",
-"description": "Der kleine Bär rollt sich zusammen und träumt vom warmen, stillen Wald.",
-"audioPath": "lullabies/6.mp3",
-"imagePath": "images/lullaby_7.jpg",
-"index": 6
-},
-{
-"name": "8. Schläfrige Sterne",
-"type": "lullaby",
-"description": "Die Sterne schließen ihre Äuglein und erleuchten den Weg in die Traumwelt.",
-"audioPath": "lullabies/7.mp3",
-"imagePath": "images/lullaby_8.jpg",
-"index": 7
-}
-]
-
 }

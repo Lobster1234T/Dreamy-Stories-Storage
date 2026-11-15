@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "locales": [
+    {
+      "code": "ru",
+      "label": "Русский"
+    },
+    {
+      "code": "en",
+      "label": "English"
+    },
+    {
+      "code": "de",
+      "label": "Deutsch"
+    },
+    {
+      "code": "es",
+      "label": "Español"
+    },
+    {
+      "code": "fr",
+      "label": "Français"
+    },
+    {
+      "code": "it",
+      "label": "Italiano"
+    },
+    {
+      "code": "pt",
+      "label": "Português"
+    }
+  ],
+  "categories": [
+    {
+      "id": "classic",
+      "icon": "📖",
+      "color": "#4263eb",
+      "names": {
+        "ru": "Классика",
+        "en": "Classics",
+        "de": "Klassiker",
+        "es": "Clásicos",
+        "fr": "Classiques",
+        "it": "Classici",
+        "pt": "Clássicos"
+      }
+    },
+    {
+      "id": "princesses",
+      "icon": "👑",
+      "color": "#e64980",
+      "names": {
+        "ru": "Принцессы",
+        "en": "Princesses",
+        "de": "Prinzessinnen",
+        "es": "Princesas",
+        "fr": "Princesses",
+        "it": "Principesse",
+        "pt": "Princesas"
+      }
+    },
+    {
+      "id": "animals",
+      "icon": "🐾",
+      "color": "#37b24d",
+      "names": {
+        "ru": "Животные",
+        "en": "Animals",
+        "de": "Tiere",
+        "es": "Animales",
+        "fr": "Animaux",
+        "it": "Animali",
+        "pt": "Animais"
+      }
+    },
+    {
+      "id": "magic",
+      "icon": "✨",
+      "color": "#7c6cf2",
+      "names": {
+        "ru": "Волшебство",
+        "en": "Magic",
+        "de": "Magie",
+        "es": "Magia",
+        "fr": "Magie",
+        "it": "Magia",
+        "pt": "Magia"
+      }
+    },
+    {
+      "id": "adventure",
+      "icon": "🧭",
+      "color": "#f76707",
+      "names": {
+        "ru": "Приключения",
+        "en": "Adventures",
+        "de": "Abenteuer",
+        "es": "Aventuras",
+        "fr": "Aventures",
+        "it": "Avventure",
+        "pt": "Aventuras"
+      }
+    },
+    {
+      "id": "friendship",
+      "icon": "🤝",
+      "color": "#1098ad",
+      "names": {
+        "ru": "Дружба и доброта",
+        "en": "Friendship & Kindness",
+        "de": "Freundschaft",
+        "es": "Amistad",
+        "fr": "Amitié",
+        "it": "Amicizia",
+        "pt": "Amizade"
+      }
+    },
+    {
+      "id": "holidays",
+      "icon": "🎄",
+      "color": "#f59f00",
+      "names": {
+        "ru": "Праздники",
+        "en": "Holidays",
+        "de": "Feiertage",
+        "es": "Fiestas",
+        "fr": "Fêtes",
+        "it": "Feste",
+        "pt": "Festas"
+      }
+    }
+  ],
+  "customFields": [],
+  "settings": {
+    "autoNumberTitles": true,
+    "referenceLocale": "en",
+    "media": {
+      "maxImageSize": 512,
+      "squareImages": true,
+      "imageQuality": 0.86,
+      "audioWarnMB": 40
+    },
+    "paths": {
+      "storyAudioDir": "stories/{locale}",
+      "lullabyAudioDir": "lullabies",
+      "storyImageDir": "images",
+      "lullabyImageDir": "lullaby_images"
+    }
+  }
+}
