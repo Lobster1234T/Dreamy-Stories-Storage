@@ -47,7 +47,11 @@ async function verifyWriteAccess(input: ConnectInput): Promise<void> {
   if (input.mode !== 'github' || !input.token || input.backend) return;
   const info = await createGitHubClient(input.coords, { token: input.token }).getRepo();
   if (!info.canPush) {
-    throw new Error('Токен подключён, но у вашей учётной записи нет права записи в этот репозиторий.');
+    throw new Error(
+      'Токен подключён, но у этой учётной записи нет права записи в репозиторий. ' +
+        'Коллеге: примите приглашение владельца и создайте токен по ссылке «я коллега». ' +
+        'Владельцу: проверьте, что в токене выбран этот репозиторий и «Contents: Read and write».',
+    );
   }
 }
 

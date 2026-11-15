@@ -1,5 +1,5 @@
 import { Alert, Anchor, Badge, Button, Code, Group, NumberInput, Paper, Select, Slider, Stack, Switch, Table, Tabs, Text } from '@mantine/core';
-import { IconCode, IconLanguage, IconPhoto, IconPlugConnected, IconTags } from '@tabler/icons-react';
+import { IconCode, IconLanguage, IconPhoto, IconPlugConnected, IconTags, IconUsers } from '@tabler/icons-react';
 import { useAppStore } from '../../store/appStore.ts';
 import { updateSettings } from '../../store/actions.ts';
 import { disconnect } from '../../store/session.ts';
@@ -7,8 +7,9 @@ import { navigate } from '../router.ts';
 import { PageTitle } from '../common/common.tsx';
 import { LocalesSettings } from './LocalesSettings.tsx';
 import { FieldsSettings } from './FieldsSettings.tsx';
+import { TeamAccess } from './TeamAccess.tsx';
 
-const TABS = ['locales', 'fields', 'media', 'connection', 'app'] as const;
+const TABS = ['locales', 'fields', 'media', 'connection', 'team', 'app'] as const;
 
 function MediaAndTitles() {
   const settings = useAppStore((s) => s.work.config.settings);
@@ -67,6 +68,7 @@ function Connection() {
       <Group>
         <Button variant="default" onClick={() => disconnect(false)}>Сменить токен или репозиторий</Button>
         <Button color="red" variant="light" onClick={() => disconnect(true)}>Выйти и забыть токен</Button>
+        <Button variant="light" leftSection={<IconUsers size={16} />} onClick={() => navigate({ page: 'settings', tab: 'team' })}>Дать доступ коллегам</Button>
       </Group>
       <Alert variant="light" color="gray">
         Неопубликованные правки хранятся в этом браузере отдельно для каждого репозитория и ветки — после повторного входа они вернутся.
@@ -128,19 +130,21 @@ export function SettingsPage({ tab }: { tab: string }) {
   const active = (TABS as readonly string[]).includes(tab) ? tab : 'locales';
   return (
     <Stack gap="md">
-      <PageTitle title="Настройки" description="Гео, свои поля, обработка файлов и подключение." />
+      <PageTitle title="Настройки" description="Гео, свои поля, обработка файлов, подключение и доступ для коллег." />
       <Tabs value={active} onChange={(value) => value && navigate({ page: 'settings', tab: value })} keepMounted={false}>
         <Tabs.List>
           <Tabs.Tab value="locales" leftSection={<IconLanguage size={16} />}>Гео</Tabs.Tab>
           <Tabs.Tab value="fields" leftSection={<IconTags size={16} />}>Поля</Tabs.Tab>
           <Tabs.Tab value="media" leftSection={<IconPhoto size={16} />}>Файлы и названия</Tabs.Tab>
           <Tabs.Tab value="connection" leftSection={<IconPlugConnected size={16} />}>Подключение</Tabs.Tab>
+          <Tabs.Tab value="team" leftSection={<IconUsers size={16} />}>Коллеги</Tabs.Tab>
           <Tabs.Tab value="app" leftSection={<IconCode size={16} />}>Для приложения</Tabs.Tab>
         </Tabs.List>
         <Tabs.Panel value="locales" pt="md"><LocalesSettings /></Tabs.Panel>
         <Tabs.Panel value="fields" pt="md"><FieldsSettings /></Tabs.Panel>
         <Tabs.Panel value="media" pt="md"><MediaAndTitles /></Tabs.Panel>
         <Tabs.Panel value="connection" pt="md"><Connection /></Tabs.Panel>
+        <Tabs.Panel value="team" pt="md"><TeamAccess /></Tabs.Panel>
         <Tabs.Panel value="app" pt="md"><AppSchema /></Tabs.Panel>
       </Tabs>
     </Stack>

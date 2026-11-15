@@ -19,22 +19,14 @@ import {
   ThemeIcon,
   Title,
 } from '@mantine/core';
-import { IconBrandGithub, IconEye, IconFlask, IconKey, IconMoonStars } from '@tabler/icons-react';
+import { IconBrandGithub, IconEye, IconFlask, IconKey, IconMoonStars, IconUsers } from '@tabler/icons-react';
 import { connect } from '../../store/session.ts';
 import type { SessionMode } from '../../store/auth.ts';
 import { defaultCoords, isValidCoords, loadSavedAuth } from '../../store/auth.ts';
 import { errorMessage } from '../../store/appStore.ts';
+import { colleagueTokenUrl, invitationUrl, ownerTokenUrl } from '../../core/access.ts';
 
-function tokenUrl(owner: string): string {
-  const params = new URLSearchParams({
-    name: 'Dreamy Stories Admin',
-    description: 'Админ-панель сказок: чтение и запись контента',
-    target_name: owner,
-    expires_in: '365',
-    contents: 'write',
-  });
-  return `https://github.com/settings/personal-access-tokens/new?${params.toString()}`;
-}
+const EXTERNAL = { target: '_blank', rel: 'noreferrer' } as const;
 
 export function ConnectScreen() {
   const initial = useMemo(() => {
@@ -101,11 +93,13 @@ export function ConnectScreen() {
               label="Токен GitHub"
               description={
                 <>
-                  Нужен, чтобы публиковать изменения. Хранится только в этом браузере.{' '}
-                  <Anchor href={tokenUrl(coords.owner)} target="_blank" rel="noreferrer" size="xs">Получить токен на GitHub →</Anchor>
+                  Нужен, чтобы публиковать изменения. Хранится только в этом браузере. Получить токен:{' '}
+                  <Anchor href={ownerTokenUrl(coords.owner)} {...EXTERNAL} size="xs">я владелец →</Anchor>
+                  {' · '}
+                  <Anchor href={colleagueTokenUrl()} {...EXTERNAL} size="xs">я коллега →</Anchor>
                 </>
               }
-              placeholder="github_pat_…"
+              placeholder="github_pat_… или ghp_…"
               leftSection={<IconKey size={16} />}
               value={token}
               onChange={(e) => setToken(e.currentTarget.value)}
@@ -134,12 +128,12 @@ export function ConnectScreen() {
 
         <Accordion variant="separated" radius="lg" value={help} onChange={setHelp}>
           <Accordion.Item value="token">
-            <Accordion.Control icon={<IconKey size={18} />}>Как получить токен (2 минуты)</Accordion.Control>
+            <Accordion.Control icon={<IconKey size={18} />}>Как получить токен владельцу (2 минуты)</Accordion.Control>
             <Accordion.Panel>
               <List type="ordered" spacing={6} size="sm">
                 <List.Item>
                   Откройте{' '}
-                  <Anchor href={tokenUrl(coords.owner)} target="_blank" rel="noreferrer">
+                  <Anchor href={ownerTokenUrl(coords.owner)} {...EXTERNAL}>
                     создание токена на GitHub
                   </Anchor>{' '}
                   (поля уже заполнены).
@@ -150,6 +144,25 @@ export function ConnectScreen() {
               </List>
               <Text size="xs" c="dimmed" mt="sm">
                 Токен даёт доступ только к этому репозиторию. Если потеряете устройство — удалите токен на той же странице GitHub.
+              </Text>
+            </Accordion.Panel>
+          </Accordion.Item>
+          <Accordion.Item value="colleague">
+            <Accordion.Control icon={<IconUsers size={18} />}>Я коллега — как получить доступ</Accordion.Control>
+            <Accordion.Panel>
+              <List type="ordered" spacing={6} size="sm">
+                <List.Item>
+                  Владелец добавляет вас в репозиторий — примите{' '}
+                  <Anchor href={invitationUrl(coords)} {...EXTERNAL}>приглашение</Anchor> (оно приходит и на почту).
+                </List.Item>
+                <List.Item>
+                  Откройте <Anchor href={colleagueTokenUrl()} {...EXTERNAL}>создание токена для коллеги</Anchor> — галочка public_repo уже стоит.
+                </List.Item>
+                <List.Item>Выберите срок в «Expiration», нажмите «Generate token», скопируйте токен и вставьте сюда.</List.Item>
+              </List>
+              <Text size="xs" c="dimmed" mt="sm">
+                Это «классический» токен: новый тип GitHub пока не выдаёт для чужого репозитория. Он действует во всех публичных
+                репозиториях, куда у вас есть доступ, — храните его как пароль.
               </Text>
             </Accordion.Panel>
           </Accordion.Item>
