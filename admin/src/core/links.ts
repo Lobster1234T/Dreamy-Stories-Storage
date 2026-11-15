@@ -6,6 +6,8 @@
 import { stripNumber } from './titles.ts';
 
 export const MAX_LINKS = 50;
+/** Port of the link helper (admin/start-helper.cmd) that the website on GitHub Pages talks to. */
+export const LINK_HELPER_PORT = 5179;
 const MAX_LINK_LENGTH = 2000;
 const MAX_TITLE_LENGTH = 120;
 

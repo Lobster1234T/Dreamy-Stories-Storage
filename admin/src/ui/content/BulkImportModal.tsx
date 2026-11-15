@@ -255,7 +255,8 @@ export function BulkImportModal() {
             </Dropzone>
           </Tabs.Panel>
           <Tabs.Panel value="links" pt="sm">
-            <LinkImportPanel onFound={addLinks} />
+            {/* Mounted only on this tab: on the website it contacts the helper, which may trigger a browser permission prompt. */}
+            {tab === 'links' && <LinkImportPanel onFound={addLinks} />}
           </Tabs.Panel>
         </Tabs>
         {rejected.length > 0 && <Alert color="red" title="Пропущены файлы">{rejected.map((r) => <Text key={r} size="sm">{r}</Text>)}</Alert>}

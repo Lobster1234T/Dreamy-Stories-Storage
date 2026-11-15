@@ -1,23 +1,32 @@
 /**
- * Browser side of "add by link": talks to the panel's local server (server/linkAudioPlugin.ts).
- * Works only when the panel runs on this computer (start-admin.cmd), never on GitHub Pages.
+ * Browser side of "add by link". The panel run by start-admin.cmd talks to its own dev server
+ * (server/linkAudioPlugin.ts); the website on GitHub Pages talks to the helper on this computer
+ * (server/helper.ts, started by start-helper.cmd).
  */
 import { isRecord } from '../core/guards.ts';
+import { LINK_HELPER_PORT } from '../core/links.ts';
 import { slugify } from '../core/slug.ts';
 
-const API = '/__dreamy';
+export const LINK_IMPORT_MODE: 'local' | 'helper' = import.meta.env.DEV ? 'local' : 'helper';
+const API = LINK_IMPORT_MODE === 'local' ? '/__dreamy' : `http://127.0.0.1:${LINK_HELPER_PORT}/__dreamy`;
 const HEADERS = { 'content-type': 'application/json', 'x-dreamy-admin': '1' } as const;
-const OFFLINE = 'Нет связи с сервером админки. Он запущен? Должно быть открыто окно start-admin.cmd.';
+const OFFLINE = LINK_IMPORT_MODE === 'local'
+  ? 'Нет связи с сервером админки. Он запущен? Должно быть открыто окно start-admin.cmd.'
+  : 'Помощник не отвечает. Запустите admin/start-helper.cmd и разрешите сайту доступ к устройству, если браузер спросит.';
 const ODD_ANSWER = 'Сервер админки ответил непонятно.';
 
-/** The download server exists only in the dev server that start-admin.cmd runs. */
-export const LINK_IMPORT_AVAILABLE = import.meta.env.DEV;
+export interface InstallProgress {
+  readonly label: string;
+  readonly received: number;
+  readonly total: number | null;
+}
 
 export interface ToolsStatus {
   readonly supported: boolean;
   readonly installed: boolean;
   readonly ytDlpVersion: string | null;
   readonly stale: boolean;
+  readonly progress: InstallProgress | null;
 }
 
 export interface LinkEntry {
@@ -38,6 +47,11 @@ function text(value: unknown): string {
   return typeof value === 'string' ? value : '';
 }
 
+function parseProgress(value: unknown): InstallProgress | null {
+  if (!isRecord(value) || typeof value.label !== 'string' || typeof value.received !== 'number') return null;
+  return { label: value.label, received: value.received, total: typeof value.total === 'number' ? value.total : null };
+}
+
 export function parseToolsStatus(data: unknown): ToolsStatus {
   if (!isRecord(data)) throw new Error(ODD_ANSWER);
   return {
@@ -45,6 +59,7 @@ export function parseToolsStatus(data: unknown): ToolsStatus {
     installed: data.installed === true,
     ytDlpVersion: typeof data.ytDlpVersion === 'string' ? data.ytDlpVersion : null,
     stale: data.stale === true,
+    progress: parseProgress(data.progress),
   };
 }
 

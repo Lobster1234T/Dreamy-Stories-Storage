@@ -16,7 +16,8 @@ const STALE_DAYS = 30;
 const DAY_MS = 86_400_000;
 const MAX_BINARY_BYTES = 80 * 1024 * 1024;
 const MAX_CHECKSUMS_BYTES = 1024 * 1024;
-const DOWNLOAD_TIMEOUT_MS = 10 * 60_000;
+/** Slow connections are fine; a download stops only when no data arrives for this long. */
+const IDLE_TIMEOUT_MS = 60_000;
 
 export interface PlatformTools {
   readonly ytDlpAsset: string;
@@ -32,12 +33,20 @@ const PLATFORMS: Readonly<Record<string, PlatformTools>> = {
   'linux-x64': { ytDlpAsset: 'yt-dlp_linux', ffmpegAsset: 'ffmpeg-linux-x64.gz', ffmpegSha256: 'bfe8a8fc511530457b528c48d77b5737527b504a3797a9bc4866aeca69c2dffa' },
 };
 
+export interface InstallProgress {
+  readonly label: string;
+  readonly received: number;
+  readonly total: number | null;
+}
+
 export interface ToolsStatus {
   readonly supported: boolean;
   readonly installed: boolean;
   readonly ytDlpVersion: string | null;
   /** yt-dlp older than a month: YouTube changes often, an update usually fixes failures. */
   readonly stale: boolean;
+  /** The file being downloaded right now, while an installation runs. */
+  readonly progress: InstallProgress | null;
 }
 
 export interface ToolPaths {
@@ -92,6 +101,7 @@ export function createToolManager(options: ToolManagerOptions): ToolManager {
   const ffmpeg = path.join(options.dir, `ffmpeg${exe}`);
   const versionsFile = path.join(options.dir, 'versions.json');
   let installing: Promise<ToolsStatus> | null = null;
+  let progress: InstallProgress | null = null;
 
   async function readVersions(): Promise<Versions | null> {
     try {
@@ -104,7 +114,7 @@ export function createToolManager(options: ToolManagerOptions): ToolManager {
   }
 
   async function status(): Promise<ToolsStatus> {
-    if (!platform) return { supported: false, installed: false, ytDlpVersion: null, stale: false };
+    if (!platform) return { supported: false, installed: false, ytDlpVersion: null, stale: false, progress: null };
     const [hasYtDlp, hasFfmpeg, versions] = await Promise.all([isFile(ytDlp), isFile(ffmpeg), readVersions()]);
     const installedAt = versions ? Date.parse(versions.installedAt) : Number.NaN;
     return {
@@ -112,17 +122,49 @@ export function createToolManager(options: ToolManagerOptions): ToolManager {
       installed: hasYtDlp && hasFfmpeg,
       ytDlpVersion: versions?.ytDlp ?? null,
       stale: Number.isFinite(installedAt) && now() - installedAt > STALE_DAYS * DAY_MS,
+      progress,
     };
   }
 
-  async function download(url: string, limit: number): Promise<Buffer> {
-    const response = await fetchImpl(url, { redirect: 'follow', signal: AbortSignal.timeout(DOWNLOAD_TIMEOUT_MS) });
-    if (!response.ok) throw new Error(`GitHub ответил ${response.status} на ${url}`);
+  /** Streams a file into memory, reporting progress under `label`; stops after a minute of silence. */
+  async function download(url: string, limit: number, label?: string): Promise<Buffer> {
+    const controller = new AbortController();
+    let idle = setTimeout(() => controller.abort(), IDLE_TIMEOUT_MS);
+    const keepAlive = (): void => {
+      clearTimeout(idle);
+      idle = setTimeout(() => controller.abort(), IDLE_TIMEOUT_MS);
+    };
     const tooBig = new Error(`Файл ${url} больше ожидаемого — скачивание остановлено.`);
-    if (Number(response.headers.get('content-length') ?? 0) > limit) throw tooBig;
-    const data = Buffer.from(await response.arrayBuffer());
-    if (data.length > limit) throw tooBig;
-    return data;
+    try {
+      const response = await fetchImpl(url, { redirect: 'follow', signal: controller.signal });
+      if (!response.ok) throw new Error(`GitHub ответил ${response.status} на ${url}`);
+      const total = Number(response.headers.get('content-length') ?? 0);
+      if (total > limit) throw tooBig;
+      if (!response.body) throw new Error(`GitHub прислал пустой ответ на ${url}`);
+      const reader = response.body.getReader();
+      const chunks: Buffer[] = [];
+      let received = 0;
+      for (;;) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        keepAlive();
+        received += value.byteLength;
+        if (received > limit) {
+          await reader.cancel();
+          throw tooBig;
+        }
+        chunks.push(Buffer.from(value));
+        if (label) progress = { label, received, total: total > 0 ? total : null };
+      }
+      return Buffer.concat(chunks);
+    } catch (error) {
+      if (controller.signal.aborted) {
+        throw new Error(`Скачивание ${label ?? url} остановилось: GitHub не присылал данные больше минуты. Попробуйте ещё раз.`);
+      }
+      throw error;
+    } finally {
+      clearTimeout(idle);
+    }
   }
 
   async function latestYtDlpTag(): Promise<string> {
@@ -146,7 +188,7 @@ export function createToolManager(options: ToolManagerOptions): ToolManager {
     const expected = sums.get(tools.ytDlpAsset);
     if (!expected) throw new Error(`В выпуске yt-dlp ${tag} нет контрольной суммы для ${tools.ytDlpAsset}.`);
     options.log(`скачиваю yt-dlp ${tag}…`);
-    const binary = await download(`${base}/${tools.ytDlpAsset}`, MAX_BINARY_BYTES);
+    const binary = await download(`${base}/${tools.ytDlpAsset}`, MAX_BINARY_BYTES, `yt-dlp ${tag}`);
     verify(binary, expected, `yt-dlp ${tag}`);
     await save(ytDlp, binary);
     return tag;
@@ -154,7 +196,7 @@ export function createToolManager(options: ToolManagerOptions): ToolManager {
 
   async function installFfmpeg(tools: PlatformTools): Promise<void> {
     options.log(`скачиваю ffmpeg ${FFMPEG_VERSION}…`);
-    const packed = await download(`${FFMPEG_RELEASE}/${tools.ffmpegAsset}`, MAX_BINARY_BYTES);
+    const packed = await download(`${FFMPEG_RELEASE}/${tools.ffmpegAsset}`, MAX_BINARY_BYTES, `ffmpeg ${FFMPEG_VERSION}`);
     verify(packed, tools.ffmpegSha256, `ffmpeg ${FFMPEG_VERSION}`);
     await save(ffmpeg, gunzipSync(packed));
   }
@@ -173,6 +215,7 @@ export function createToolManager(options: ToolManagerOptions): ToolManager {
     if (!(await isFile(ffmpeg))) await installFfmpeg(platform);
     await writeFile(versionsFile, JSON.stringify({ ...versions, ffmpeg: FFMPEG_VERSION }, null, 2));
     options.log('инструменты готовы');
+    progress = null;
     return status();
   }
 
@@ -181,6 +224,7 @@ export function createToolManager(options: ToolManagerOptions): ToolManager {
     install(update) {
       installing ??= runInstall(update).finally(() => {
         installing = null;
+        progress = null;
       });
       return installing;
     },

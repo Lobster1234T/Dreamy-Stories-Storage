@@ -40,6 +40,26 @@ export interface ApiLogger {
   error(message: string): void;
 }
 
+export interface LinkApiOptions {
+  /** Other sites that may call: the admin website on GitHub Pages, through the helper. */
+  readonly allowedOrigins?: readonly string[];
+}
+
+/** The panel's GitHub Pages origin (from VITE_DEFAULT_REPO in admin/.env) plus valid extras ("a,b"). */
+export function siteOrigins(envText: string, extra: string | undefined): string[] {
+  const repo = /^\s*VITE_DEFAULT_REPO\s*=\s*([A-Za-z0-9-]+)\/[A-Za-z0-9._-]+\s*$/m.exec(envText);
+  const origins = repo ? [`https://${repo[1].toLowerCase()}.github.io`] : [];
+  for (const candidate of (extra ?? '').split(',')) {
+    try {
+      const url = new URL(candidate.trim());
+      if (url.protocol === 'https:' || url.protocol === 'http:') origins.push(url.origin);
+    } catch {
+      /* not an origin */
+    }
+  }
+  return [...new Set(origins)];
+}
+
 class HttpError extends Error {
   readonly status: number;
 
@@ -68,14 +88,15 @@ function sendJson(res: ServerResponse, status: number, data: unknown): void {
 }
 
 /**
- * Only the panel itself may call: loopback Host (stops DNS-rebinding pages from using yt-dlp
- * to reach the local network), a custom header (forces a CORS preflight) and the same origin.
+ * Only the panel may call: loopback Host (stops DNS-rebinding pages from using yt-dlp to reach
+ * the local network), a custom header (forces a CORS preflight) and the same origin or the
+ * admin website explicitly allowed for the helper.
  */
-function assertFromPanel(req: IncomingMessage): void {
+function assertFromPanel(req: IncomingMessage, allowed: ReadonlySet<string>): void {
   const { origin, host } = req.headers;
   if (!host || !LOOPBACK_HOST.test(host)) throw new HttpError(403, 'Скачивание по ссылке работает только на этом компьютере (localhost).');
   if (req.headers['x-dreamy-admin'] !== '1') throw new HttpError(403, 'Запрос не из админки.');
-  if (!origin) return;
+  if (!origin || allowed.has(origin)) return;
   let originHost = '';
   try {
     originHost = new URL(origin).host;
@@ -252,8 +273,24 @@ async function handleAudio(req: IncomingMessage, res: ServerResponse, tools: Too
   }
 }
 
-async function route(req: IncomingMessage, res: ServerResponse, tools: ToolManager, logger: ApiLogger): Promise<void> {
-  assertFromPanel(req);
+/** CORS preflight of the admin website: only for allowed origins, only on loopback. */
+function answerPreflight(req: IncomingMessage, res: ServerResponse, allowedOrigin: boolean): void {
+  if (!allowedOrigin || !LOOPBACK_HOST.test(req.headers.host ?? '')) {
+    res.writeHead(403);
+    res.end();
+    return;
+  }
+  res.writeHead(204, {
+    'access-control-allow-methods': 'GET, POST',
+    'access-control-allow-headers': 'content-type, x-dreamy-admin',
+    'access-control-allow-private-network': 'true',
+    'access-control-max-age': '600',
+  });
+  res.end();
+}
+
+async function route(req: IncomingMessage, res: ServerResponse, tools: ToolManager, logger: ApiLogger, allowed: ReadonlySet<string>): Promise<void> {
+  assertFromPanel(req, allowed);
   const endpoint = (req.url ?? '').split('?')[0].slice(LINK_API_PREFIX.length);
   if (req.method === 'GET' && endpoint === 'tools') {
     sendJson(res, 200, await tools.status());
@@ -273,14 +310,24 @@ async function route(req: IncomingMessage, res: ServerResponse, tools: ToolManag
   throw new HttpError(404, 'Нет такого адреса.');
 }
 
-/** Connect-style middleware for the link API; exported for tests. */
-export function createLinkApiMiddleware(tools: ToolManager, logger: ApiLogger) {
+/** Connect-style middleware for the link API (dev-server plugin and the standalone helper). */
+export function createLinkApiMiddleware(tools: ToolManager, logger: ApiLogger, options: LinkApiOptions = {}) {
+  const allowed: ReadonlySet<string> = new Set(options.allowedOrigins ?? []);
   return (req: IncomingMessage, res: ServerResponse, next: () => void): void => {
     if (!req.url?.startsWith(LINK_API_PREFIX)) {
       next();
       return;
     }
-    route(req, res, tools, logger).catch((error: unknown) => {
+    const origin = typeof req.headers.origin === 'string' ? req.headers.origin : '';
+    if (allowed.has(origin)) {
+      res.setHeader('access-control-allow-origin', origin);
+      res.setHeader('vary', 'Origin');
+    }
+    if (req.method === 'OPTIONS') {
+      answerPreflight(req, res, allowed.has(origin));
+      return;
+    }
+    route(req, res, tools, logger, allowed).catch((error: unknown) => {
       const status = error instanceof HttpError ? error.status : 500;
       const message = error instanceof Error ? error.message : String(error);
       if (status >= 500) logger.error(message);

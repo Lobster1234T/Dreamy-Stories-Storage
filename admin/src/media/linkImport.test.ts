@@ -40,7 +40,7 @@ afterEach(() => {
 
 describe('tools', () => {
   it('reads the status with the panel header', async () => {
-    const status = { supported: true, installed: false, ytDlpVersion: null, stale: false };
+    const status = { supported: true, installed: false, ytDlpVersion: null, stale: false, progress: null };
     const calls = stubFetch(reply({ json: status }));
 
     expect(await getToolsStatus()).toEqual(status);
@@ -110,6 +110,11 @@ describe('errors', () => {
   it('rejects odd answers', () => {
     expect(() => parseToolsStatus(null)).toThrow();
     expect(() => parseLinkInfo({ entries: 'x' })).toThrow();
-    expect(parseToolsStatus({ supported: 'yes' })).toEqual({ supported: false, installed: false, ytDlpVersion: null, stale: false });
+    expect(parseToolsStatus({ supported: 'yes', progress: { label: 1 } })).toEqual({ supported: false, installed: false, ytDlpVersion: null, stale: false, progress: null });
+  });
+
+  it('reads installation progress', () => {
+    expect(parseToolsStatus({ supported: true, progress: { label: 'ffmpeg 6.1.1', received: 10, total: 'x' } }).progress)
+      .toEqual({ label: 'ffmpeg 6.1.1', received: 10, total: null });
   });
 });

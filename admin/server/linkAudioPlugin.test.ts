@@ -2,10 +2,11 @@
 import { createServer, request } from 'node:http';
 import type { AddressInfo } from 'node:net';
 import { afterAll, beforeAll, beforeEach, describe, expect, it } from 'vitest';
-import { createLinkApiMiddleware } from './linkAudioPlugin.ts';
+import { createLinkApiMiddleware, siteOrigins } from './linkAudioPlugin.ts';
 import type { ToolManager, ToolsStatus } from './tools.ts';
 
-const STATUS: ToolsStatus = { supported: true, installed: false, ytDlpVersion: null, stale: false };
+const SITE = 'https://lobster1234t.github.io';
+const STATUS: ToolsStatus = { supported: true, installed: false, ytDlpVersion: null, stale: false, progress: null };
 const installs: boolean[] = [];
 let failInstall = false;
 
@@ -19,7 +20,7 @@ const tools: ToolManager = {
   paths: async () => null,
 };
 
-const middleware = createLinkApiMiddleware(tools, { info: () => {}, error: () => {} });
+const middleware = createLinkApiMiddleware(tools, { info: () => {}, error: () => {} }, { allowedOrigins: [SITE] });
 const server = createServer((req, res) => middleware(req, res, () => {
   res.writeHead(200);
   res.end('next');
@@ -30,6 +31,7 @@ interface Reply {
   readonly status: number;
   readonly text: string;
   readonly json: unknown;
+  readonly headers: Record<string, string | string[] | undefined>;
 }
 
 function call(method: string, path: string, headers: Record<string, string> = {}, body?: string): Promise<Reply> {
@@ -45,7 +47,7 @@ function call(method: string, path: string, headers: Record<string, string> = {}
         } catch {
           /* not JSON */
         }
-        resolve({ status: res.statusCode ?? 0, text, json });
+        resolve({ status: res.statusCode ?? 0, text, json, headers: res.headers });
       });
     });
     req.on('error', reject);
@@ -86,6 +88,45 @@ describe('link API guard', () => {
 
     expect((await call('GET', '/__dreamy/tools', rebinding)).status).toBe(403);
     expect((await call('GET', '/__dreamy/tools', { ...panel(), host: `localhost:${port}`, origin: `http://localhost:${port}` })).status).toBe(200);
+  });
+});
+
+describe('admin website through the helper', () => {
+  const site = (): Record<string, string> => ({ ...panel(), origin: SITE });
+
+  it('answers the CORS preflight of the website only', async () => {
+    const preflight = { origin: SITE, 'access-control-request-method': 'POST', 'access-control-request-headers': 'content-type,x-dreamy-admin' };
+
+    const allowed = await call('OPTIONS', '/__dreamy/link-info', preflight);
+    const foreign = await call('OPTIONS', '/__dreamy/link-info', { ...preflight, origin: 'https://evil.github.io' });
+
+    expect(allowed.status).toBe(204);
+    expect(allowed.headers['access-control-allow-origin']).toBe(SITE);
+    expect(String(allowed.headers['access-control-allow-headers'])).toContain('x-dreamy-admin');
+    expect(allowed.headers['access-control-allow-private-network']).toBe('true');
+    expect(foreign.status).toBe(403);
+  });
+
+  it('serves the website with the allow-origin header', async () => {
+    const reply = await call('GET', '/__dreamy/tools', site());
+
+    expect(reply.status).toBe(200);
+    expect(reply.headers['access-control-allow-origin']).toBe(SITE);
+    expect((await call('GET', '/__dreamy/tools', { ...site(), origin: 'https://evil.github.io' })).status).toBe(403);
+  });
+});
+
+describe('siteOrigins', () => {
+  it('derives the GitHub Pages origin from admin/.env', () => {
+    expect(siteOrigins('# panel\nVITE_DEFAULT_REPO=Lobster1234T/Dreamy-Stories-Storage\n', undefined)).toEqual([SITE]);
+  });
+
+  it('adds valid origins from DREAMY_SITE_ORIGIN and ignores junk', () => {
+    expect(siteOrigins('VITE_DEFAULT_REPO=Lobster1234T/Dreamy-Stories-Storage', ' http://localhost:4173 , not a url, https://a.example/path ')).toEqual([
+      SITE, 'http://localhost:4173', 'https://a.example',
+    ]);
+    expect(siteOrigins('', undefined)).toEqual([]);
+    expect(siteOrigins('VITE_DEFAULT_REPO=bad owner/repo', undefined)).toEqual([]);
   });
 });
 
