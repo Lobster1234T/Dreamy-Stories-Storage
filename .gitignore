@@ -1,0 +1,8 @@
+.DS_Store
+admin/node_modules/
+admin/dist/
+admin/coverage/
+admin/.vite/
+# Local overrides may hold private values; VITE_* values end up in the public bundle.
+admin/.env.local
+admin/.env.*.local

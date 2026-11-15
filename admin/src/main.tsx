@@ -1,0 +1,16 @@
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import '@mantine/core/styles.css';
+import '@mantine/dropzone/styles.css';
+import '@mantine/notifications/styles.css';
+import './ui/app.css';
+import { App } from './ui/App.tsx';
+
+const container = document.getElementById('root');
+if (!container) throw new Error('Не найден элемент #root');
+
+createRoot(container).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+);
